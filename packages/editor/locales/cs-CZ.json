@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Vložit",
+    "pasteAsPlaintext": "Vložit jako prostý text",
+    "pasteCharts": "Vložit grafy",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "Vybrat vše",
+    "multiSelect": "Přidat prvek do výběru",
+    "moveCanvas": "Posunout plátno",
+    "cut": "Vyjmout",
+    "copy": "Kopírovat",
+    "copyAsPng": "Zkopírovat do schránky jako PNG",
+    "copyAsSvg": "Zkopírovat do schránky jako SVG",
+    "copyText": "Zkopírovat do schránky jako text",
+    "bringForward": "Přenést blíž",
+    "sendToBack": "Přenést do pozadí",
+    "bringToFront": "Přenést do popředí",
+    "sendBackward": "Přenést dál",
+    "delete": "Smazat",
+    "copyStyles": "Kopírovat styly",
+    "pasteStyles": "Vložit styly",
+    "stroke": "Obrys",
+    "changeStroke": "Změnit barvu ohraničení",
+    "background": "Pozadí",
+    "changeBackground": "Změnit barvu pozadí",
+    "fill": "Výplň",
+    "strokeWidth": "Tloušťka tahu",
+    "strokeStyle": "Styl tahu",
+    "strokeStyle_solid": "Plný",
+    "strokeStyle_dashed": "Čárkovaný",
+    "strokeStyle_dotted": "Tečkovaný",
+    "sloppiness": "Stylizace",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Průhlednost",
+    "textAlign": "Zarovnání textu",
+    "edges": "Hrany",
+    "sharp": "Ostré",
+    "round": "Zaoblené",
+    "arrowheads": "Styl šipky",
+    "arrowhead_none": "Žádný",
+    "arrowhead_arrow": "Šipka",
+    "arrowhead_bar": "Kóta",
+    "arrowhead_circle": "Kruh",
+    "arrowhead_circle_outline": "Kružnice",
+    "arrowhead_triangle": "Trojúhelník",
+    "arrowhead_triangle_outline": "Trojúhelník (obrys)",
+    "arrowhead_diamond": "Kosočtverec",
+    "arrowhead_diamond_outline": "Kosočtverec (obrys)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "Typ šipky",
+    "arrowtype_sharp": "Ostrá šipka",
+    "arrowtype_round": "Zakřivená šipka",
+    "arrowtype_elbowed": "",
+    "fontSize": "Velikost písma",
+    "fontFamily": "Písmo",
+    "handDrawn": "Od ruky",
+    "normal": "Normální",
+    "code": "Kód",
+    "small": "Malé",
+    "medium": "Střední",
+    "large": "Velké",
+    "veryLarge": "Velmi velké",
+    "solid": "Plný",
+    "hachure": "Šrafování",
+    "zigzag": "Klikatě",
+    "crossHatch": "Křížový šrafování",
+    "thin": "Tenký",
+    "bold": "Tlustý",
+    "left": "Vlevo",
+    "center": "Na střed",
+    "right": "Vpravo",
+    "architect": "Architekt",
+    "artist": "Umělec",
+    "cartoonist": "Kartoonista",
+    "fileTitle": "Název souboru",
+    "colorPicker": "Výběr barvy",
+    "canvasBackground": "Pozadí plátna",
+    "drawingCanvas": "Kreslicí plátno",
+    "clearCanvas": "Vyčistit plátno",
+    "layers": "Vrstvy",
+    "actions": "Akce",
+    "liveCollaboration": "Živá spolupráce...",
+    "duplicateSelection": "Duplikovat",
+    "untitled": "Bez názvu",
+    "group": "Sloučit výběr do skupiny",
+    "ungroup": "Zrušit sloučení skupiny",
+    "collaborators": "Spolupracovníci",
+    "you": "",
+    "toggleGrid": "Přepínač mřížky",
+    "loadingScene": "Načítání scény…",
+    "align": "Zarovnání",
+    "alignTop": "Zarovnat nahoru",
+    "alignBottom": "Zarovnat dolů",
+    "alignLeft": "Zarovnat vlevo",
+    "alignRight": "Zarovnejte vpravo",
+    "centerVertically": "Vycentrovat svisle",
+    "centerHorizontally": "Vycentrovat vodorovně",
+    "distributeHorizontally": "Rozložit horizontálně",
+    "distributeVertically": "Rozložit svisle",
+    "flipHorizontal": "Převrátit vodorovně",
+    "flipVertical": "Převrátit svisle",
+    "viewMode": "Náhled",
+    "share": "Sdílet",
+    "showStroke": "Zobrazit výběr barvy",
+    "showBackground": "Zobrazit výběr barev pozadí",
+    "showFonts": "Zobrazit výběr písma",
+    "toggleTheme": "Přepnout světlý/tmavý motiv",
+    "theme": "Motiv",
+    "decreaseFontSize": "Zmenšit písmo",
+    "increaseFontSize": "Zvětšit písmo",
+    "unbindText": "Zrušit vazbu textu",
+    "bindText": "Vázat text s kontejnerem",
+    "createContainerFromText": "Zabalit text do kontejneru",
+    "link": {
+      "edit": "Upravit odkaz",
+      "editEmbed": "Upravit odkaz pro vložení",
+      "create": "Přidat odkaz",
+      "label": "Odkaz",
+      "labelEmbed": "Odkaz & vložit",
+      "empty": "Není nastaven žádný odkaz",
+      "hint": "Napište nebo vložte svůj odkaz zde",
+      "goToElement": "Přejít na cílový prvek"
+    },
+    "lineEditor": {
+      "edit": "Upravit čáru",
+      "editArrow": "Upravit šipku"
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "Uzamknout",
+      "unlock": "Odemknout",
+      "unlockAll": "Odemknout vše"
+    },
+    "sidebarLock": "Ponechat postranní panel otevřený",
+    "selectAllElementsInFrame": "Vybrat všechny prvky v orámování",
+    "removeAllElementsFromFrame": "Odstranit všechny prvky z orámování",
+    "eyeDropper": "Vyberte barvu z plátna",
+    "zoomToFitViewport": "",
+    "autoResize": "Povolit automatickou změnu velikosti textu",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "Kopírovat odkaz na objekt",
+    "linkToElement": "Odkaz na objekt",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "Odkaz na objekt",
+    "desc": "Klikněte na tvar na plátně nebo vložte odkaz.",
+    "notFound": "Propojený objekt nebyl na plátně nalezen."
+  },
+  "search": {
+    "title": "Najít na plátně",
+    "noMatch": "Nebyla nalezena žádná shoda...",
+    "singleResult": "výsledek",
+    "multipleResults": "výsledky",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "Resetovat plátno",
+    "exportImage": "Exportovat obrázek...",
+    "export": "Uložit jako...",
+    "save": "Uložit do aktuálního souboru",
+    "saveAs": "Uložit jako",
+    "load": "Otevřít",
+    "close": "Zavřít",
+    "scrollBackToContent": "Přejít zpět na obsah",
+    "zoomIn": "Přiblížit",
+    "zoomOut": "Oddálit",
+    "resetZoom": "Resetovat přiblížení",
+    "done": "Hotovo",
+    "edit": "Upravit",
+    "undo": "Zpět",
+    "redo": "Znovu",
+    "darkMode": "Tmavý režim",
+    "lightMode": "Světlý režim",
+    "systemMode": "Nastavení systému",
+    "zenMode": "Zen mód",
+    "objectsSnapMode": "Přichytávat k objektům",
+    "cancel": "Zrušit",
+    "remove": "Odstranit",
+    "confirm": "Potvrdit",
+    "embeddableInteractionButton": "Klikněte pro interakci"
+  },
+  "alerts": {
+    "clearReset": "Toto vymaže celé plátno. Jste si jisti?",
+    "couldNotLoadInvalidFile": "Nepodařilo se načíst neplatný soubor",
+    "cannotExportEmptyCanvas": "Nelze exportovat prázdné plátno.",
+    "couldNotCopyToClipboard": "Nelze zkopírovat do schránky.",
+    "cannotRestoreFromImage": "Scénu nelze obnovit z tohoto souboru obrázku"
+  },
+  "errors": {
+    "unsupportedFileType": "Nepodporovaný typ souboru.",
+    "imageInsertError": "Nelze vložit obrázek. Zkuste to později...",
+    "fileTooBig": "Soubor je příliš velký. Maximální povolená velikost je {{maxSize}}.",
+    "svgImageInsertError": "Nelze vložit SVG obrázek. Značení SVG je neplatné.",
+    "failedToFetchImage": "Nepodařilo se načíst obrázek.",
+    "imageToolNotSupported": "Obrázky jsou vypnuty.",
+    "brave_measure_text_error": {
+      "line1": "Vypadá to, že používáte Brave prohlížeč s povoleným nastavením <bold>Aggressively Block Fingerprinting</bold>.",
+      "line2": "To by mohlo vést k narušení <bold>Textových elementů</bold> ve vašich výkresech."
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "Nepodařilo se vložit.",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "Výběr",
+    "lasso": "",
+    "image": "Vložit obrázek",
+    "rectangle": "Obdélník",
+    "diamond": "Diamant",
+    "ellipse": "Elipsa",
+    "arrow": "Šipka",
+    "line": "Čára",
+    "freedraw": "Kreslení",
+    "text": "Text",
+    "lock": "Po kreslení ponechat vybraný nástroj aktivní",
+    "penMode": "Režim Pera - zabránit dotyku",
+    "link": "",
+    "eraser": "Guma",
+    "frame": "Orámování",
+    "embeddable": "Web Embed",
+    "laser": "Laserové ukazovátko",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "Ruka (nástroj pro posouvání)",
+    "extraTools": "Více nástrojů",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "Obdélník",
+    "diamond": "Kosočtverec",
+    "ellipse": "Elipsa",
+    "arrow": "Šipka",
+    "line": "Čára",
+    "freedraw": "Volné kreslení",
+    "text": "Text",
+    "image": "Obrázek",
+    "group": "Skupina",
+    "frame": "Rám",
+    "magicframe": "Z wireframu na kód",
+    "embeddable": "",
+    "selection": "Výběr",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "Akce plátna",
+    "selectedShapeActions": "Akce vybraného tvaru",
+    "shapes": "Tvary"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "Kliknutím pro více bodů, táhnutím pro jednu čáru",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "Klikněte a táhněte, pro ukončení pusťte",
+    "text": "Tip: Text můžete také přidat dvojitým kliknutím kdekoli pomocí nástroje pro výběr",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "Tato funkce může být povolena nastavením vlajky \"dom.events.asyncClipboard.clipboardItem\" na \"true\". Chcete-li změnit vlajky prohlížeče ve Firefoxu, navštivte stránku \"about:config\".",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "Náhled nelze zobrazit",
+    "canvasTooBig": "Plátno je možná příliš velké.",
+    "canvasTooBigTip": "Tip: zkus posunout nejvzdálenější prvky trochu blíže k sobě."
+  },
+  "errorDialog": {
+    "title": "Chyba"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "Uložit na disk",
+    "disk_details": "Exportovat data scény do souboru, ze kterého můžete importovat později.",
+    "disk_button": "Uložit do souboru",
+    "link_title": "Odkaz pro sdílení",
+    "link_details": "Exportovat jako odkaz pouze pro čtení.",
+    "link_button": "Exportovat do odkazu"
+  },
+  "helpDialog": {
+    "click": "kliknutí",
+    "deepSelect": "Hluboký výběr",
+    "deepBoxSelect": "Hluboký výběr uvnitř boxu a zabránění táhnnutí",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "Zakřivená šipka",
+    "curvedLine": "Zakřivená čára",
+    "doubleClick": "dvojklik",
+    "drag": "tažení",
+    "editor": "",
+    "editLineArrowPoints": "Upravit body linií/šipek",
+    "editText": "Upravit text / přidat popis",
+    "or": "nebo",
+    "preventBinding": "Zabránit vázání šipky",
+    "tools": "Nástroje",
+    "shortcuts": "Klávesové zkratky",
+    "textFinish": "Dokončit úpravy (textový editor)",
+    "textNewLine": "Přidat nový řádek (textový editor)",
+    "title": "Nápověda",
+    "view": "Zobrazení",
+    "zoomToFit": "Přiblížit na zobrazení všech prvků",
+    "zoomToSelection": "Přiblížit na výběr",
+    "toggleElementLock": "Zamknout/odemknout výběr",
+    "movePageUpDown": "Posunout stránku nahoru/dolů",
+    "movePageLeftRight": "Přesunout stránku doleva/doprava",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "Vymazat plátno"
+  },
+  "imageExportDialog": {
+    "header": "Exportovat obrázek",
+    "label": {
+      "withBackground": "Pozadí",
+      "onlySelected": "Pouze vybrané",
+      "darkMode": "Tmavý režim",
+      "embedScene": "Vložit scénu",
+      "scale": "Měřítko",
+      "padding": "Odsazení"
+    },
+    "tooltip": {
+      "embedScene": "Data scény budou uložena do exportovaného souboru PNG/SVG tak, aby z něj mohla být scéna obnovena.\nZvýší se velikost exportovaného souboru."
+    },
+    "title": {
+      "exportToPng": "Exportovat do PNG",
+      "exportToSvg": "Exportovat do SVG",
+      "copyPngToClipboard": "Kopírovat PNG do schránky"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "Kopírovat do schránky"
+    }
+  },
+  "stats": {
+    "shapes": "Tvary",
+    "height": "Výška",
+    "scene": "Scéna",
+    "fullTitle": "Vlastnosti plátna a tvarů",
+    "title": "Vlastnosti",
+    "generalStats": "Obecné",
+    "elementProperties": "Vlastnosti tvaru",
+    "width": "Šířka"
+  },
+  "toast": {
+    "copyStyles": "Styly byly zkopírovány.",
+    "copyToClipboardAsPng": "{{exportSelection}} zkopírován do schránky jako PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "Soubor byl uložen.",
+    "fileSavedToFilename": "Uloženo do {filename}",
+    "canvas": "plátno",
+    "selection": "výběr",
+    "pasteAsSingleElement": "Pomocí {{shortcut}} vložte jako jeden prvek,\nnebo vložte do existujícího textového editoru",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "Průhledná",
+    "black": "Černá",
+    "white": "Bílá",
+    "red": "Červená",
+    "pink": "Růžová",
+    "grape": "Vínová",
+    "violet": "Fialová",
+    "gray": "Šedá",
+    "blue": "Modrá",
+    "cyan": "Azurová",
+    "teal": "Modrozelená",
+    "green": "Zelená",
+    "yellow": "Žlutá",
+    "orange": "Oranžová",
+    "bronze": "Bronzová"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "Export, nastavení a další...",
+      "center_heading": "Diagramy. Vytvořeny. Jednoduše.",
+      "toolbarHint": "Vyberte nástroj a začněte kreslit!",
+      "helpHint": "Zkratky a pomoc"
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "Nejpoužívanější vlastní barvy",
+    "colors": "Barvy",
+    "shades": "Stíny",
+    "hexCode": "Hex kód",
+    "noShades": "Pro tuto barvu nejsou k dispozici žádné odstíny",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "Načíst ze souboru",
+        "button": "Načíst ze souboru",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "Vložit",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": "Rychlé vyhledávání"
+  },
+  "fontList": {
+    "badge": {
+      "old": "staré"
+    },
+    "sceneFonts": "V této scéně",
+    "availableFonts": "Dostupná písma",
+    "empty": "Nebyla nalezena žádná písma"
+  },
+  "userList": {
+    "empty": "Nebyli nalezeni žádní uživatelé",
+    "hint": {
+      "text": "Klikněte na uživatele pro sledování",
+      "followStatus": "Právě sledujete tohoto uživatele",
+      "inCall": "Uživatel je v hovoru",
+      "micMuted": "Mikrofon uživatele je ztlumen",
+      "isSpeaking": "Uživatel hovoří"
+    }
+  },
+  "commandPalette": {
+    "title": "Paleta příkazů",
+    "shortcuts": {
+      "select": "Vybrat",
+      "confirm": "Potvrdit",
+      "close": "Zavřít"
+    },
+    "recents": "Naposledy použito",
+    "search": {
+      "placeholder": "",
+      "noMatch": "Žádné odpovídající příkazy..."
+    },
+    "itemNotAvailable": "Příkaz není k dispozici...",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

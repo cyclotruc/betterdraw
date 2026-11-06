@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "لصق",
+    "pasteAsPlaintext": "اللصق كنص عادي",
+    "pasteCharts": "لصق الرسوم البيانية",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "تحديد الكل",
+    "multiSelect": "إضافة عنصر للتحديد",
+    "moveCanvas": "نقل لوح الرسم",
+    "cut": "قص",
+    "copy": "نسخ",
+    "copyAsPng": "نسخ إلى الحافظة بصيغة PNG",
+    "copyAsSvg": "نسخ إلى الحافظة بصيغة SVG",
+    "copyText": "نسخ إلى الحافظة كنص",
+    "bringForward": "جلب للأمام",
+    "sendToBack": "أرسل للخلف",
+    "bringToFront": "أحضر للأمام",
+    "sendBackward": "أرسل للخلف",
+    "delete": "حذف",
+    "copyStyles": "نسخ الأنماط",
+    "pasteStyles": "لصق الأنماط",
+    "stroke": "الخط",
+    "changeStroke": "تغيير لون القلم",
+    "background": "الخلفية",
+    "changeBackground": "تغيير لون الخلفية",
+    "fill": "التعبئة",
+    "strokeWidth": "سُمك الخط",
+    "strokeStyle": "نمط الخط",
+    "strokeStyle_solid": "متصل",
+    "strokeStyle_dashed": "متقطع",
+    "strokeStyle_dotted": "منقط",
+    "sloppiness": "الإمالة",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "الشفافية",
+    "textAlign": "محاذاة النص",
+    "edges": "الحواف",
+    "sharp": "حادة",
+    "round": "دائرية",
+    "arrowheads": "رؤوس الأسهم",
+    "arrowhead_none": "لا شيء",
+    "arrowhead_arrow": "سهم",
+    "arrowhead_bar": "شريط",
+    "arrowhead_circle": "دائرة",
+    "arrowhead_circle_outline": "دائرة (مخططة)",
+    "arrowhead_triangle": "مثلث",
+    "arrowhead_triangle_outline": "مثلث (مخطط)",
+    "arrowhead_diamond": "ألماسة",
+    "arrowhead_diamond_outline": "ألماسة (مخططة)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "خيارات إضافية",
+    "cardinality": "",
+    "arrowtypes": "نوع السهم",
+    "arrowtype_sharp": "سهم حاد",
+    "arrowtype_round": "سهم منحني",
+    "arrowtype_elbowed": "سهم زاوي",
+    "fontSize": "حجم الخط",
+    "fontFamily": "نوع الخط",
+    "handDrawn": "رسم باليد",
+    "normal": "عادي",
+    "code": "رمز",
+    "small": "صغير",
+    "medium": "متوسط",
+    "large": "كبير",
+    "veryLarge": "كبير جدًا",
+    "solid": "كامل",
+    "hachure": "خطوط",
+    "zigzag": "متعرج",
+    "crossHatch": "خطوط متقطعة",
+    "thin": "نحيف",
+    "bold": "داكن",
+    "left": "الـيسار",
+    "center": "وسط",
+    "right": "يمين",
+    "architect": "معماري",
+    "artist": "رسام",
+    "cartoonist": "كرتوني",
+    "fileTitle": "اسم الملف",
+    "colorPicker": "منتقي اللون",
+    "canvasBackground": "خلفية اللوحة",
+    "drawingCanvas": "لوحة الرسم",
+    "clearCanvas": "مسح اللوحة",
+    "layers": "الطبقات",
+    "actions": "الإجراءات",
+    "liveCollaboration": "التعاون المباشر...",
+    "duplicateSelection": "تكرار",
+    "untitled": "غير معنون",
+    "group": "تحديد مجموعة",
+    "ungroup": "إلغاء تحديد مجموعة",
+    "collaborators": "المتعاونون",
+    "you": "",
+    "toggleGrid": "تبديل الشبكة",
+    "loadingScene": "جارٍ تحميل المشهد…",
+    "align": "محاذاة",
+    "alignTop": "محاذاة إلى الأعلى",
+    "alignBottom": "محاذاة إلى الأسفل",
+    "alignLeft": "محاذاة إلى اليسار",
+    "alignRight": "محاذاة إلى اليمين",
+    "centerVertically": "توسيط عمودي",
+    "centerHorizontally": "توسيط أفقي",
+    "distributeHorizontally": "التوزيع الأفقي",
+    "distributeVertically": "التوزيع عموديًا",
+    "flipHorizontal": "قلب أفقي",
+    "flipVertical": "قلب عمودي",
+    "viewMode": "نمط العرض",
+    "share": "مشاركة",
+    "showStroke": "إظهار منتقي لون الخط",
+    "showBackground": "إظهار منتقي لون الخلفية",
+    "showFonts": "إظهار منتقي الخط",
+    "toggleTheme": "تبديل الوضع الفاتح/الداكن",
+    "theme": "السمة",
+    "decreaseFontSize": "تصغير حجم الخط",
+    "increaseFontSize": "تكبير حجم الخط",
+    "unbindText": "فك ربط النص",
+    "bindText": "ربط النص بالحاوية",
+    "createContainerFromText": "نص مغلف في حاوية",
+    "link": {
+      "edit": "تعديل الرابط",
+      "editEmbed": "تعديل الرابط القابل للتضمين",
+      "create": "إضافة رابط",
+      "label": "رابط",
+      "labelEmbed": "رابط وإدراج",
+      "empty": "لم يتم تعيين رابط",
+      "hint": "اكتب أو الصق الرابط هنا",
+      "goToElement": "الانتقال إلى العنصر المستهدف"
+    },
+    "lineEditor": {
+      "edit": "تحرير السطر",
+      "editArrow": "تحرير السهم"
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "قفل",
+      "unlock": "فتح",
+      "unlockAll": "فتح الكل"
+    },
+    "sidebarLock": "إبقاء الشريط الجانبي مفتوح",
+    "selectAllElementsInFrame": "تحديد جميع العناصر في الإطار",
+    "removeAllElementsFromFrame": "إزالة جميع العناصر من الإطار",
+    "eyeDropper": "اختيار اللون من القماش",
+    "zoomToFitViewport": "التكبير لتناسب العرض",
+    "autoResize": "تمكين تغيير حجم النص تلقائيًا",
+    "imageCropping": "قص الصورة",
+    "unCroppedDimension": "الأبعاد غير المقصوصة",
+    "copyElementLink": "نسخ رابط الكائن",
+    "linkToElement": "رابط إلى الكائن",
+    "wrapSelectionInFrame": "تغليف التحديد في إطار",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "رابط إلى الكائن",
+    "desc": "انقر على شكل على اللوحة أو الصق رابطًا.",
+    "notFound": "لم يتم العثور على الكائن المرتبط على اللوحة."
+  },
+  "search": {
+    "title": "البحث على اللوحة",
+    "noMatch": "لم يتم العثور على تطابقات...",
+    "singleResult": "نتيجة",
+    "multipleResults": "نتائج",
+    "placeholder": "ابحث عن نص على اللوحة...",
+    "frames": "إطارات",
+    "texts": "نصوص"
+  },
+  "buttons": {
+    "clearReset": "إعادة تعيين اللوحة",
+    "exportImage": "تصدير الصورة...",
+    "export": "حفظ إلى...",
+    "save": "احفظ للملف الحالي",
+    "saveAs": "حفظ كـ",
+    "load": "فتح",
+    "close": "إغلاق",
+    "scrollBackToContent": "الرجوع إلى المحتوى",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "resetZoom": "إعادة تعيين التكبير",
+    "done": "تم",
+    "edit": "تعديل",
+    "undo": "تراجع",
+    "redo": "إعادة تنفيذ",
+    "darkMode": "الوضع المظلم",
+    "lightMode": "الوضع المضيء",
+    "systemMode": "وضع النظام",
+    "zenMode": "وضع التأمل",
+    "objectsSnapMode": "التقاط إلى العناصر",
+    "cancel": "إلغاء",
+    "remove": "إزالة",
+    "confirm": "تأكيد",
+    "embeddableInteractionButton": "اضغط للتفاعل"
+  },
+  "alerts": {
+    "clearReset": "هذا سيُزيل كامل اللوحة. هل أنت متأكد؟",
+    "couldNotLoadInvalidFile": "تعذر التحميل، الملف غير صالح",
+    "cannotExportEmptyCanvas": "لا يمكن تصدير لوحة فارغة.",
+    "couldNotCopyToClipboard": "تعذر النسخ إلى الحافظة.",
+    "cannotRestoreFromImage": "تعذر استعادة المشهد من ملف الصورة"
+  },
+  "errors": {
+    "unsupportedFileType": "نوع الملف غير مدعوم.",
+    "imageInsertError": "تعذر إدراج الصورة. حاول مرة أخرى لاحقًا...",
+    "fileTooBig": "الملف كبير جدًا. الحد الأقصى المسموح به للحجم هو {{maxSize}}.",
+    "svgImageInsertError": "تعذر إدراج صورة SVG. يبدو أن ترميز SVG غير صحيح.",
+    "failedToFetchImage": "فشل تحميل الصورة.",
+    "imageToolNotSupported": "تم تعطيل الصور.",
+    "brave_measure_text_error": {
+      "line1": "يبدو أنك تستخدم متصفح Brave مع إعداد <bold>حظر صارم لتتبع البصمة</bold>.",
+      "line2": "قد يؤدي هذا إلى كسر <bold>عناصر النص</bold> في الرسومات الخاصة بك."
+    },
+    "asyncPasteFailedOnRead": "تعذر اللصق (تعذر القراءة من حافظة النظام).",
+    "asyncPasteFailedOnParse": "تعذر اللصق.",
+    "copyToSystemClipboardFailed": "تعذر النسخ إلى الحافظة."
+  },
+  "toolBar": {
+    "selection": "تحديد",
+    "lasso": "اختيار لاسو",
+    "image": "إدراج صورة",
+    "rectangle": "مستطيل",
+    "diamond": "مضلع",
+    "ellipse": "دائرة",
+    "arrow": "سهم",
+    "line": "خط",
+    "freedraw": "رسم",
+    "text": "نص",
+    "lock": "الحفاظ على أداة التحديد نشطة بعد الرسم",
+    "penMode": "وضع القلم - منع اللمس",
+    "link": "إضافة/تحديث الرابط للشكل المحدد",
+    "eraser": "ممحاة",
+    "frame": "أداة الإطار",
+    "embeddable": "تضمين ويب",
+    "laser": "مؤشر ليزر",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "يد (أداة الإزاحة)",
+    "extraTools": "المزيد من الأدوات",
+    "mermaidToExcalidraw": "من Mermaid إلى Excalidraw",
+    "convertElementType": "تبديل نوع الشكل"
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "مستطيل",
+    "diamond": "مضلع",
+    "ellipse": "دائرة",
+    "arrow": "سهم",
+    "line": "خط",
+    "freedraw": "رسم حر",
+    "text": "نص",
+    "image": "صورة",
+    "group": "مجموعة",
+    "frame": "إطار",
+    "magicframe": "Wireframe إلى كود",
+    "embeddable": "تضمين ويب",
+    "selection": "تحديد",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "إجراءات اللوحة",
+    "selectedShapeActions": "إجراءات الشكل المحدد",
+    "shapes": "الأشكال"
+  },
+  "hints": {
+    "dismissSearch": "{{shortcut}} لإلغاء البحث",
+    "linearElement": "انقر لبدء نقاط متعددة، اسحب لخط واحد",
+    "arrowTool": "انقر لبدء نقاط متعدّدة، اسحب لخط واحد. اضغط {{shortcut}} مرة أخرى لتغيير نوع السهم.",
+    "arrowBindModifiers": "",
+    "freeDraw": "انقر واسحب، أفرج عند الانتهاء",
+    "text": "نصيحة: يمكنك أيضًا إضافة نص بالنقر المزدوج في أي مكان بأداة الاختيار",
+    "embeddable": "اضغط مع السحب لإنشاء موقع ويب مضمّن",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "اضغط {{shortcut_1}} أو {{shortcut_2}} لإنهاء التحرير",
+    "linearElementMulti": "انقر على النقطة الأخيرة أو اضغط {{shortcut_1}} أو {{shortcut_2}} للإنهاء",
+    "lockAngle": "يمكنك تقييد الزاوية بالضغط على {{shortcut}}",
+    "resize": "يمكنك تقييد النسب بالضغط على {{shortcut_1}} أثناء تغيير الحجم،\nاضغط مطولاً على {{shortcut_2}} لتغيير الحجم من المركز",
+    "resizeImage": "يمكنك تغيير الحجم بحرية بالضغط مطولًا على {{shortcut_1}}،\nاضغط مطولًا على {{shortcut_2}} لتغيير الحجم من المركز",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "يمكن على الأرجح تمكين هذه الميزة عن طريق تعيين علم \"dom.events.asyncClipboard.clipboardItem\" إلى \"true\". لتغيير أعلام المتصفح في Firefox، قم بزيارة صفحة \"about:config\".",
+    "disableSnapping": "",
+    "enterCropEditor": "انقر نقرًا مزدوجًا على الصورة أو اضغط {{shortcut}} لقص الصورة",
+    "leaveCropEditor": "انقر خارج الصورة أو اضغط {{shortcut_1}} أو {{shortcut_2}} لإنهاء القص"
+  },
+  "canvasError": {
+    "cannotShowPreview": "تعذر عرض المعاينة",
+    "canvasTooBig": "قد تكون اللوحة كبيرة جدًا.",
+    "canvasTooBigTip": "نصيحة: حاول تحريك العناصر البعيدة بشكل أقرب قليلاً."
+  },
+  "errorDialog": {
+    "title": "خطأ"
+  },
+  "progressDialog": {
+    "defaultMessage": "جارٍ الإعداد للحفظ..."
+  },
+  "exportDialog": {
+    "disk_title": "حفظ الملف على الجهاز",
+    "disk_details": "تصدير بيانات المشهد إلى ملف يمكنك الاستيراد منه لاحقًا.",
+    "disk_button": "حفظ إلى ملف",
+    "link_title": "رابط قابل للمشاركة",
+    "link_details": "تصدير الملف للمشاهدة فقط.",
+    "link_button": "تصدير كرابط"
+  },
+  "helpDialog": {
+    "click": "انقر",
+    "deepSelect": "تحديد عميق",
+    "deepBoxSelect": "تحديد عميق داخل المربع، ومنع السحب",
+    "createFlowchart": "إنشاء مخطط تدفق من عنصر عام",
+    "navigateFlowchart": "التنقل في مخطط تدفق",
+    "curvedArrow": "سهم منحني",
+    "curvedLine": "خط منحني",
+    "doubleClick": "انقر مرتين",
+    "drag": "اسحب",
+    "editor": "المحرر",
+    "editLineArrowPoints": "تحرير نقاط السطر/السهم",
+    "editText": "تعديل النص / إضافة تسمية",
+    "or": "أو",
+    "preventBinding": "منع ارتباط السهم",
+    "tools": "الأدوات",
+    "shortcuts": "اختصارات لوحة المفاتيح",
+    "textFinish": "إنهاء التعديل (محرر النص)",
+    "textNewLine": "إضافة سطر جديد (محرر النص)",
+    "title": "المساعدة",
+    "view": "عرض",
+    "zoomToFit": "تكبير للملائمة",
+    "zoomToSelection": "تكبير للعنصر المحدد",
+    "toggleElementLock": "قفل/فتح المحدد",
+    "movePageUpDown": "نقل الصفحة أعلى/أسفل",
+    "movePageLeftRight": "نقل الصفحة يسار/يمين",
+    "cropStart": "بدء قص الصورة",
+    "cropFinish": "إنهاء قص الصورة"
+  },
+  "clearCanvasDialog": {
+    "title": "مسح اللوحة"
+  },
+  "imageExportDialog": {
+    "header": "تصدير الصورة",
+    "label": {
+      "withBackground": "مع الخلفية",
+      "onlySelected": "المحدد فقط",
+      "darkMode": "الوضع الداكن",
+      "embedScene": "تضمين المشهد",
+      "scale": "المقياس",
+      "padding": "الهوامش"
+    },
+    "tooltip": {
+      "embedScene": "سيتم حفظ بيانات المشهد في ملف PNG/SVG المصدر بحيث يمكن استعادة المشهد منه.\nسيزيد هذا من حجم الملف المصدر."
+    },
+    "title": {
+      "exportToPng": "تصدير بصيغة PNG",
+      "exportToSvg": "تصدير بصيغة SVG",
+      "copyPngToClipboard": "نسخ الـ PNG إلى الحافظة"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "نسخ إلى الحافظة"
+    }
+  },
+  "stats": {
+    "shapes": "الأشكال",
+    "height": "الارتفاع",
+    "scene": "المشهد",
+    "fullTitle": "خصائص اللوحة والأشكال",
+    "title": "الخصائص",
+    "generalStats": "عام",
+    "elementProperties": "خصائص الشكل",
+    "width": "العرض"
+  },
+  "toast": {
+    "copyStyles": "تم نسخ الأنماط.",
+    "copyToClipboardAsPng": "تم نسخ {{exportSelection}} إلى الحافظة بصيغة PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "تم نسخ {{exportSelection}} إلى الحافظة بصيغة SVG\n({{exportColorScheme}})",
+    "fileSaved": "تم حفظ الملف.",
+    "fileSavedToFilename": "تم الحفظ باسم {filename}",
+    "canvas": "لوحة الرسم",
+    "selection": "العنصر المحدد",
+    "pasteAsSingleElement": "استخدم {{shortcut}} للصق كعنصر واحد،\nأو لصق في محرر نص موجود",
+    "unableToEmbed": "تضمين هذا الرابط غير مسموح حاليًا. افتح بلاغًا على GitHub لطلب إدراج عنوان URL في القائمة البيضاء",
+    "unrecognizedLinkFormat": "الرابط الذي أدرجته لا يتطابق مع التنسيق المتوقع. الرجاء محاولة لصق النص 'المضمن' المُزوَد من موقع المصدر",
+    "elementLinkCopied": "تم نسخ الرابط إلى الحافظة"
+  },
+  "colors": {
+    "transparent": "شفاف",
+    "black": "أسود",
+    "white": "أبيض",
+    "red": "أحمر",
+    "pink": "وردي",
+    "grape": "عنبي",
+    "violet": "بنفسجي",
+    "gray": "رمادي",
+    "blue": "أزرق",
+    "cyan": "سماوي",
+    "teal": "أزرق مخضر",
+    "green": "أخضر",
+    "yellow": "أصفر",
+    "orange": "برتقالي",
+    "bronze": "برونزي"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "التصدير، التفضيلات، وغيرها...",
+      "center_heading": "الرسم البياني التصويري، ببساطة.",
+      "toolbarHint": "اختر أداة وابدأ الرسم!",
+      "helpHint": "الاختصارات والمساعدة"
+    }
+  },
+  "colorPicker": {
+    "color": "اللون",
+    "mostUsedCustomColors": "الألوان المخصصة الأكثر استخدامًا",
+    "colors": "الألوان",
+    "shades": "الدرجات",
+    "hexCode": "رمز Hex",
+    "noShades": "لا تتوفر درجات لهذا اللون",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "تصدير كصورة",
+        "button": "تصدير كصورة",
+        "description": "تصدير بيانات المشهد إلى ملف يمكنك الاستيراد منه لاحقًا."
+      },
+      "saveToDisk": {
+        "title": "حفظ الملف على الجهاز",
+        "button": "حفظ الملف على الجهاز",
+        "description": "تصدير بيانات المشهد إلى ملف يمكنك الاستيراد منه لاحقًا."
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "تحميل من ملف",
+        "button": "تحميل من ملف",
+        "description": "سيتم التحميل من الملف <bold>استبدال المحتوى الموجود</bold>.<br></br>يمكنك النسخ الاحتياطي لرسمك أولاً باستخدام أحد الخيارات أدناه."
+      }
+    }
+  },
+  "mermaid": {
+    "title": "Mermaid إلى Excalidraw",
+    "button": "إدراج",
+    "description": "",
+    "inputPlaceholder": "اكتب تعريف الرسم البياني لـ Mermaid هنا...",
+    "autoFixAvailable": "الإصلاح التلقائي متوفر"
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": "بحث سريع"
+  },
+  "fontList": {
+    "badge": {
+      "old": "قديم"
+    },
+    "sceneFonts": "في هذا المشهد",
+    "availableFonts": "الخطوط المتوفرة",
+    "empty": "لم يتم العثور على خطوط"
+  },
+  "userList": {
+    "empty": "لم يتم العثور على مستخدمين",
+    "hint": {
+      "text": "انقر على المستخدم للمتابعة",
+      "followStatus": "أنت حاليًا تتابع هذا المستخدم",
+      "inCall": "المستخدم في مكالمة صوتية",
+      "micMuted": "ميكروفون المستخدم مكتم",
+      "isSpeaking": "المستخدم يتحدث"
+    }
+  },
+  "commandPalette": {
+    "title": "لوحة الأوامر",
+    "shortcuts": {
+      "select": "اختر",
+      "confirm": "تأكيد",
+      "close": "إغلاق"
+    },
+    "recents": "المستخدمة مؤخرًا",
+    "search": {
+      "placeholder": "ابحث في القوائم، الأوامر، واكتشف الجواهر المخفية",
+      "noMatch": "لا توجد أوامر مطابقة..."
+    },
+    "itemNotAvailable": "الأمر غير متوفر...",
+    "shortcutHint": "للحصول على لوحة الأوامر، استخدم {{shortcut}}"
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "مسافة",
+    "delete": "احذف"
+  }
+}

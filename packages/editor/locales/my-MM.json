@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "ထား",
+    "pasteAsPlaintext": "",
+    "pasteCharts": "",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "အကုန်ရွေး",
+    "multiSelect": "ရွေးထားသည့်ထဲပုံထည့်",
+    "moveCanvas": "ကားချပ်ရွှေ့",
+    "cut": "",
+    "copy": "ကူး",
+    "copyAsPng": "PNG အနေဖြင့်ကူး",
+    "copyAsSvg": "SVG အနေဖြင့်ကူး",
+    "copyText": "",
+    "bringForward": "ရှေ့ပို့",
+    "sendToBack": "နောက်ဆုံးထား",
+    "bringToFront": "ရှေ့ဆုံးထား",
+    "sendBackward": "နောက်ပို့",
+    "delete": "ဖျက်",
+    "copyStyles": "ပုံစံကူး",
+    "pasteStyles": "ပုံစံထား",
+    "stroke": "မျဉ်း",
+    "changeStroke": "",
+    "background": "နောက်ခံ",
+    "changeBackground": "",
+    "fill": "ဖြည့်",
+    "strokeWidth": "မျဉ်းအထူ",
+    "strokeStyle": "မျဉ်းပုံစံ",
+    "strokeStyle_solid": "အပြည့်",
+    "strokeStyle_dashed": "မျဉ်းပြတ်",
+    "strokeStyle_dotted": "မျဉ်းစက်",
+    "sloppiness": "သေသပ်မှု",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "ထင်ရှားမှု",
+    "textAlign": "စာသားညှိ",
+    "edges": "အစွန်း",
+    "sharp": "ထောင့်ချွန်",
+    "round": "ထောင့်ဝိုင်း",
+    "arrowheads": "မြှားခေါင်း",
+    "arrowhead_none": "ဘာမျှမရှိ",
+    "arrowhead_arrow": "မြှား",
+    "arrowhead_bar": "",
+    "arrowhead_circle": "",
+    "arrowhead_circle_outline": "",
+    "arrowhead_triangle": "",
+    "arrowhead_triangle_outline": "",
+    "arrowhead_diamond": "",
+    "arrowhead_diamond_outline": "",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "စာလုံးအရွယ်",
+    "fontFamily": "စာလုံးပုံစံ",
+    "handDrawn": "လက်ရေး",
+    "normal": "ပုံမှန်",
+    "code": "ကုဒ်",
+    "small": "အသေး",
+    "medium": "အလတ်",
+    "large": "အကြီး",
+    "veryLarge": "ပိုကြီး",
+    "solid": "အပြည့်",
+    "hachure": "မျဉ်းစောင်း",
+    "zigzag": "",
+    "crossHatch": "ဇကာကွက်",
+    "thin": "ပါး",
+    "bold": "ထူ",
+    "left": "ဘယ်",
+    "center": "အလယ်",
+    "right": "ညာ",
+    "architect": "ဗိသုကာ",
+    "artist": "ပန်းချီ",
+    "cartoonist": "ကာတွန်း",
+    "fileTitle": "",
+    "colorPicker": "အရောင်ရွေး",
+    "canvasBackground": "ကားချပ်နောက်ခံ",
+    "drawingCanvas": "ပုံဆွဲကားချပ်",
+    "clearCanvas": "",
+    "layers": "အလွှာများ",
+    "actions": "လုပ်ဆောင်ချက်များ",
+    "liveCollaboration": "",
+    "duplicateSelection": "ပွား",
+    "untitled": "အမည်မရှိ",
+    "group": "အုပ်စုဖွဲ့",
+    "ungroup": "အုပ်စုဖျက်သိမ်း",
+    "collaborators": "ပူးပေါင်းပါဝင်သူများ",
+    "you": "",
+    "toggleGrid": "",
+    "loadingScene": "မြင်ကွင်းဖော်နေသည်…",
+    "align": "ချိန်ညှိ",
+    "alignTop": "ထိပ်ညှိ",
+    "alignBottom": "အခြေညှိ",
+    "alignLeft": "ဘယ်ညှိ",
+    "alignRight": "ညာညှိ",
+    "centerVertically": "ဒေါင်လိုက်အလယ်ညှိ",
+    "centerHorizontally": "အလျားလိုက်အလယ်ညှိ",
+    "distributeHorizontally": "အလျားလိုက်",
+    "distributeVertically": "ထောင်လိုက်",
+    "flipHorizontal": "",
+    "flipVertical": "",
+    "viewMode": "",
+    "share": "",
+    "showStroke": "",
+    "showBackground": "",
+    "showFonts": "",
+    "toggleTheme": "",
+    "theme": "",
+    "decreaseFontSize": "",
+    "increaseFontSize": "",
+    "unbindText": "",
+    "bindText": "",
+    "createContainerFromText": "",
+    "link": {
+      "edit": "",
+      "editEmbed": "",
+      "create": "",
+      "label": "",
+      "labelEmbed": "",
+      "empty": "",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "",
+      "unlock": "",
+      "unlockAll": ""
+    },
+    "sidebarLock": "",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "ကားချပ်ရှင်းလင်း",
+    "exportImage": "",
+    "export": "",
+    "save": "",
+    "saveAs": "ပြောင်းသိမ်း",
+    "load": "",
+    "close": "ပိတ်",
+    "scrollBackToContent": "ကားချပ်ပြန်တည်",
+    "zoomIn": "ချဲ့",
+    "zoomOut": "ချုံ့",
+    "resetZoom": "ပုံမှန်ပြန်ထား",
+    "done": "ပြီးပြီ",
+    "edit": "ပြင်ဆင်",
+    "undo": "ပြန်ထား",
+    "redo": "ထပ်လုပ်",
+    "darkMode": "",
+    "lightMode": "",
+    "systemMode": "",
+    "zenMode": "",
+    "objectsSnapMode": "",
+    "cancel": "",
+    "remove": "",
+    "confirm": "",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "ကားချပ်တစ်ခုလုံးရှင်းလင်းပါတော့မည်။ အတည်ပြုပါ။",
+    "couldNotLoadInvalidFile": "လွဲမှားနေသောဖိုင်အား တင်၍မရပါ။",
+    "cannotExportEmptyCanvas": "ကားချပ်အလွတ်အားထုတ်ယူ၍မရပါ။",
+    "couldNotCopyToClipboard": "",
+    "cannotRestoreFromImage": "ဤပုံဖြင့်မြင်ကွင်းပြန်လည်မရယူနိုင်ပါ။"
+  },
+  "errors": {
+    "unsupportedFileType": "",
+    "imageInsertError": "",
+    "fileTooBig": "",
+    "svgImageInsertError": "",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "ရွေးချယ်",
+    "lasso": "",
+    "image": "",
+    "rectangle": "စတုဂံ",
+    "diamond": "စိန်",
+    "ellipse": "အဝိုင်း",
+    "arrow": "မြှား",
+    "line": "မျဉ်း",
+    "freedraw": "",
+    "text": "စာသား",
+    "lock": "ရွေးချယ်ထားသောကိရိယာကိုသာဆက်သုံး",
+    "penMode": "",
+    "link": "",
+    "eraser": "",
+    "frame": "",
+    "embeddable": "",
+    "laser": "",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "",
+    "extraTools": "",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "ကားချပ်လုပ်ဆောင်ချက်",
+    "selectedShapeActions": "ပုံသဏ္ဌာန်လုပ်ဆောင်ချက်",
+    "shapes": "ပုံသဏ္ဌာန်များ"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "အမှတ်များချမှတ်ရေးဆွဲရန်ကလစ်နှိပ်ပါ၊ မျဉ်းတစ်ကြောင်းတည်းအတွက် တရွတ်ဆွဲပါ။",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "ကလစ်နှိပ်၍ တရွတ်ဆွဲပါ၊ ပြီးလျှင်လွှတ်ပါ။",
+    "text": "မှတ်ချက်။ ။မည်သည့်ကိရိယာရွေးထားသည်ဖြစ်စေ ကလစ်နှစ်ချက်နှိပ်၍စာသားထည့်နိုင်သည်",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "နမူနာမပြသနိုင်ပါ",
+    "canvasTooBig": "ကားချပ်အလွန်ကြီးကောင်းကြီးနေနိုင်သည်။",
+    "canvasTooBigTip": "မှတ်ချက်။ ။ဝေးကွာနေသော ပုံများ၊ စာများအား ပိုမိုနီးကပ်အောင်ရွှေ့ကြည့်ပါ။"
+  },
+  "errorDialog": {
+    "title": "ချို့ယွင်းချက်"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "",
+    "disk_details": "",
+    "disk_button": "",
+    "link_title": "",
+    "link_details": "",
+    "link_button": ""
+  },
+  "helpDialog": {
+    "click": "",
+    "deepSelect": "",
+    "deepBoxSelect": "",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "",
+    "curvedLine": "",
+    "doubleClick": "",
+    "drag": "",
+    "editor": "",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "",
+    "preventBinding": "",
+    "tools": "",
+    "shortcuts": "",
+    "textFinish": "",
+    "textNewLine": "",
+    "title": "",
+    "view": "",
+    "zoomToFit": "",
+    "zoomToSelection": "",
+    "toggleElementLock": "",
+    "movePageUpDown": "",
+    "movePageLeftRight": "",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": ""
+  },
+  "imageExportDialog": {
+    "header": "",
+    "label": {
+      "withBackground": "",
+      "onlySelected": "",
+      "darkMode": "",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    },
+    "button": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "အမြင့်",
+    "scene": "မြင်ကွင်း",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "အကျယ်"
+  },
+  "toast": {
+    "copyStyles": "",
+    "copyToClipboardAsPng": "",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "",
+    "fileSavedToFilename": "",
+    "canvas": "",
+    "selection": "",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "",
+    "black": "",
+    "white": "",
+    "red": "",
+    "pink": "",
+    "grape": "",
+    "violet": "",
+    "gray": "",
+    "blue": "",
+    "cyan": "",
+    "teal": "",
+    "green": "",
+    "yellow": "",
+    "orange": "",
+    "bronze": ""
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "",
+      "center_heading": "",
+      "toolbarHint": "",
+      "helpHint": ""
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "",
+    "colors": "",
+    "shades": "",
+    "hexCode": "",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

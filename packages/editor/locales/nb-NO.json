@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Lim inn",
+    "pasteAsPlaintext": "Lim inn som klartekst",
+    "pasteCharts": "Lim inn diagrammer",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "Velg alt",
+    "multiSelect": "Legg til element i utvalg",
+    "moveCanvas": "Flytt lerretet",
+    "cut": "Klipp ut",
+    "copy": "Kopier",
+    "copyAsPng": "Kopier til PNG",
+    "copyAsSvg": "Kopier til utklippstavlen som SVG",
+    "copyText": "Kopier til utklippstavlen som tekst",
+    "bringForward": "Flytt framover",
+    "sendToBack": "Send bakerst",
+    "bringToFront": "Flytt forrest",
+    "sendBackward": "Send bakover",
+    "delete": "Slett",
+    "copyStyles": "Kopier stiler",
+    "pasteStyles": "Lim inn stiler",
+    "stroke": "Strek",
+    "changeStroke": "Endre farge på omriss",
+    "background": "Bakgrunn",
+    "changeBackground": "Endre bakgrunnsfarge",
+    "fill": "Fyll",
+    "strokeWidth": "Strektykkelse",
+    "strokeStyle": "Strekstil",
+    "strokeStyle_solid": "Heltrukket",
+    "strokeStyle_dashed": "Stiplet",
+    "strokeStyle_dotted": "Prikket",
+    "sloppiness": "Ujevnhet",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Synlighet",
+    "textAlign": "Tekstjustering",
+    "edges": "Kanter",
+    "sharp": "Skarp",
+    "round": "Rund",
+    "arrowheads": "Pilspisser",
+    "arrowhead_none": "Ingen",
+    "arrowhead_arrow": "Pil",
+    "arrowhead_bar": "Søyle",
+    "arrowhead_circle": "Sirkel",
+    "arrowhead_circle_outline": "Sirkel (omriss)",
+    "arrowhead_triangle": "Trekant",
+    "arrowhead_triangle_outline": "Trekant (omriss)",
+    "arrowhead_diamond": "Diamant",
+    "arrowhead_diamond_outline": "Diamant (omriss)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "Flere alternativer",
+    "cardinality": "",
+    "arrowtypes": "Type pil",
+    "arrowtype_sharp": "Skarp pil",
+    "arrowtype_round": "Buet pil",
+    "arrowtype_elbowed": "Albuepil",
+    "fontSize": "Skriftstørrelse",
+    "fontFamily": "Fontfamilie",
+    "handDrawn": "Håndtegnet",
+    "normal": "Normal",
+    "code": "Kode",
+    "small": "Liten",
+    "medium": "Medium",
+    "large": "Stor",
+    "veryLarge": "Svært stor",
+    "solid": "Helfarge",
+    "hachure": "Skravert",
+    "zigzag": "Sikk-sakk",
+    "crossHatch": "Krysskravert",
+    "thin": "Tynn",
+    "bold": "Tykk",
+    "left": "Venstre",
+    "center": "Midtstill",
+    "right": "Høyre",
+    "architect": "Arkitekt",
+    "artist": "Kunstner",
+    "cartoonist": "Tegner",
+    "fileTitle": "Filnavn",
+    "colorPicker": "Fargevelger",
+    "canvasBackground": "Lerretsbakgrunn",
+    "drawingCanvas": "Lerret",
+    "clearCanvas": "Tøm lerret",
+    "layers": "Lag",
+    "actions": "Handlinger",
+    "liveCollaboration": "Sanntids-samarbeid...",
+    "duplicateSelection": "Dupliser",
+    "untitled": "Uten navn",
+    "group": "Gruppér utvalg",
+    "ungroup": "Avgruppér utvalg",
+    "collaborators": "Samarbeidspartnere",
+    "you": "",
+    "toggleGrid": "Vis/skjul rutenett",
+    "loadingScene": "Laster inn scene…",
+    "align": "Juster",
+    "alignTop": "Juster øverst",
+    "alignBottom": "Juster nederst",
+    "alignLeft": "Juster venstre",
+    "alignRight": "Juster høyre",
+    "centerVertically": "Midtstill vertikalt",
+    "centerHorizontally": "Midtstill horisontalt",
+    "distributeHorizontally": "Distribuer horisontalt",
+    "distributeVertically": "Distribuer vertikalt",
+    "flipHorizontal": "Snu horisontalt",
+    "flipVertical": "Snu vertikalt",
+    "viewMode": "Visningsmodus",
+    "share": "Del",
+    "showStroke": "Vis fargevelger for kantfarge",
+    "showBackground": "Vis fargevelger for bakgrunnsfarge",
+    "showFonts": "Vis skriftvelger",
+    "toggleTheme": "Vis/skjul lys/mørkt tema",
+    "theme": "Tema",
+    "decreaseFontSize": "Reduser skriftstørrelse",
+    "increaseFontSize": "Øk skriftstørrelse",
+    "unbindText": "Avbind tekst",
+    "bindText": "Bind tekst til beholderen",
+    "createContainerFromText": "La tekst flyte i en beholder",
+    "link": {
+      "edit": "Rediger lenke",
+      "editEmbed": "Rediger innebyggbar lenke",
+      "create": "Legg til lenke",
+      "label": "Lenke",
+      "labelEmbed": "Lenk & bygg inn",
+      "empty": "Ingen lenke er valgt",
+      "hint": "Skriv eller lim inn lenken din her",
+      "goToElement": "Gå til målelement"
+    },
+    "lineEditor": {
+      "edit": "Rediger linje",
+      "editArrow": "Rediger pil"
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "Lås",
+      "unlock": "Lås opp",
+      "unlockAll": "Lås opp alle"
+    },
+    "sidebarLock": "Holde sidemenyen åpen",
+    "selectAllElementsInFrame": "Velg alle elementene i rammen",
+    "removeAllElementsFromFrame": "Fjern alle elementer fra rammen",
+    "eyeDropper": "Velg farge fra lerretet",
+    "zoomToFitViewport": "Zoom for å få plass i visning",
+    "autoResize": "Aktiver automatisk endring av tekststørrelse",
+    "imageCropping": "Bildebeskjæring",
+    "unCroppedDimension": "Ikke-beskåret dimensjon",
+    "copyElementLink": "Kopier lenke til objekt",
+    "linkToElement": "Lenke til objekt",
+    "wrapSelectionInFrame": "Brekk om utvalg i ramme",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "Lenke til objekt",
+    "desc": "Klikk på en figur på lerretet eller lim inn en lenke.",
+    "notFound": "Koblet objekt ble ikke funnet på lerretet."
+  },
+  "search": {
+    "title": "Finn på lerretet",
+    "noMatch": "Ingen treff funnet...",
+    "singleResult": "resultat",
+    "multipleResults": "resultater",
+    "placeholder": "Finn tekst på lerret...",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "Tøm lerretet og tilbakestill bakgrunnsfargen",
+    "exportImage": "Eksporter bilde...",
+    "export": "Lagre som...",
+    "save": "Lagre til aktiv fil",
+    "saveAs": "Lagre som",
+    "load": "Åpne",
+    "close": "Lukk",
+    "scrollBackToContent": "Skroll tilbake til innhold",
+    "zoomIn": "Zoom inn",
+    "zoomOut": "Zoom ut",
+    "resetZoom": "Nullstill zoom",
+    "done": "Ferdig",
+    "edit": "Rediger",
+    "undo": "Angre",
+    "redo": "Gjør om",
+    "darkMode": "Mørk modus",
+    "lightMode": "Lys modus",
+    "systemMode": "Systemmodus",
+    "zenMode": "Zen-modus",
+    "objectsSnapMode": "Fest til elementer",
+    "cancel": "Avbryt",
+    "remove": "Fjern",
+    "confirm": "Bekreft",
+    "embeddableInteractionButton": "Klikk for å samhandle"
+  },
+  "alerts": {
+    "clearReset": "Dette vil tømme lerretet. Er du sikker?",
+    "couldNotLoadInvalidFile": "Kunne ikke laste inn ugyldig fil",
+    "cannotExportEmptyCanvas": "Kan ikke eksportere et tomt lerret.",
+    "couldNotCopyToClipboard": "Kunne ikke kopiere til utklippstavlen.",
+    "cannotRestoreFromImage": "Scenen kunne ikke gjenopprettes fra denne bildefilen"
+  },
+  "errors": {
+    "unsupportedFileType": "Filtypen støttes ikke.",
+    "imageInsertError": "Kunne ikke sette inn bildet. Prøv igjen senere...",
+    "fileTooBig": "Filen er for stor. Maksimal tillatt størrelse er {{maxSize}}.",
+    "svgImageInsertError": "Kunne ikke sette inn SVG-bilde. SVG-koden ser ugyldig ut.",
+    "failedToFetchImage": "Kunne ikke hente bilde.",
+    "imageToolNotSupported": "Bilder er deaktivert.",
+    "brave_measure_text_error": {
+      "line1": "Ser ut som om du bruker Brave nettleser med <bold>Aggressivt Block Finger</bold> -innstillingen aktivert.",
+      "line2": "Dette kan resultere i å bryte <bold>tekst-elementene</bold> i tegningene."
+    },
+    "asyncPasteFailedOnRead": "Kunne ikke lime inn (kunne ikke lese fra systemets utklippstavle).",
+    "asyncPasteFailedOnParse": "Kunne ikke lime inn.",
+    "copyToSystemClipboardFailed": "Kunne ikke kopiere til utklippstavlen."
+  },
+  "toolBar": {
+    "selection": "Velg",
+    "lasso": "",
+    "image": "Sett inn bilde",
+    "rectangle": "Rektangel",
+    "diamond": "Diamant",
+    "ellipse": "Ellipse",
+    "arrow": "Pil",
+    "line": "Linje",
+    "freedraw": "Tegn",
+    "text": "Tekst",
+    "lock": "Behold merket verktøy som aktivt",
+    "penMode": "Pennemodus - forhindre berøring",
+    "link": "Legg til / oppdater lenke for en valgt figur",
+    "eraser": "Viskelær",
+    "frame": "Rammeverktøy",
+    "embeddable": "Nettinnbygging",
+    "laser": "Laserpeker",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "Hånd (panoreringsverktøy)",
+    "extraTools": "Flere verktøy",
+    "mermaidToExcalidraw": "Mermaid til Excalidraw",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "Rektangel",
+    "diamond": "Diamant",
+    "ellipse": "Ellipse",
+    "arrow": "Pil",
+    "line": "Linje",
+    "freedraw": "Frihåndstegning",
+    "text": "Tekst",
+    "image": "Bilde",
+    "group": "Gruppe",
+    "frame": "Ramme",
+    "magicframe": "Wireframe til kode",
+    "embeddable": "Nettinnbygging",
+    "selection": "Valg",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "Handlinger: lerret",
+    "selectedShapeActions": "Handlinger: valgt objekt",
+    "shapes": "Former"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "Klikk for å starte linje med flere punkter, eller dra for en enkel linje",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "Klikk og dra, slipp når du er ferdig",
+    "text": "Tips: du kan også legge til tekst ved å dobbeltklikke hvor som helst med utvalgsverktøyet",
+    "embeddable": "Klikk og dra for å opprette en nettside innebygd",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "Denne funksjonen kan sannsynligvis aktiveres ved å sette \"dom.events.asyncClipboard.clipboardItem\" flagget til \"true\". For å endre nettleserens flagg i Firefox, besøk \"about:config\"-siden.",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "Kan ikke vise forhåndsvisning",
+    "canvasTooBig": "Lerretet kan være for stort.",
+    "canvasTooBigTip": "Tips: Prøv å flytte de ytterste elementene litt tettere sammen."
+  },
+  "errorDialog": {
+    "title": "Feil"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "Lagre til disk",
+    "disk_details": "Eksporter scene-dataene til en fil som du kan importere fra senere.",
+    "disk_button": "Lagre til fil",
+    "link_title": "Delbar lenke",
+    "link_details": "Eksporter som en skrivebeskyttet lenke.",
+    "link_button": "Eksporter til lenke"
+  },
+  "helpDialog": {
+    "click": "klikk",
+    "deepSelect": "Marker dypt",
+    "deepBoxSelect": "Marker dypt innad i boks og forhindre flytting",
+    "createFlowchart": "Lag et flytdiagram ut fra et generisk element",
+    "navigateFlowchart": "Naviger et flytdiagram",
+    "curvedArrow": "Buet pil",
+    "curvedLine": "Buet linje",
+    "doubleClick": "dobbeltklikk",
+    "drag": "dra",
+    "editor": "Redigeringsvisning",
+    "editLineArrowPoints": "Rediger linje/pilpunkter",
+    "editText": "Rediger tekst / legg til etikett",
+    "or": "eller",
+    "preventBinding": "Forhindre pilbinding",
+    "tools": "Verktøy",
+    "shortcuts": "Tastatursnarveier",
+    "textFinish": "Fullfør redigering (teksteditor)",
+    "textNewLine": "Legg til ny linje (teksteditor)",
+    "title": "Hjelp",
+    "view": "Vis",
+    "zoomToFit": "Zoom for å se alle elementer",
+    "zoomToSelection": "Zoom til utvalg",
+    "toggleElementLock": "Lås/lås opp utvalg",
+    "movePageUpDown": "Flytt side opp/ned",
+    "movePageLeftRight": "Flytt siden til venstre/høyre",
+    "cropStart": "Beskjær bilde",
+    "cropFinish": "Fullfør bildebeskjæring"
+  },
+  "clearCanvasDialog": {
+    "title": "Tøm lerret"
+  },
+  "imageExportDialog": {
+    "header": "Eksporter bilde",
+    "label": {
+      "withBackground": "Bakgrunn",
+      "onlySelected": "Kun valgte",
+      "darkMode": "Mørk modus",
+      "embedScene": "Bygg inn scene",
+      "scale": "Skalering",
+      "padding": "Avstand"
+    },
+    "tooltip": {
+      "embedScene": "Scenedata vil bli lagret i den eksporterte PNG/SVG-filen, slik at scenen kan gjenopprettes fra den.\nDet vil øke den eksporterte filstørrelsen."
+    },
+    "title": {
+      "exportToPng": "Eksporter til PNG",
+      "exportToSvg": "Eksporter til SVG",
+      "copyPngToClipboard": "Kopier PNG til utklippstavlen"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "Kopier til utklippstavle"
+    }
+  },
+  "stats": {
+    "shapes": "Former",
+    "height": "Høyde",
+    "scene": "Scene",
+    "fullTitle": "Lerret- og formegenskaper",
+    "title": "Egenskaper",
+    "generalStats": "Generelt",
+    "elementProperties": "Egenskaper for form",
+    "width": "Bredde"
+  },
+  "toast": {
+    "copyStyles": "Kopierte stiler.",
+    "copyToClipboardAsPng": "Kopierte {{exportSelection}} til utklippstavlen som PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "Kopierte {{exportSelection}} til utklippstavlen som SVG\n({{exportColorScheme}})",
+    "fileSaved": "Fil lagret.",
+    "fileSavedToFilename": "Lagret til {filename}",
+    "canvas": "lerret",
+    "selection": "utvalg",
+    "pasteAsSingleElement": "Bruk {{shortcut}} for å lime inn som ett enkelt element,\neller lim inn i en eksisterende tekstbehandler",
+    "unableToEmbed": "Innbygging av denne nettadressen er ikke tillatt. Oppret en sak på GitHub for å be om url-hvitelisting",
+    "unrecognizedLinkFormat": "Linken du bygget inn samsvarer ikke med det forventede formatet. Prøv å lime inn \"bygg inn\"-strengen fra kildesiden",
+    "elementLinkCopied": "Lenke kopiert til utklippstavlen"
+  },
+  "colors": {
+    "transparent": "Gjennomsiktig",
+    "black": "Svart",
+    "white": "Hvit",
+    "red": "Rød",
+    "pink": "Rosa",
+    "grape": "Drue",
+    "violet": "Fiolett",
+    "gray": "Grå",
+    "blue": "Blå",
+    "cyan": "Turkis",
+    "teal": "Blågrønn",
+    "green": "Grønn",
+    "yellow": "Gul",
+    "orange": "Oransje",
+    "bronze": "Bronse"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "Eksporter, innstillinger og mer...",
+      "center_heading": "Diagrammer. Gjort. Enkelt.",
+      "toolbarHint": "Velg et verktøy og start å tegne!",
+      "helpHint": "Snarveier & hjelp"
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "Mest brukte egendefinerte farger",
+    "colors": "Farger",
+    "shades": "Toner",
+    "hexCode": "Heksadesimal kode",
+    "noShades": "Ingen toner tilgjengelig for denne fargen",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "Eksporter som bilde",
+        "button": "Eksporter som bilde",
+        "description": "Eksporter scene-dataene til en fil som du kan importere fra senere."
+      },
+      "saveToDisk": {
+        "title": "Lagre til disk",
+        "button": "Lagre til disk",
+        "description": "Eksporter scene-dataene til en fil som du kan importere fra senere."
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "Last inn fra fil",
+        "button": "Last inn fra fil",
+        "description": "Å laste fra en fil vil <bold>erstatte ditt eksisterende innhold</bold>.<br></br>Du kan sikkerhetskopiere tegningen din først ved å bruke en av valgene under."
+      }
+    }
+  },
+  "mermaid": {
+    "title": "Mermaid til Excalidraw",
+    "button": "Sett inn",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": "Hurtigsøk"
+  },
+  "fontList": {
+    "badge": {
+      "old": "gammel"
+    },
+    "sceneFonts": "I denne scenen",
+    "availableFonts": "Tilgjengelige skrifttyper",
+    "empty": "Ingen skrifttyper funnet"
+  },
+  "userList": {
+    "empty": "Ingen brukere funnet",
+    "hint": {
+      "text": "Klikk på en bruker for å følge",
+      "followStatus": "Du følger denne brukeren",
+      "inCall": "Brukeren er i et taleanrop",
+      "micMuted": "Brukerens mikrofon er dempet",
+      "isSpeaking": "Bruker snakker"
+    }
+  },
+  "commandPalette": {
+    "title": "Kommandopalett",
+    "shortcuts": {
+      "select": "Velg",
+      "confirm": "Bekreft",
+      "close": "Lukk"
+    },
+    "recents": "Nylig brukt",
+    "search": {
+      "placeholder": "Søk etter menyer, kommandoer og oppdag skjulte skatter",
+      "noMatch": "Ingen treff for kommandoer..."
+    },
+    "itemNotAvailable": "Kommandoen er ikke tilgjengelig...",
+    "shortcutHint": "For kommandopalett, bruk {{shortcut}}"
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

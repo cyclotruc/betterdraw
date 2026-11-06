@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Qoyıw",
+    "pasteAsPlaintext": "Ápiwayı tekst retinde qoyıw",
+    "pasteCharts": "Diagrammalardı qoyıw",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "Barlıǵın tańlaw",
+    "multiSelect": "",
+    "moveCanvas": "",
+    "cut": "Qıyıw",
+    "copy": "Kóshirip alıw",
+    "copyAsPng": "Almasıw buferine PNG retinde kóshirip alıw",
+    "copyAsSvg": "",
+    "copyText": "",
+    "bringForward": "",
+    "sendToBack": "",
+    "bringToFront": "",
+    "sendBackward": "",
+    "delete": "Óshiriw",
+    "copyStyles": "",
+    "pasteStyles": "",
+    "stroke": "Jiyek",
+    "changeStroke": "",
+    "background": "Fon",
+    "changeBackground": "",
+    "fill": "",
+    "strokeWidth": "",
+    "strokeStyle": "",
+    "strokeStyle_solid": "",
+    "strokeStyle_dashed": "",
+    "strokeStyle_dotted": "",
+    "sloppiness": "",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "",
+    "textAlign": "",
+    "edges": "Qırlar",
+    "sharp": "",
+    "round": "",
+    "arrowheads": "",
+    "arrowhead_none": "",
+    "arrowhead_arrow": "Jebe",
+    "arrowhead_bar": "",
+    "arrowhead_circle": "",
+    "arrowhead_circle_outline": "",
+    "arrowhead_triangle": "",
+    "arrowhead_triangle_outline": "",
+    "arrowhead_diamond": "",
+    "arrowhead_diamond_outline": "",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "Shrift ólshemi",
+    "fontFamily": "",
+    "handDrawn": "",
+    "normal": "",
+    "code": "Kod",
+    "small": "",
+    "medium": "",
+    "large": "Úlken",
+    "veryLarge": "Júdá úlken",
+    "solid": "",
+    "hachure": "",
+    "zigzag": "",
+    "crossHatch": "",
+    "thin": "Jińishke",
+    "bold": "Qalıń",
+    "left": "",
+    "center": "",
+    "right": "",
+    "architect": "",
+    "artist": "",
+    "cartoonist": "",
+    "fileTitle": "Fayl ataması",
+    "colorPicker": "",
+    "canvasBackground": "",
+    "drawingCanvas": "",
+    "clearCanvas": "",
+    "layers": "",
+    "actions": "Háreketler",
+    "liveCollaboration": "",
+    "duplicateSelection": "Nusqa",
+    "untitled": "Atamasız",
+    "group": "",
+    "ungroup": "",
+    "collaborators": "Qatnasıwshılar",
+    "you": "",
+    "toggleGrid": "",
+    "loadingScene": "Saxna júklenbekte…",
+    "align": "",
+    "alignTop": "",
+    "alignBottom": "",
+    "alignLeft": "",
+    "alignRight": "",
+    "centerVertically": "",
+    "centerHorizontally": "",
+    "distributeHorizontally": "",
+    "distributeVertically": "",
+    "flipHorizontal": "",
+    "flipVertical": "",
+    "viewMode": "Kóriw rejimi",
+    "share": "Bólisiw",
+    "showStroke": "",
+    "showBackground": "",
+    "showFonts": "",
+    "toggleTheme": "",
+    "theme": "",
+    "decreaseFontSize": "Shrift ólshemin kishireytiw",
+    "increaseFontSize": "Shrift ólshemin úlkeytiw",
+    "unbindText": "",
+    "bindText": "",
+    "createContainerFromText": "",
+    "link": {
+      "edit": "Siltemeni ózgertiw",
+      "editEmbed": "",
+      "create": "",
+      "label": "Silteme",
+      "labelEmbed": "",
+      "empty": "",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "Qatardı ózgertiw",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "Qulıplaw",
+      "unlock": "Qulıptan shıǵarıw",
+      "unlockAll": "Barlıǵın qulıptan shıǵarıw"
+    },
+    "sidebarLock": "",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "",
+    "exportImage": "Súwretti eksportlaw...",
+    "export": "Retinde saqlaw...",
+    "save": "Ámeldegi faylǵa saqlaw",
+    "saveAs": "Retinde saqlaw",
+    "load": "Ashıw",
+    "close": "Jabıw",
+    "scrollBackToContent": "",
+    "zoomIn": "",
+    "zoomOut": "",
+    "resetZoom": "",
+    "done": "Tayın",
+    "edit": "Ózgertiw",
+    "undo": "",
+    "redo": "",
+    "darkMode": "Qarańǵı tema",
+    "lightMode": "Jaqtı tema",
+    "systemMode": "",
+    "zenMode": "",
+    "objectsSnapMode": "",
+    "cancel": "Biykarlaw",
+    "remove": "Óshiriw",
+    "confirm": "Tastıyıqlaw",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "",
+    "couldNotLoadInvalidFile": "",
+    "cannotExportEmptyCanvas": "",
+    "couldNotCopyToClipboard": "Almasıw buferine kóshirip alıw ámelge aspadı.",
+    "cannotRestoreFromImage": ""
+  },
+  "errors": {
+    "unsupportedFileType": "",
+    "imageInsertError": "",
+    "fileTooBig": "",
+    "svgImageInsertError": "",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "",
+    "lasso": "",
+    "image": "Súwret qoyıw",
+    "rectangle": "Tórt múyeshlik",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "Sızıq",
+    "freedraw": "Sızıw",
+    "text": "Tekst",
+    "lock": "",
+    "penMode": "",
+    "link": "",
+    "eraser": "Óshirgish",
+    "frame": "",
+    "embeddable": "",
+    "laser": "",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "",
+    "extraTools": "",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "",
+    "selectedShapeActions": "",
+    "shapes": "Figuralar"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "",
+    "text": "",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "",
+    "canvasTooBig": "",
+    "canvasTooBigTip": ""
+  },
+  "errorDialog": {
+    "title": "Qátelik"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "Diskke saqlaw",
+    "disk_details": "",
+    "disk_button": "Faylǵa saqlaw",
+    "link_title": "",
+    "link_details": "",
+    "link_button": "Siltemege eksportlaw"
+  },
+  "helpDialog": {
+    "click": "basıw",
+    "deepSelect": "",
+    "deepBoxSelect": "",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "",
+    "curvedLine": "",
+    "doubleClick": "",
+    "drag": "",
+    "editor": "Redaktor",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "yamasa",
+    "preventBinding": "",
+    "tools": "Ásbaplar",
+    "shortcuts": "",
+    "textFinish": "",
+    "textNewLine": "",
+    "title": "Járdem",
+    "view": "Kóriw",
+    "zoomToFit": "",
+    "zoomToSelection": "",
+    "toggleElementLock": "",
+    "movePageUpDown": "",
+    "movePageLeftRight": "",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": ""
+  },
+  "imageExportDialog": {
+    "header": "Súwretti eksportlaw",
+    "label": {
+      "withBackground": "Fon",
+      "onlySelected": "",
+      "darkMode": "Qarańǵı tema",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    },
+    "button": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": "Almasıw buferine kóshirip alıw"
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "",
+    "scene": "Saxna",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": ""
+  },
+  "toast": {
+    "copyStyles": "",
+    "copyToClipboardAsPng": "",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "Fayl saqlandı.",
+    "fileSavedToFilename": "{filename} saqlandı",
+    "canvas": "",
+    "selection": "",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "",
+    "black": "Qara",
+    "white": "Aq",
+    "red": "Qızıl",
+    "pink": "Qızǵılt",
+    "grape": "",
+    "violet": "Qızǵılt kók",
+    "gray": "",
+    "blue": "Kók",
+    "cyan": "Kók aspan",
+    "teal": "Piruza",
+    "green": "Jasıl",
+    "yellow": "Sarı",
+    "orange": "Qızǵılt sarı",
+    "bronze": ""
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "Eksportlaw, sazlawlar hám basqa...",
+      "center_heading": "",
+      "toolbarHint": "",
+      "helpHint": ""
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "",
+    "colors": "Reńler",
+    "shades": "",
+    "hexCode": "",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "Súwret retinde eksportlaw",
+        "button": "Súwret retinde eksportlaw",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "Diskke saqlaw",
+        "button": "Diskke saqlaw",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "Fayldan júklew",
+        "button": "Fayldan júklew",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

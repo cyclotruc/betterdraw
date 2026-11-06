@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "貼り付け",
+    "pasteAsPlaintext": "書式なしテキストとして貼り付け",
+    "pasteCharts": "チャートの貼り付け",
+    "chartType_bar": "棒グラフ",
+    "chartType_line": "折れ線グラフ",
+    "chartType_radar": "レーダーチャート",
+    "chartType_plaintext": "",
+    "selectAll": "すべて選択",
+    "multiSelect": "複数選択",
+    "moveCanvas": "キャンバスを移動",
+    "cut": "切り取り",
+    "copy": "コピー",
+    "copyAsPng": "PNGとしてクリップボードへコピー",
+    "copyAsSvg": "SVGとしてクリップボードへコピー",
+    "copyText": "テキストとしてクリップボードにコピー",
+    "bringForward": "前面に移動",
+    "sendToBack": "最背面に移動",
+    "bringToFront": "最前面に移動",
+    "sendBackward": "背面に移動",
+    "delete": "削除",
+    "copyStyles": "スタイルのコピー",
+    "pasteStyles": "スタイルの貼り付け",
+    "stroke": "線",
+    "changeStroke": "線の色を変更",
+    "background": "背景",
+    "changeBackground": "背景色変更",
+    "fill": "塗りつぶし",
+    "strokeWidth": "線の太さ",
+    "strokeStyle": "線の種類",
+    "strokeStyle_solid": "実線",
+    "strokeStyle_dashed": "破線",
+    "strokeStyle_dotted": "点線",
+    "sloppiness": "ばらつき加減",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "透明度",
+    "textAlign": "文字の配置",
+    "edges": "角",
+    "sharp": "シャープ",
+    "round": "丸",
+    "arrowheads": "線の終点",
+    "arrowhead_none": "なし",
+    "arrowhead_arrow": "矢印",
+    "arrowhead_bar": "バー",
+    "arrowhead_circle": "丸",
+    "arrowhead_circle_outline": "丸 (中抜き)",
+    "arrowhead_triangle": "三角",
+    "arrowhead_triangle_outline": "三角 (中抜き)",
+    "arrowhead_diamond": "ひし形",
+    "arrowhead_diamond_outline": "ひし形 (中抜き)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "その他のオプション",
+    "cardinality": "",
+    "arrowtypes": "矢印タイプ",
+    "arrowtype_sharp": "鋭い矢印",
+    "arrowtype_round": "曲線矢印",
+    "arrowtype_elbowed": "折れ線矢印",
+    "fontSize": "フォントの大きさ",
+    "fontFamily": "フォントの種類",
+    "handDrawn": "手描き風",
+    "normal": "普通",
+    "code": "コード",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "veryLarge": "特大",
+    "solid": "ベタ塗り",
+    "hachure": "斜線",
+    "zigzag": "ジグザグ",
+    "crossHatch": "網掛け",
+    "thin": "細字",
+    "bold": "太字",
+    "left": "左寄せ",
+    "center": "中央寄せ",
+    "right": "右寄せ",
+    "architect": "建築家",
+    "artist": "画家",
+    "cartoonist": "漫画家",
+    "fileTitle": "ファイル名",
+    "colorPicker": "カラーピッカー",
+    "canvasBackground": "キャンバスの背景",
+    "drawingCanvas": "キャンバスの描画",
+    "clearCanvas": "キャンバスを消去",
+    "layers": "レイヤー",
+    "actions": "操作",
+    "liveCollaboration": "共同編集...",
+    "duplicateSelection": "複製",
+    "untitled": "無題",
+    "group": "グループ化",
+    "ungroup": "グループ化を解除",
+    "collaborators": "共同編集者",
+    "you": "",
+    "toggleGrid": "グリッドを切り替え",
+    "loadingScene": "シーンを読み込み中…",
+    "align": "配置",
+    "alignTop": "上揃え",
+    "alignBottom": "下揃え",
+    "alignLeft": "左揃え",
+    "alignRight": "右揃え",
+    "centerVertically": "垂直方向に中央揃え",
+    "centerHorizontally": "水平方向に中央揃え",
+    "distributeHorizontally": "水平方向に分散配置",
+    "distributeVertically": "垂直方向に分散配置",
+    "flipHorizontal": "水平方向に反転",
+    "flipVertical": "垂直方向に反転",
+    "viewMode": "閲覧モード",
+    "share": "共有",
+    "showStroke": "ストロークカラーピッカーを表示",
+    "showBackground": "背景色ピッカーを表示",
+    "showFonts": "フォント選択を表示",
+    "toggleTheme": "ライト/ダークテーマに変更",
+    "theme": "テーマ",
+    "decreaseFontSize": "フォントサイズを縮小",
+    "increaseFontSize": "フォントサイズを拡大",
+    "unbindText": "テキストのバインド解除",
+    "bindText": "テキストをコンテナにバインド",
+    "createContainerFromText": "コンテナ内でテキストを折り返す",
+    "link": {
+      "edit": "リンクを編集",
+      "editEmbed": "埋め込みリンク編集",
+      "create": "リンクを追加",
+      "label": "リンク",
+      "labelEmbed": "リンクと埋め込み",
+      "empty": "リンクが設定されていません",
+      "hint": "リンクを入力・貼り付け",
+      "goToElement": "対象要素に移動"
+    },
+    "lineEditor": {
+      "edit": "行を編集",
+      "editArrow": "矢印を編集"
+    },
+    "polygon": {
+      "breakPolygon": "ポリゴンを分割",
+      "convertToPolygon": "ポリゴンに変換"
+    },
+    "elementLock": {
+      "lock": "ロック",
+      "unlock": "ロック解除",
+      "unlockAll": "すべてのロックを解除"
+    },
+    "sidebarLock": "サイドバーを開いたままにする",
+    "selectAllElementsInFrame": "フレーム内のすべての要素を選択",
+    "removeAllElementsFromFrame": "フレーム内のすべての要素を削除",
+    "eyeDropper": "キャンバスから色を選択",
+    "zoomToFitViewport": "表示範囲に合わせてズーム",
+    "autoResize": "テキストの自動サイズ変更を有効化",
+    "imageCropping": "画像の切り抜き",
+    "unCroppedDimension": "元のサイズ",
+    "copyElementLink": "オブジェクトへのリンクをコピー",
+    "linkToElement": "オブジェクトにリンク",
+    "wrapSelectionInFrame": "選択範囲をフレームで囲む",
+    "shapeSwitch": "図形形状を変更",
+    "preferences": "環境設定",
+    "preferences_toolLock": "ツールの固定",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "矢印の結合",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "オブジェクトにリンク",
+    "desc": "キャンバス上の図形をクリックするか、リンクを貼り付けます。",
+    "notFound": "リンクされたオブジェクトがキャンバス上に見つかりませんでした。"
+  },
+  "search": {
+    "title": "キャンバスで検索",
+    "noMatch": "一致する結果はありません…",
+    "singleResult": "件",
+    "multipleResults": "件",
+    "placeholder": "キャンバス内のテキストを検索…",
+    "frames": "フレーム",
+    "texts": "テキスト"
+  },
+  "buttons": {
+    "clearReset": "キャンバスのリセット",
+    "exportImage": "画像のエクスポート...",
+    "export": "名前を付けて保存...",
+    "save": "現在のファイルに保存",
+    "saveAs": "名前を付けて保存",
+    "load": "開く",
+    "close": "閉じる",
+    "scrollBackToContent": "コンテンツまでスクロールで戻る",
+    "zoomIn": "拡大",
+    "zoomOut": "縮小",
+    "resetZoom": "拡大/縮小をリセット",
+    "done": "完了",
+    "edit": "編集",
+    "undo": "元に戻す",
+    "redo": "やり直し",
+    "darkMode": "ダークモード",
+    "lightMode": "ライトモード",
+    "systemMode": "システムモード",
+    "zenMode": "集中モード",
+    "objectsSnapMode": "オブジェクトにスナップ",
+    "cancel": "キャンセル",
+    "remove": "削除",
+    "confirm": "確認",
+    "embeddableInteractionButton": "クリックして操作"
+  },
+  "alerts": {
+    "clearReset": "キャンバス全体を消去します。本当によろしいですか？",
+    "couldNotLoadInvalidFile": "無効なファイルを読み込めませんでした。",
+    "cannotExportEmptyCanvas": "空のキャンバスはエクスポートできません。",
+    "couldNotCopyToClipboard": "クリップボードにコピーできませんでした。",
+    "cannotRestoreFromImage": "このイメージファイルからシーンを復元できませんでした"
+  },
+  "errors": {
+    "unsupportedFileType": "サポートされていないファイル形式です。",
+    "imageInsertError": "画像を挿入できませんでした。後でもう一度お試しください...",
+    "fileTooBig": "ファイルが大きすぎます。許可される最大サイズは {{maxSize}} です。",
+    "svgImageInsertError": "SVGイメージを挿入できませんでした。SVGマークアップは無効に見えます。",
+    "failedToFetchImage": "画像の読み込みに失敗しました。",
+    "imageToolNotSupported": "画像ツールは使用不可です。",
+    "brave_measure_text_error": {
+      "line1": "<bold>Aggressly Block Fingerprinting</bold> 設定が有効なBraveブラウザーを使用しているようです。",
+      "line2": "これにより、描画内の<bold>テキスト要素</bold>が壊れる可能性があります。"
+    },
+    "asyncPasteFailedOnRead": "貼り付けできませんでした (システムのクリップボードを読み取れませんでした)。",
+    "asyncPasteFailedOnParse": "貼り付けできませんでした。",
+    "copyToSystemClipboardFailed": "クリップボードにコピーできませんでした。"
+  },
+  "toolBar": {
+    "selection": "選択",
+    "lasso": "なげなわ選択",
+    "image": "画像を挿入",
+    "rectangle": "長方形",
+    "diamond": "ひし形",
+    "ellipse": "楕円",
+    "arrow": "矢印",
+    "line": "直線",
+    "freedraw": "描画",
+    "text": "テキスト",
+    "lock": "描画後も使用中のツールを選択したままにする",
+    "penMode": "ペンモード - タッチ防止",
+    "link": "選択した図形にリンクを追加・更新",
+    "eraser": "消しゴム",
+    "frame": "フレーム",
+    "embeddable": "Web埋め込み",
+    "laser": "レーザーポインター",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "手 (パンニングツール)",
+    "extraTools": "その他のツール",
+    "mermaidToExcalidraw": "Mermaid を Excalidraw に変換",
+    "convertElementType": "図形タイプを切り替え"
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "長方形",
+    "diamond": "ひし形",
+    "ellipse": "楕円",
+    "arrow": "矢印",
+    "line": "線",
+    "freedraw": "フリーハンド",
+    "text": "文字",
+    "image": "画像",
+    "group": "グループ",
+    "frame": "フレーム",
+    "magicframe": "ワイヤーフレームからコードを生成",
+    "embeddable": "Web埋め込み",
+    "selection": "選択",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "キャンバス操作",
+    "selectedShapeActions": "選択された図形に対する操作",
+    "shapes": "図形"
+  },
+  "hints": {
+    "dismissSearch": "{{shortcut}} で検索を閉じる",
+    "linearElement": "クリックすると複数の頂点からなる曲線を開始、ドラッグすると直線",
+    "arrowTool": "クリックで複数の点を追加、ドラッグで直線。{{shortcut}} を再度押すと矢印タイプが変更されます。",
+    "arrowBindModifiers": "{{shortcut_1}} を押し続けるとバインドを無効化、{{shortcut_2}} を押し続けると固定点にバインド",
+    "freeDraw": "クリックしてドラッグします。離すと終了します",
+    "text": "ヒント: 選択ツールを使用して任意の場所をダブルクリックしてテキストを追加することもできます",
+    "embeddable": "クリックしてドラッグし、ウェブサイトを埋め込む",
+    "autoshape": "",
+    "text_selected": "ダブルクリック、または {{shortcut}} を押してテキストを編集",
+    "text_editing": "{{shortcut_1}} または {{shortcut_2}} を押して編集を終了",
+    "linearElementMulti": "最後の点をクリック、または {{shortcut_1}} か {{shortcut_2}} を押して完了",
+    "lockAngle": "{{shortcut}} を押し続けて角度を固定",
+    "resize": "{{shortcut_1}} を押し続けて縦横比を維持、\n{{shortcut_2}} を押し続けて中心からリサイズ",
+    "resizeImage": "{{shortcut_1}} を押し続けて自由にリサイズ、\n{{shortcut_2}} を押し続けて中心からリサイズ",
+    "rotate": "{{shortcut}} を押し続けて角度を固定して回転",
+    "toggleArrowhead": "",
+    "lineEditor_info": "{{shortcut_1}} を押しながらダブルクリック、または {{shortcut_2}} を押して点を編集",
+    "lineEditor_line_info": "ダブルクリック、または {{shortcut}} を押して点を編集",
+    "lineEditor_pointSelected": "{{shortcut_1}} で点を削除、\n{{shortcut_2}} で複製、またはドラッグで移動",
+    "lineEditor_nothingSelected": "点を選択して編集 ({{shortcut_1}} を押し続けて複数選択)、\nまたは {{shortcut_2}} を押しながらクリックで新しい点を追加",
+    "bindTextToElement": "{{shortcut}} でテキストを追加",
+    "createFlowchart": "{{shortcut}} でフローチャートを作成",
+    "deepBoxSelect": "{{shortcut}} を押し続けて詳細選択・ドラッグ防止",
+    "eraserRevert": "{{shortcut}} を押し続けて削除マークを取り消し",
+    "firefox_clipboard_write": "この機能は、\"dom.events.asyncClipboard.clipboardItem\" フラグを \"true\" に設定することで有効になる可能性があります。Firefox でブラウザーの設定を変更するには、\"about:config\" ページを参照してください。",
+    "disableSnapping": "{{shortcut}} を押し続けてスナップを無効化",
+    "enterCropEditor": "画像をダブルクリック、または {{shortcut}} を押して切り抜き",
+    "leaveCropEditor": "画像の外をクリック、または {{shortcut_1}} か {{shortcut_2}} を押して切り抜きを終了"
+  },
+  "canvasError": {
+    "cannotShowPreview": "プレビューを表示できません",
+    "canvasTooBig": "キャンバスが大きすぎます。",
+    "canvasTooBigTip": "ヒント: 最も遠い要素をもう少し近づけてみてください。"
+  },
+  "errorDialog": {
+    "title": "エラー"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "ディスクに保存",
+    "disk_details": "シーンデータを後からインポートできるファイルにエクスポートします。",
+    "disk_button": "ファイルへ保存",
+    "link_title": "共有可能なリンク",
+    "link_details": "読み取り専用リンクとしてエクスポート",
+    "link_button": "リンクとしてエクスポート"
+  },
+  "helpDialog": {
+    "click": "クリック",
+    "deepSelect": "深い選択",
+    "deepBoxSelect": "ボックス内の深い選択、およびドラッグの抑止",
+    "createFlowchart": "汎用要素からフローチャートを作成",
+    "navigateFlowchart": "フローチャート内を移動",
+    "curvedArrow": "カーブした矢印",
+    "curvedLine": "曲線",
+    "doubleClick": "ダブルクリック",
+    "drag": "ドラッグ",
+    "editor": "エディタ",
+    "editLineArrowPoints": "線/矢印の点を編集",
+    "editText": "テキストの編集 / ラベルの追加",
+    "or": "または",
+    "preventBinding": "矢印を結合しない",
+    "tools": "ツール",
+    "shortcuts": "キーボードショートカット",
+    "textFinish": "編集を終了 (テキストエディタ)",
+    "textNewLine": "新しい行を追加 (テキスト)",
+    "title": "ヘルプ",
+    "view": "表示",
+    "zoomToFit": "すべての要素が収まるようにズーム",
+    "zoomToSelection": "選択要素にズーム",
+    "toggleElementLock": "選択したアイテムをロック/ロック解除",
+    "movePageUpDown": "ページを上下に移動",
+    "movePageLeftRight": "ページを左右に移動",
+    "cropStart": "画像を切り抜き",
+    "cropFinish": "画像の切り抜きを終了"
+  },
+  "clearCanvasDialog": {
+    "title": "キャンバスを消去"
+  },
+  "imageExportDialog": {
+    "header": "画像をエクスポート",
+    "label": {
+      "withBackground": "背景",
+      "onlySelected": "選択した図形のみ",
+      "darkMode": "ダークモード",
+      "embedScene": "シーンを埋め込む",
+      "scale": "スケール",
+      "padding": "余白"
+    },
+    "tooltip": {
+      "embedScene": "シーンデータをエクスポートする PNG/SVG ファイルに保存し、シーンを復元できるようにします。\nファイルサイズは増加します。"
+    },
+    "title": {
+      "exportToPng": "PNG にエクスポート",
+      "exportToSvg": "SVG にエクスポート",
+      "copyPngToClipboard": "クリップボードにPNGをコピー"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "クリップボードにコピー"
+    }
+  },
+  "stats": {
+    "shapes": "図形",
+    "height": "高さ",
+    "scene": "シーン",
+    "fullTitle": "キャンバス・図形のプロパティ",
+    "title": "プロパティ",
+    "generalStats": "全般",
+    "elementProperties": "図形のプロパティ",
+    "width": "幅"
+  },
+  "toast": {
+    "copyStyles": "スタイルをコピーしました。",
+    "copyToClipboardAsPng": "{{exportSelection}} を PNG 形式でクリップボードにコピーしました\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "{{exportSelection}} を SVG 形式でクリップボードにコピーしました\n({{exportColorScheme}})",
+    "fileSaved": "ファイルを保存しました",
+    "fileSavedToFilename": "{filename} に保存しました",
+    "canvas": "キャンバス",
+    "selection": "選択",
+    "pasteAsSingleElement": "{{shortcut}} を使用して単一の要素として貼り付けるか、\n既存のテキストエディタに貼り付け",
+    "unableToEmbed": "この URL の埋め込みは現在許可されていません。URL のホワイトリストへの追加をリクエストするには、GitHub で Issue を上げてください。",
+    "unrecognizedLinkFormat": "埋め込もうとしたリンクは期待するフォーマットと一致しません。埋め込み元のサイトで提供される「embed」の文字列を貼り付けてください。",
+    "elementLinkCopied": "リンクをクリップボードにコピーしました"
+  },
+  "colors": {
+    "transparent": "透明",
+    "black": "黒",
+    "white": "白",
+    "red": "赤",
+    "pink": "ピンク",
+    "grape": "グレープ",
+    "violet": "紫",
+    "gray": "灰色",
+    "blue": "青",
+    "cyan": "シアン",
+    "teal": "青緑",
+    "green": "緑",
+    "yellow": "黄",
+    "orange": "オレンジ",
+    "bronze": "ブロンズ"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "エクスポート、設定、その他...",
+      "center_heading": "ダイアグラムを簡単に。",
+      "toolbarHint": "ツールを選んで描き始めよう！",
+      "helpHint": "ショートカットとヘルプ"
+    }
+  },
+  "colorPicker": {
+    "color": "色",
+    "mostUsedCustomColors": "最も使用されているカスタム色",
+    "colors": "色",
+    "shades": "影",
+    "hexCode": "16進コード",
+    "noShades": "この色で利用できる影はありません",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "画像としてエクスポート",
+        "button": "画像としてエクスポート",
+        "description": "シーンデータを後でインポートできる画像としてエクスポートします。"
+      },
+      "saveToDisk": {
+        "title": "ディスクに保存",
+        "button": "ディスクに保存",
+        "description": "シーンデータを後でインポートできるファイルにエクスポートします。"
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "ファイルからロード",
+        "button": "ファイルからロード",
+        "description": "ファイルからの読み込みは、<bold>現在の描画内容を置き換えます</bold>。<br></br>その前に、以下の選択肢のいずれかにより描画内容を保存できます。"
+      }
+    }
+  },
+  "mermaid": {
+    "title": "Mermaid を Excalidraw に変換",
+    "button": "挿入",
+    "description": "",
+    "inputPlaceholder": "Mermaid のダイアグラム定義をここに入力...",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "再試行",
+    "errors": {
+      "mermaidParseError": "Mermaid構文エラー"
+    }
+  },
+  "quickSearch": {
+    "placeholder": "クイック検索"
+  },
+  "fontList": {
+    "badge": {
+      "old": "旧"
+    },
+    "sceneFonts": "このシーン内",
+    "availableFonts": "利用可能フォント",
+    "empty": "フォントなし"
+  },
+  "userList": {
+    "empty": "ユーザーなし",
+    "hint": {
+      "text": "ユーザーをクリックしてフォロー",
+      "followStatus": "現在このユーザーをフォローしています",
+      "inCall": "ユーザーは音声通話中です",
+      "micMuted": "ユーザーのマイクはミュート中です",
+      "isSpeaking": "ユーザーは発話中です"
+    }
+  },
+  "commandPalette": {
+    "title": "コマンドパレット",
+    "shortcuts": {
+      "select": "選択",
+      "confirm": "確認",
+      "close": "閉じる"
+    },
+    "recents": "最近使ったもの",
+    "search": {
+      "placeholder": "メニュー、コマンドを検索して便利な機能を見つけよう",
+      "noMatch": "一致するコマンドはありません..."
+    },
+    "itemNotAvailable": "コマンドを利用できません...",
+    "shortcutHint": "コマンドパレットには{{shortcut}}を使用"
+  },
+  "keys": {
+    "ctrl": "Ctrl",
+    "option": "Option",
+    "cmd": "Cmd",
+    "alt": "Alt",
+    "escape": "Esc",
+    "enter": "Enter",
+    "shift": "Shift",
+    "spacebar": "スペース",
+    "delete": "Delete"
+  }
+}

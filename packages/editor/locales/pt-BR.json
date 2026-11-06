@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Colar",
+    "pasteAsPlaintext": "Colar como texto sem formatação",
+    "pasteCharts": "Colar gráficos",
+    "chartType_bar": "Gráfico de barras",
+    "chartType_line": "Gráfico de linhas",
+    "chartType_radar": "Gráfico de radar",
+    "chartType_plaintext": "Texto simples",
+    "selectAll": "Selecionar tudo",
+    "multiSelect": "Adicionar elemento à seleção",
+    "moveCanvas": "Mover tela",
+    "cut": "Recortar",
+    "copy": "Copiar",
+    "copyAsPng": "Copiar para a área de transferência como PNG",
+    "copyAsSvg": "Copiar para a área de transferência como SVG",
+    "copyText": "Copiar para área de transferência como texto",
+    "bringForward": "Trazer para a frente",
+    "sendToBack": "Enviar para o fundo",
+    "bringToFront": "Trazer para o primeiro plano",
+    "sendBackward": "Enviar para trás",
+    "delete": "Apagar",
+    "copyStyles": "Copiar os estilos",
+    "pasteStyles": "Colar os estilos",
+    "stroke": "Contorno",
+    "changeStroke": "Alterar cor da borda",
+    "background": "Fundo",
+    "changeBackground": "Alterar cor de fundo",
+    "fill": "Preenchimento",
+    "strokeWidth": "Espessura do traço",
+    "strokeStyle": "Estilo do traço",
+    "strokeStyle_solid": "Sólido",
+    "strokeStyle_dashed": "Tracejado",
+    "strokeStyle_dotted": "Pontilhado",
+    "sloppiness": "Precisão do traço",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Opacidade",
+    "textAlign": "Alinhamento do texto",
+    "edges": "Arestas",
+    "sharp": "Pontudo",
+    "round": "Arredondado",
+    "arrowheads": "Pontas",
+    "arrowhead_none": "Nenhuma",
+    "arrowhead_arrow": "Flecha",
+    "arrowhead_bar": "Barra",
+    "arrowhead_circle": "Círculo",
+    "arrowhead_circle_outline": "Circulo (contorno)",
+    "arrowhead_triangle": "Triângulo",
+    "arrowhead_triangle_outline": "Triângulo (contorno)",
+    "arrowhead_diamond": "Diamante",
+    "arrowhead_diamond_outline": "Diamante (contorno)",
+    "arrowhead_cardinality_one": "Cardinalidade (um)",
+    "arrowhead_cardinality_many": "Cardinalidade (muitos)",
+    "arrowhead_cardinality_one_or_many": "Cardinalidade (um ou muitos)",
+    "arrowhead_cardinality_exactly_one": "Cardinalidade (exatamente um)",
+    "arrowhead_cardinality_zero_or_one": "Cardinalidade (zero ou um)",
+    "arrowhead_cardinality_zero_or_many": "Cardinalidade (zero ou muitos)",
+    "more_options": "Mais opções",
+    "cardinality": "Cardinalidade",
+    "arrowtypes": "Tipo de seta",
+    "arrowtype_sharp": "Seta afiada",
+    "arrowtype_round": "Seta curva",
+    "arrowtype_elbowed": "Seta dobrada",
+    "fontSize": "Tamanho da fonte",
+    "fontFamily": "Família da fonte",
+    "handDrawn": "Manuscrito",
+    "normal": "Normal",
+    "code": "Código",
+    "small": "Pequeno",
+    "medium": "Médio",
+    "large": "Grande",
+    "veryLarge": "Muito grande",
+    "solid": "Sólido",
+    "hachure": "Hachura",
+    "zigzag": "Zigue-zague",
+    "crossHatch": "Hachura cruzada",
+    "thin": "Fino",
+    "bold": "Espesso",
+    "left": "Esquerda",
+    "center": "Centralizar",
+    "right": "Direita",
+    "architect": "Arquiteto",
+    "artist": "Artista",
+    "cartoonist": "Cartunista",
+    "fileTitle": "Nome do arquivo",
+    "colorPicker": "Seletor de cores",
+    "canvasBackground": "Fundo da tela",
+    "drawingCanvas": "Tela de desenho",
+    "clearCanvas": "Limpar a tela",
+    "layers": "Camadas",
+    "actions": "Ações",
+    "liveCollaboration": "Colaboração ao vivo...",
+    "duplicateSelection": "Duplicar",
+    "untitled": "Sem título",
+    "group": "Agrupar seleção",
+    "ungroup": "Desagrupar seleção",
+    "collaborators": "Colaboradores",
+    "you": "",
+    "toggleGrid": "Alternar grade",
+    "loadingScene": "Carregando cena…",
+    "align": "Alinhamento",
+    "alignTop": "Alinhar ao topo",
+    "alignBottom": "Alinhar embaixo",
+    "alignLeft": "Alinhar à esquerda",
+    "alignRight": "Alinhar à direita",
+    "centerVertically": "Centralizar verticalmente",
+    "centerHorizontally": "Centralizar horizontalmente",
+    "distributeHorizontally": "Distribuir horizontalmente",
+    "distributeVertically": "Distribuir verticalmente",
+    "flipHorizontal": "Inverter horizontalmente",
+    "flipVertical": "Inverter verticalmente",
+    "viewMode": "Modo de visualização",
+    "share": "Compartilhar",
+    "showStroke": "Exibir seletor de cores do traço",
+    "showBackground": "Exibir seletor de cores do fundo",
+    "showFonts": "Exibir seletor de fonte",
+    "toggleTheme": "Alternar tema claro/escuro",
+    "theme": "Tema",
+    "decreaseFontSize": "Diminuir o tamanho da fonte",
+    "increaseFontSize": "Aumentar o tamanho da fonte",
+    "unbindText": "Desvincular texto",
+    "bindText": "Vincular texto ao contêiner",
+    "createContainerFromText": "Envolver texto em um contêiner",
+    "link": {
+      "edit": "Editar link",
+      "editEmbed": "Editar link incorporável",
+      "create": "Adicionar link",
+      "label": "Link",
+      "labelEmbed": "Vincular e incorporar",
+      "empty": "Nenhum link foi definido",
+      "hint": "Digite ou cole o seu link aqui",
+      "goToElement": "Ir para o elemento alvo"
+    },
+    "lineEditor": {
+      "edit": "Editar linha",
+      "editArrow": "Editar seta"
+    },
+    "polygon": {
+      "breakPolygon": "Parar polígono",
+      "convertToPolygon": "Converter para polígono"
+    },
+    "elementLock": {
+      "lock": "Bloquear",
+      "unlock": "Desbloquear",
+      "unlockAll": "Desbloquear tudo"
+    },
+    "sidebarLock": "Manter barra lateral aberta",
+    "selectAllElementsInFrame": "Selecionar todos os elementos no quadro",
+    "removeAllElementsFromFrame": "Remover todos os elementos do quadro",
+    "eyeDropper": "Escolher cor da tela",
+    "zoomToFitViewport": "Zoom para caber na tela",
+    "autoResize": "Habilitar redimensionamento automático de texto",
+    "imageCropping": "Recorte de imagem",
+    "unCroppedDimension": "Dimensão sem recortes",
+    "copyElementLink": "Copiar link para o objeto",
+    "linkToElement": "Links para o objeto",
+    "wrapSelectionInFrame": "Ajustar seleção no frame",
+    "shapeSwitch": "Trocar forma",
+    "preferences": "Preferências",
+    "preferences_toolLock": "Bloqueio de ferramenta",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "Atalho de flecha",
+    "midpointSnapping": "Encaixar em pontos intermediários"
+  },
+  "elementLink": {
+    "title": "Links para o objeto",
+    "desc": "Clique em uma forma na tela ou cole um link.",
+    "notFound": "Objeto vinculado não foi encontrado na tela."
+  },
+  "search": {
+    "title": "Procurar na tela",
+    "noMatch": "Nenhum resultado encontrado...",
+    "singleResult": "resultado",
+    "multipleResults": "resultados",
+    "placeholder": "Procurar texto na tela...",
+    "frames": "Quadros",
+    "texts": "Textos"
+  },
+  "buttons": {
+    "clearReset": "Limpar a tela",
+    "exportImage": "Exportar imagem...",
+    "export": "Salvar como...",
+    "save": "Salvar para o arquivo atual",
+    "saveAs": "Salvar como",
+    "load": "Abrir",
+    "close": "Fechar",
+    "scrollBackToContent": "Voltar para o conteúdo",
+    "zoomIn": "Aumentar zoom",
+    "zoomOut": "Diminuir zoom",
+    "resetZoom": "Redefinir zoom",
+    "done": "Concluído",
+    "edit": "Editar",
+    "undo": "Desfazer",
+    "redo": "Refazer",
+    "darkMode": "Modo escuro",
+    "lightMode": "Modo claro",
+    "systemMode": "Modo do sistema",
+    "zenMode": "Modo Zen",
+    "objectsSnapMode": "Encaixar em objetos",
+    "cancel": "Cancelar",
+    "remove": "Remover",
+    "confirm": "Confirmar",
+    "embeddableInteractionButton": "Clique para interagir"
+  },
+  "alerts": {
+    "clearReset": "Isto irá limpar toda a tela. Você tem certeza?",
+    "couldNotLoadInvalidFile": "Não foi possível carregar o arquivo inválido",
+    "cannotExportEmptyCanvas": "Não é possível exportar uma tela vazia.",
+    "couldNotCopyToClipboard": "Não foi possível copiar para a área de transferência.",
+    "cannotRestoreFromImage": "Não foi possível restaurar a cena deste arquivo de imagem"
+  },
+  "errors": {
+    "unsupportedFileType": "Tipo de arquivo não suportado.",
+    "imageInsertError": "Não foi possível inserir imagem. Tente novamente mais tarde...",
+    "fileTooBig": "O arquivo é muito grande. O tamanho máximo permitido é {{maxSize}}.",
+    "svgImageInsertError": "Não foi possível inserir a imagem SVG. A marcação SVG parece inválida.",
+    "failedToFetchImage": "Falha ao buscar imagem.",
+    "imageToolNotSupported": "Imagens estão desabilitadas.",
+    "brave_measure_text_error": {
+      "line1": "Parece que você está usando o navegador Brave com a configuração <bold>Bloquear Impressões Digitais</bold> no modo agressivo.",
+      "line2": "Isso pode acabar quebrando <bold>Elementos de Texto</bold> em seus desenhos."
+    },
+    "asyncPasteFailedOnRead": "Não foi possível colar (não foi possível ler da área de transferência do sistema).",
+    "asyncPasteFailedOnParse": "Não foi possível colar.",
+    "copyToSystemClipboardFailed": "Não foi possível copiar para a área de transferência."
+  },
+  "toolBar": {
+    "selection": "Seleção",
+    "lasso": "Seleção de laço",
+    "image": "Inserir imagem",
+    "rectangle": "Retângulo",
+    "diamond": "Losango",
+    "ellipse": "Elipse",
+    "arrow": "Flecha",
+    "line": "Linha",
+    "freedraw": "Desenhar",
+    "text": "Texto",
+    "lock": "Manter ativa a ferramenta selecionada após desenhar",
+    "penMode": "Modo caneta — impede o toque",
+    "link": "Adicionar / Atualizar link para uma forma selecionada",
+    "eraser": "Borracha",
+    "frame": "Ferramenta de quadro",
+    "embeddable": "Página web incorporada",
+    "laser": "Ponteiro de laser",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "Mão (ferramenta de rolagem)",
+    "extraTools": "Mais ferramentas",
+    "mermaidToExcalidraw": "Mermaid para Excalidraw",
+    "convertElementType": "Alternar tipo de forma"
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "Retângulo",
+    "diamond": "Diamante",
+    "ellipse": "Elipse",
+    "arrow": "Seta",
+    "line": "Linha",
+    "freedraw": "Desenho livre",
+    "text": "Texto",
+    "image": "Imagem",
+    "group": "Grupo",
+    "frame": "Moldura",
+    "magicframe": "Wireframe para código",
+    "embeddable": "Página web incorporada",
+    "selection": "Seleção",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "Ações da tela",
+    "selectedShapeActions": "Ações das formas selecionadas",
+    "shapes": "Formas"
+  },
+  "hints": {
+    "dismissSearch": "{{shortcut}} para descartar a pesquisa",
+    "linearElement": "Clique para iniciar vários pontos, arraste para uma única linha",
+    "arrowTool": "Clique para colocar vários pontos, arraste para uma linha única. Pressione {{shortcut}} novamente para mudar o tipo de flecha.",
+    "arrowBindModifiers": "Segure {{shortcut_1}} para desativar o atalho, ou {{shortcut_2}} para vincular em um ponto fixo",
+    "freeDraw": "Toque e arraste, solte quando terminar",
+    "text": "Dica: você também pode adicionar texto clicando duas vezes em qualquer lugar com a ferramenta de seleção",
+    "embeddable": "Clique e arraste para criar um site incorporado",
+    "autoshape": "",
+    "text_selected": "Clique duas vezes ou pressione {{shortcut}} para editar texto",
+    "text_editing": "Pressione {{shortcut_1}} ou {{shortcut_2}} para salvar as edições",
+    "linearElementMulti": "Clique no último ponto ou pressione {{shortcut_1}} ou {{shortcut_2}} para finalizar",
+    "lockAngle": "Você pode restringir ângulos segurando {{shortcut}}",
+    "resize": "Você pode restringir proporções segurando {{shortcut_1}} enquanto redimensiona,\nsegure {{shortcut_2}} para redimensionar a partir do centro",
+    "resizeImage": "Você pode redimensionar livremente segurando {{shortcut_1}},\nsegure {{shortcut_2}} para redimensionar a partir do centro",
+    "rotate": "Você pode restringir ângulos segurando {{shortcut}} enquanto rotaciona",
+    "toggleArrowhead": "",
+    "lineEditor_info": "Segure {{shortcut_1}} e clique duas vezes com o mouse ou pressione {{shortcut_2}} para editar pontos",
+    "lineEditor_line_info": "Clique duas vezes ou pressione {{shortcut}} para editar pontos",
+    "lineEditor_pointSelected": "Pressione {{shortcut_1}} para remover ponto(s),\n{{shortcut_2}} para duplicar ou arraste para mover",
+    "lineEditor_nothingSelected": "Selecione um ponto para editar (segure {{shortcut_1}} para selecionar vários),\nou segure {{shortcut_2}} e clique para adicionar novos pontos",
+    "bindTextToElement": "{{shortcut}} para adicionar texto",
+    "createFlowchart": "{{shortcut}} para criar um fluxo",
+    "deepBoxSelect": "Segure {{shortcut}} para ativar seleção profunda e para evitar arrastamentos",
+    "eraserRevert": "Segure {{shortcut}} para reverter os elementos marcados para exclusão",
+    "firefox_clipboard_write": "Esse recurso pode ser ativado configurando a opção \"dom.events.asyncClipboard.clipboardItem\" como \"true\". Para alterar os sinalizadores do navegador no Firefox, visite a página \"about:config\".",
+    "disableSnapping": "Segure {{shortcut}} para desativar o encaixe automático",
+    "enterCropEditor": "Clique duas vezes na imagem ou pressione {{shortcut}} para recortá-la",
+    "leaveCropEditor": "Clique fora da imagem ou pressione {{shortcut_1}} ou {{shortcut_2}} para finalizar o recorte"
+  },
+  "canvasError": {
+    "cannotShowPreview": "Não é possível mostrar pré-visualização",
+    "canvasTooBig": "A tela pode ser muito grande.",
+    "canvasTooBigTip": "Dica: tente aproximar um pouco os elementos mais distantes."
+  },
+  "errorDialog": {
+    "title": "Erro"
+  },
+  "progressDialog": {
+    "defaultMessage": "Preparando para salvar..."
+  },
+  "exportDialog": {
+    "disk_title": "Salvar no computador",
+    "disk_details": "Exportar os dados da cena para um arquivo que você poderá importar mais tarde.",
+    "disk_button": "Salvar em um arquivo",
+    "link_title": "Link compartilhável",
+    "link_details": "Exportar como link de somente leitura.",
+    "link_button": "Exportar link"
+  },
+  "helpDialog": {
+    "click": "clicar",
+    "deepSelect": "Seleção profunda",
+    "deepBoxSelect": "Use a seleção profunda dentro da caixa para previnir arrastar",
+    "createFlowchart": "Crie um fluxograma a partir de um elemento genérico",
+    "navigateFlowchart": "Navegar por um fluxograma",
+    "curvedArrow": "Seta curva",
+    "curvedLine": "Linha curva",
+    "doubleClick": "clique duplo",
+    "drag": "arrastar",
+    "editor": "Editor",
+    "editLineArrowPoints": "Editar linha/ponta da seta",
+    "editText": "Editar texto / adicionar etiqueta",
+    "or": "ou",
+    "preventBinding": "Evitar fixação de seta",
+    "tools": "Ferramentas",
+    "shortcuts": "Atalhos de teclado",
+    "textFinish": "Encerrar edição (editor de texto)",
+    "textNewLine": "Adicionar nova linha (editor de texto)",
+    "title": "Ajuda",
+    "view": "Visualizar",
+    "zoomToFit": "Ampliar para encaixar todos os elementos",
+    "zoomToSelection": "Ampliar a seleção",
+    "toggleElementLock": "Bloquear/desbloquear seleção",
+    "movePageUpDown": "Mover a página para cima/baixo",
+    "movePageLeftRight": "Mover a página para esquerda/direita",
+    "cropStart": "Recortar imagem",
+    "cropFinish": "Finalizar corte da imagem"
+  },
+  "clearCanvasDialog": {
+    "title": "Limpar a tela"
+  },
+  "imageExportDialog": {
+    "header": "Exportar imagem",
+    "label": {
+      "withBackground": "Fundo",
+      "onlySelected": "Somente selecionados",
+      "darkMode": "Modo escuro",
+      "embedScene": "Incorporar cena",
+      "scale": "Escala",
+      "padding": "Margem interna"
+    },
+    "tooltip": {
+      "embedScene": "Os dados da cena serão salvos no arquivo PNG/SVG exportado para que a cena possa ser restaurada a partir dele.\nIsso aumentará o tamanho do arquivo exportado."
+    },
+    "title": {
+      "exportToPng": "Exportar como PNG",
+      "exportToSvg": "Exportar como SVG",
+      "copyPngToClipboard": "Copiar PNG para área de transferência"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "Copiar para a área de transferência"
+    }
+  },
+  "stats": {
+    "shapes": "Formas",
+    "height": "Altura",
+    "scene": "Cena",
+    "fullTitle": "Propriedades da Tela e da Forma",
+    "title": "Propriedades",
+    "generalStats": "Geral",
+    "elementProperties": "Propriedades da forma",
+    "width": "Largura"
+  },
+  "toast": {
+    "copyStyles": "Estilos copiados.",
+    "copyToClipboardAsPng": "{{exportSelection}} copiado para a área de transferência como PNG ({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "Copiado {{exportSelection}} para a área de transferência com SVG ({{exportColorScheme}})",
+    "fileSaved": "Arquivo salvo.",
+    "fileSavedToFilename": "Salvo em {filename}",
+    "canvas": "tela",
+    "selection": "seleção",
+    "pasteAsSingleElement": "Use {{shortcut}} para colar como um único elemento,\nou cole em um editor de texto já existente",
+    "unableToEmbed": "No momento não é permitido incorporar esta URL. Crie uma issue no GitHub para solicitar a lista branca da URL",
+    "unrecognizedLinkFormat": "O link incorporado não corresponde ao formato esperado. Por favor, tente colar a string 'incorporada' que foi fornecida pelo site de origem",
+    "elementLinkCopied": "Link copiado para a área de transferência"
+  },
+  "colors": {
+    "transparent": "Transparente",
+    "black": "Preto",
+    "white": "Branco",
+    "red": "Vermelho",
+    "pink": "Rosa",
+    "grape": "Uva",
+    "violet": "Violeta",
+    "gray": "Cinza",
+    "blue": "Azul",
+    "cyan": "Ciano",
+    "teal": "Verde-azulado",
+    "green": "Verde",
+    "yellow": "Amarelo",
+    "orange": "Laranja",
+    "bronze": "Bronze"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "Exportar, preferências e mais...",
+      "center_heading": "Diagramas, Feito. Simples.",
+      "toolbarHint": "Escolha uma ferramenta e comece a desenhar!",
+      "helpHint": "Atalhos e ajuda"
+    }
+  },
+  "colorPicker": {
+    "color": "Cor",
+    "mostUsedCustomColors": "Cores personalizadas mais usadas",
+    "colors": "Cores",
+    "shades": "Tons",
+    "hexCode": "Código hexadecimal",
+    "noShades": "Sem tons disponíveis para essa cor",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "Exportar como imagem",
+        "button": "Exportar como imagem",
+        "description": "Exportar os dados da cena para um arquivo que você poderá importar mais tarde."
+      },
+      "saveToDisk": {
+        "title": "Salvar no computador",
+        "button": "Salvar no computador",
+        "description": "Exportar os dados da cena para um arquivo que você poderá importar mais tarde."
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "Carregar de arquivo",
+        "button": "Carregar de arquivo",
+        "description": "Carregar de um arquivo irá <bold> substituir o conteúdo existente</bold>.<br></br>Você pode salvar seu desenho primeiro usando uma das opções abaixo."
+      }
+    }
+  },
+  "mermaid": {
+    "title": "Mermaid para Excalidraw",
+    "button": "Inserir",
+    "description": "Atualmente, apenas <flowchartLink>fluxogramas</flowchartLink>, <sequenceLink>sequências</sequenceLink>, <classLink>classes</classLink> e <erdLink>diagramas de relacionamento de entidades</erdLink> são suportados. Outros tipos serão mostrados como imagens no Excalidraw.",
+    "inputPlaceholder": "Escreva definição de diagrama Mermaid aqui...",
+    "autoFixAvailable": "Auto-correção disponível"
+  },
+  "chat": {
+    "retry": "Tentar novamente",
+    "errors": {
+      "mermaidParseError": "Erro de sintaxe Mermaid"
+    }
+  },
+  "quickSearch": {
+    "placeholder": "Busca rápida"
+  },
+  "fontList": {
+    "badge": {
+      "old": "antigo"
+    },
+    "sceneFonts": "Neste cenário",
+    "availableFonts": "Fontes disponíveis",
+    "empty": "Nenhuma fonte encontrada"
+  },
+  "userList": {
+    "empty": "Nenhum usuário encontrado",
+    "hint": {
+      "text": "Clique no usuário para seguir",
+      "followStatus": "Atualmente você está seguindo este usuário",
+      "inCall": "O usuário está em uma chamada de voz",
+      "micMuted": "O microfone do usuário está silenciado",
+      "isSpeaking": "O usuário está falando"
+    }
+  },
+  "commandPalette": {
+    "title": "Paleta de comandos",
+    "shortcuts": {
+      "select": "Selecionar",
+      "confirm": "Confirmar",
+      "close": "Fechar"
+    },
+    "recents": "Usado recentemente",
+    "search": {
+      "placeholder": "Procure menus, comandos e descubra gemas ocultas",
+      "noMatch": "Nenhum comando correspondente..."
+    },
+    "itemNotAvailable": "Comando indisponível...",
+    "shortcutHint": "Para a paleta de comandos, use {{shortcut}}"
+  },
+  "keys": {
+    "ctrl": "Ctrl",
+    "option": "Option",
+    "cmd": "Cmd",
+    "alt": "Alt",
+    "escape": "Esc",
+    "enter": "Enter",
+    "shift": "Shift",
+    "spacebar": "Barra de espaço",
+    "delete": "Delete"
+  }
+}

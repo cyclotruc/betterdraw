@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Indsæt",
+    "pasteAsPlaintext": "Indsæt som klartekst",
+    "pasteCharts": "Indsæt diagrammer",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "Marker alle",
+    "multiSelect": "Tilføj element til markering",
+    "moveCanvas": "Flyt lærred",
+    "cut": "Klip",
+    "copy": "Kopier",
+    "copyAsPng": "Kopier til klippebord som PNG",
+    "copyAsSvg": "Kopier til klippebord som SVG",
+    "copyText": "Kopiér til udklipsholder som tekst",
+    "bringForward": "Flyt fremad",
+    "sendToBack": "Placer bagest",
+    "bringToFront": "Placer forrest",
+    "sendBackward": "Send bagud",
+    "delete": "Fjern",
+    "copyStyles": "Kopier stil",
+    "pasteStyles": "Indsæt stil",
+    "stroke": "Linje",
+    "changeStroke": "Ændr stregfarve",
+    "background": "Baggrund",
+    "changeBackground": "Ændr baggrundsfarve",
+    "fill": "Udfyld",
+    "strokeWidth": "Linjebredde",
+    "strokeStyle": "Linjeform",
+    "strokeStyle_solid": "Solid",
+    "strokeStyle_dashed": "Stiplet",
+    "strokeStyle_dotted": "Prikket",
+    "sloppiness": "Sjuskethed",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Gennemsigtighed",
+    "textAlign": "Tekstjustering",
+    "edges": "Kanter",
+    "sharp": "Skarp",
+    "round": "Rund",
+    "arrowheads": "Pilehoveder",
+    "arrowhead_none": "Ingen",
+    "arrowhead_arrow": "Pil",
+    "arrowhead_bar": "Bjælke",
+    "arrowhead_circle": "Cirkel",
+    "arrowhead_circle_outline": "Cirkel (omrids)",
+    "arrowhead_triangle": "Trekant",
+    "arrowhead_triangle_outline": "Trekant (omrids)",
+    "arrowhead_diamond": "Diamant",
+    "arrowhead_diamond_outline": "Diamant (omrids)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "Flere muligheder",
+    "cardinality": "",
+    "arrowtypes": "Pile type",
+    "arrowtype_sharp": "Skarp pil",
+    "arrowtype_round": "Buet pil",
+    "arrowtype_elbowed": "Albuepil",
+    "fontSize": "Skriftstørrelse",
+    "fontFamily": "Skrifttypefamilie",
+    "handDrawn": "Hånd-tegnet",
+    "normal": "Normal",
+    "code": "Kode",
+    "small": "Lille",
+    "medium": "Mellem",
+    "large": "Stor",
+    "veryLarge": "Meget stor",
+    "solid": "Solid",
+    "hachure": "Skravering",
+    "zigzag": "Zigzag",
+    "crossHatch": "Krydsskravering",
+    "thin": "Tynd",
+    "bold": "Fed",
+    "left": "Venstre",
+    "center": "Centrere",
+    "right": "Højre",
+    "architect": "Arkitekt",
+    "artist": "Kunstner",
+    "cartoonist": "Tegneserietegner",
+    "fileTitle": "Filnavn",
+    "colorPicker": "Farvevælger",
+    "canvasBackground": "Lærredsbaggrund",
+    "drawingCanvas": "Tegnelærred",
+    "clearCanvas": "Ryd lærred",
+    "layers": "Lag",
+    "actions": "Handlinger",
+    "liveCollaboration": "Live samarbejde...",
+    "duplicateSelection": "Duplikér",
+    "untitled": "Unavngivet",
+    "group": "Gruppér valgte",
+    "ungroup": "Afgruppér valgte",
+    "collaborators": "Samarbejdspartnere",
+    "you": "",
+    "toggleGrid": "Slå gitter til/fra",
+    "loadingScene": "Indlæser scene…",
+    "align": "Justér",
+    "alignTop": "Juster til top",
+    "alignBottom": "Juster til bund",
+    "alignLeft": "Venstrejusteret",
+    "alignRight": "Højrejustér",
+    "centerVertically": "Centrér vertikalt",
+    "centerHorizontally": "Centrér horisontalt",
+    "distributeHorizontally": "Distribuer vandret",
+    "distributeVertically": "Distribuer lodret",
+    "flipHorizontal": "Vend horisontalt",
+    "flipVertical": "Vend vertikalt",
+    "viewMode": "Visningstilstand",
+    "share": "Del",
+    "showStroke": "Vis stregfarve-vælger",
+    "showBackground": "Vis baggrundsfarve-vælger",
+    "showFonts": "Vis skrifttypevælger",
+    "toggleTheme": "Slå lys/mørkt tema til/fra",
+    "theme": "Tema",
+    "decreaseFontSize": "",
+    "increaseFontSize": "",
+    "unbindText": "",
+    "bindText": "",
+    "createContainerFromText": "",
+    "link": {
+      "edit": "",
+      "editEmbed": "",
+      "create": "",
+      "label": "",
+      "labelEmbed": "",
+      "empty": "",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "",
+      "unlock": "",
+      "unlockAll": ""
+    },
+    "sidebarLock": "",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "",
+    "exportImage": "",
+    "export": "",
+    "save": "",
+    "saveAs": "Gem som",
+    "load": "",
+    "close": "Luk",
+    "scrollBackToContent": "Scroll tilbage til indhold",
+    "zoomIn": "Zoom ind",
+    "zoomOut": "Zoom ud",
+    "resetZoom": "Nulstil zoom",
+    "done": "Færdig",
+    "edit": "Rediger",
+    "undo": "Fortryd",
+    "redo": "Gendan",
+    "darkMode": "Mørk tilstand",
+    "lightMode": "Lys baggrund",
+    "systemMode": "",
+    "zenMode": "Zentilstand",
+    "objectsSnapMode": "",
+    "cancel": "Annuller",
+    "remove": "Fjern",
+    "confirm": "Bekræft",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "Dette vil rydde hele lærredet. Er du sikker?",
+    "couldNotLoadInvalidFile": "Kunne ikke indlæse ugyldig fil",
+    "cannotExportEmptyCanvas": "",
+    "couldNotCopyToClipboard": "",
+    "cannotRestoreFromImage": ""
+  },
+  "errors": {
+    "unsupportedFileType": "",
+    "imageInsertError": "",
+    "fileTooBig": "",
+    "svgImageInsertError": "",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "",
+    "lasso": "",
+    "image": "",
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "lock": "",
+    "penMode": "",
+    "link": "",
+    "eraser": "",
+    "frame": "",
+    "embeddable": "",
+    "laser": "",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "",
+    "extraTools": "",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "",
+    "selectedShapeActions": "",
+    "shapes": ""
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "Klik og træk, slip når du er færdig",
+    "text": "",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "",
+    "canvasTooBig": "",
+    "canvasTooBigTip": ""
+  },
+  "errorDialog": {
+    "title": "Fejl"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "Gem til disk",
+    "disk_details": "",
+    "disk_button": "",
+    "link_title": "",
+    "link_details": "",
+    "link_button": ""
+  },
+  "helpDialog": {
+    "click": "",
+    "deepSelect": "",
+    "deepBoxSelect": "",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "",
+    "curvedLine": "",
+    "doubleClick": "",
+    "drag": "",
+    "editor": "",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "",
+    "preventBinding": "",
+    "tools": "",
+    "shortcuts": "",
+    "textFinish": "",
+    "textNewLine": "",
+    "title": "",
+    "view": "",
+    "zoomToFit": "",
+    "zoomToSelection": "",
+    "toggleElementLock": "",
+    "movePageUpDown": "",
+    "movePageLeftRight": "",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": ""
+  },
+  "imageExportDialog": {
+    "header": "",
+    "label": {
+      "withBackground": "",
+      "onlySelected": "",
+      "darkMode": "",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    },
+    "button": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "",
+    "scene": "",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "Bredde"
+  },
+  "toast": {
+    "copyStyles": "Kopieret stilarter.",
+    "copyToClipboardAsPng": "Kopieret {{exportSelection}} til klippebord som PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "Fil gemt.",
+    "fileSavedToFilename": "Gemt som {filename}",
+    "canvas": "",
+    "selection": "markering",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "",
+    "black": "",
+    "white": "",
+    "red": "",
+    "pink": "",
+    "grape": "",
+    "violet": "",
+    "gray": "",
+    "blue": "",
+    "cyan": "",
+    "teal": "",
+    "green": "",
+    "yellow": "",
+    "orange": "",
+    "bronze": ""
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "",
+      "center_heading": "",
+      "toolbarHint": "",
+      "helpHint": ""
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "",
+    "colors": "",
+    "shades": "",
+    "hexCode": "",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

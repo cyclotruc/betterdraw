@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "הדבקה",
+    "pasteAsPlaintext": "הדבקה ללא עיצוב",
+    "pasteCharts": "הדבקת תרשימים",
+    "chartType_bar": "תרשים עמודות",
+    "chartType_line": "תרשים קווים",
+    "chartType_radar": "תרשים רדאר",
+    "chartType_plaintext": "טקסט פשוט",
+    "selectAll": "בחירה בהכול",
+    "multiSelect": "הוספת רכיב לבחירה",
+    "moveCanvas": "הזזת הקנבס",
+    "cut": "גזירה",
+    "copy": "העתקה",
+    "copyAsPng": "העתקה ללוח כ־PNG",
+    "copyAsSvg": "העתקה ללוח כ־SVG",
+    "copyText": "העתק ללוח כטקסט",
+    "bringForward": "קירוב השכבה",
+    "sendToBack": "הרחקה אחורה",
+    "bringToFront": "קירוב לחזית",
+    "sendBackward": "הרחקה אחורה עד הסוף",
+    "delete": "מחיקה",
+    "copyStyles": "העתקת סגנון",
+    "pasteStyles": "הדבקת סגנונות",
+    "stroke": "קו מתאר",
+    "changeStroke": "החלפת צבע קו מתאר",
+    "background": "רקע",
+    "changeBackground": "החלפת צבע הרקע",
+    "fill": "מילוי",
+    "strokeWidth": "עובי קו מתאר",
+    "strokeStyle": "סגנון קו המתאר",
+    "strokeStyle_solid": "מלא",
+    "strokeStyle_dashed": "מקווקו",
+    "strokeStyle_dotted": "מנוקד",
+    "sloppiness": "רישול",
+    "pressure": "לחץ",
+    "pressure_constant": "קבוע",
+    "pressure_variable": "משתנה",
+    "opacity": "אטימות",
+    "textAlign": "יישור טקסט",
+    "edges": "קצוות",
+    "sharp": "חד",
+    "round": "עגול",
+    "arrowheads": "ראשי חצים",
+    "arrowhead_none": "ללא",
+    "arrowhead_arrow": "חץ",
+    "arrowhead_bar": "קצה אנכי",
+    "arrowhead_circle": "עיגול",
+    "arrowhead_circle_outline": "עיגול (קו מתאר)",
+    "arrowhead_triangle": "משולש",
+    "arrowhead_triangle_outline": "משולש (קו מתאר)",
+    "arrowhead_diamond": "יהלום",
+    "arrowhead_diamond_outline": "יהלום (קו מתאר)",
+    "arrowhead_cardinality_one": "קרדינליות (אחד)",
+    "arrowhead_cardinality_many": "קרדינליות (רבות)",
+    "arrowhead_cardinality_one_or_many": "קרדינליות (אחד או רבים)",
+    "arrowhead_cardinality_exactly_one": "קרדינליות (בדיוק אחד)",
+    "arrowhead_cardinality_zero_or_one": "קרדינליות (אפס או אחד)",
+    "arrowhead_cardinality_zero_or_many": "קרדינליות (אפס או רבים)",
+    "more_options": "אפשרויות נוספות",
+    "cardinality": "קרדינליות",
+    "arrowtypes": "סוג החץ",
+    "arrowtype_sharp": "חץ מחודד",
+    "arrowtype_round": "חץ מעוקל",
+    "arrowtype_elbowed": "חץ זוויתי",
+    "fontSize": "גודל גופן",
+    "fontFamily": "גופן",
+    "handDrawn": "שרבוט",
+    "normal": "רגיל",
+    "code": "קוד",
+    "small": "קטן",
+    "medium": "בינוני",
+    "large": "גדול",
+    "veryLarge": "גדול מאוד",
+    "solid": "אחיד",
+    "hachure": "קווים מקבילים קצרים להצגת כיוון וחדות שיפוע במפה",
+    "zigzag": "זיגזג",
+    "crossHatch": "קווים מוצלבים",
+    "thin": "דק",
+    "bold": "מודגש",
+    "left": "שמאל",
+    "center": "מרכז",
+    "right": "ימין",
+    "architect": "אדריכלות",
+    "artist": "אמן",
+    "cartoonist": "קריקטוריסט",
+    "fileTitle": "שם קובץ",
+    "colorPicker": "בורר צבעים",
+    "canvasBackground": "רקע קנבס",
+    "drawingCanvas": "קנבס ציור",
+    "clearCanvas": "ניקוי הקנבס",
+    "layers": "שכבות",
+    "actions": "פעולות",
+    "liveCollaboration": "התחלת שיתוף חי…",
+    "duplicateSelection": "שכפול",
+    "untitled": "ללא כותרת",
+    "group": "קיבוץ הבחירה",
+    "ungroup": "פירוק קבוצה",
+    "collaborators": "שותפים",
+    "you": "אני",
+    "toggleGrid": "הצגת/הסתרת רשת",
+    "loadingScene": "הסצנה נטענת…",
+    "align": "יישור",
+    "alignTop": "יישור למעלה",
+    "alignBottom": "יישור למטה",
+    "alignLeft": "יישור לשמאל",
+    "alignRight": "יישור לימין",
+    "centerVertically": "מירכוז אנכי",
+    "centerHorizontally": "מירכוז אופקי",
+    "distributeHorizontally": "פיזור אופקי",
+    "distributeVertically": "פיזור אנכי",
+    "flipHorizontal": "היפוך אופקי",
+    "flipVertical": "היפוך אנכי",
+    "viewMode": "מצב תצוגה",
+    "share": "שיתוף",
+    "showStroke": "הצגת בורר צבע מברשת",
+    "showBackground": "הצגת בורר צבע רקע",
+    "showFonts": "הצגת בורר הגופנים",
+    "toggleTheme": "החלפת מצב מואר/חשוך",
+    "theme": "ערכת עיצוב",
+    "decreaseFontSize": "הקטנת הכתב",
+    "increaseFontSize": "הגדלת הכתב",
+    "unbindText": "ביטול קיבוע הטקסט",
+    "bindText": "קיבוע הטקסט למיכל",
+    "createContainerFromText": "אריזת טקסט במיכל",
+    "link": {
+      "edit": "עריכת קישור",
+      "editEmbed": "עריכת קישור מוטמע",
+      "create": "הוספת קישור",
+      "label": "קישור",
+      "labelEmbed": "קישור ושיבוץ",
+      "empty": "לא נקבע קישור",
+      "hint": "יש להקליד או להדביק את הקישור שלך כאן",
+      "goToElement": "העברה לפריט היעד"
+    },
+    "lineEditor": {
+      "edit": "עריכת קו",
+      "editArrow": "עריכת חץ"
+    },
+    "polygon": {
+      "breakPolygon": "שבירת מצולע",
+      "convertToPolygon": "המרה למצולע"
+    },
+    "elementLock": {
+      "lock": "נעילה",
+      "unlock": "ביטול נעילה",
+      "unlockAll": "שחרור הכול"
+    },
+    "sidebarLock": "להשאיר את סרגל הצד פתוח",
+    "selectAllElementsInFrame": "בחירת כל הרכיבים במסגרת",
+    "removeAllElementsFromFrame": "הסרת כל הרכיבים מהמסגרת",
+    "eyeDropper": "בחירת צבע מתוך הקנבס",
+    "zoomToFitViewport": "שינוי מרחק התצוגה כך שיתאים לגודל המסך",
+    "autoResize": "לאפשר התאמה אוטומטית של גודל הכתב",
+    "imageCropping": "חיתוך תמונה",
+    "unCroppedDimension": "ממדים ללא חיתוך",
+    "copyElementLink": "העתקת קישור לפריט",
+    "linkToElement": "קישור לפריט",
+    "wrapSelectionInFrame": "לעטוף את הבחירה במסגרת",
+    "shapeSwitch": "החלפת צורה",
+    "preferences": "העדפות",
+    "preferences_toolLock": "נעילת כלים",
+    "boxSelectionMode": "בחר",
+    "boxSelectionContain": "עטיפה",
+    "boxSelectionOverlap": "חפיפה",
+    "arrowBinding": "קשירת חצים",
+    "midpointSnapping": "הצמדה לנקודות ביניים"
+  },
+  "elementLink": {
+    "title": "קישור לפריט",
+    "desc": "יש ללחוץ על צורה בקנבס או להדביק קישור.",
+    "notFound": "פריט מקושר לא נמצא בקנבס."
+  },
+  "search": {
+    "title": "איתור בלוח הציור",
+    "noMatch": "לא נמצאו תוצאות…",
+    "singleResult": "תוצאה",
+    "multipleResults": "תוצאות",
+    "placeholder": "איתור טקסט בלוח הציור…",
+    "frames": "מסגרות",
+    "texts": "טקסט"
+  },
+  "buttons": {
+    "clearReset": "איפוס לוח הציור",
+    "exportImage": "ייצוא התמונה…",
+    "export": "שמירה אל…",
+    "save": "שמירה לקובץ הנוכחי",
+    "saveAs": "שמירה בשם",
+    "load": "פתיחה",
+    "close": "סגירה",
+    "scrollBackToContent": "גלילה בחזרה לתוכן",
+    "zoomIn": "התקרבות",
+    "zoomOut": "התרחקות",
+    "resetZoom": "איפוס מרחק התצוגה",
+    "done": "בוצע",
+    "edit": "עריכה",
+    "undo": "ביטול",
+    "redo": "ביצוע מחדש",
+    "darkMode": "מצב כהה",
+    "lightMode": "מצב בהיר",
+    "systemMode": "מצב מערכת",
+    "zenMode": "מצב ריכוז",
+    "objectsSnapMode": "הצמדה לעצמים",
+    "cancel": "ביטול",
+    "remove": "הסרה",
+    "confirm": "אישור",
+    "embeddableInteractionButton": "לחיצה לתפעול"
+  },
+  "alerts": {
+    "clearReset": "פעולה זו תנקה את כל לוח הציור. להמשיך?",
+    "couldNotLoadInvalidFile": "טעינת קובץ לא תקין נכשלה",
+    "cannotExportEmptyCanvas": "לא ניתן לייצא לוח ציור ריק.",
+    "couldNotCopyToClipboard": "לא ניתן להעתיק ללוח.",
+    "cannotRestoreFromImage": "לא הצלחנו לשחזר את הסצנה מקובץ התמונה"
+  },
+  "errors": {
+    "unsupportedFileType": "סוג הקובץ אינו נתמך.",
+    "imageInsertError": "לא ניתן היה להוסיף את התמונה. אנא נסה שוב מאוחר יותר...",
+    "fileTooBig": "הקובץ גדול מדי. הגודל המירבי המותר הינו {{maxSize}}.",
+    "svgImageInsertError": "לא ניתן היה להוסיף את תמונת ה-SVG. הסימונים בתוך קובץ ה-SVG עשויים להיות שגויים.",
+    "failedToFetchImage": "משיכת התמונה נכשלה.",
+    "imageToolNotSupported": "תמונות מושבתות.",
+    "brave_measure_text_error": {
+      "line1": "נראה שהנכם משתמשים בדפדפן Brave אשר מוגדר<bold>למנוע באופן אגרסיבי חתימה אלקטרונית</bold>.",
+      "line2": "ההגדרה הזאת יכולה לשבור את<bold>רכיבי הטקסט</bold> בעבודתך."
+    },
+    "asyncPasteFailedOnRead": "לא ניתן להדביק (אי אפשר לקרוא מלוח המערכת).",
+    "asyncPasteFailedOnParse": "לא ניתן להדביק.",
+    "copyToSystemClipboardFailed": "לא ניתן להעתיק ללוח."
+  },
+  "toolBar": {
+    "selection": "בחירה",
+    "lasso": "בחירת לאסו",
+    "image": "הוספת תמונה",
+    "rectangle": "מלבן",
+    "diamond": "יהלום",
+    "ellipse": "אליפסה",
+    "arrow": "חץ",
+    "line": "קו",
+    "freedraw": "צייר",
+    "text": "טקסט",
+    "lock": "השאר את הכלי הנבחר פעיל גם לאחר סיום הציור",
+    "penMode": "מצב עט - מנע נגיעה",
+    "link": "הוספת / עדכון קישור לצורה מסוימת",
+    "eraser": "מחק",
+    "frame": "כלי מסגרת",
+    "embeddable": "הטמעה באתר",
+    "laser": "סמן לייזר",
+    "autoshape": "ציור אל צורה",
+    "bucketfill": "מילוי דלי",
+    "hand": "יד (כלי הזזה)",
+    "extraTools": "כלים נוספים",
+    "mermaidToExcalidraw": "Mermaid ל־Excalidraw",
+    "convertElementType": "החלפת סוג צורה"
+  },
+  "bucketfill": {
+    "noRegion": "לא נמצא אזור סגור למילוי כאן.",
+    "tooComplex": "המילוי של האזור הזה מסובך מכדי לקרות."
+  },
+  "element": {
+    "rectangle": "מלבן",
+    "diamond": "יהלום",
+    "ellipse": "אליפסה",
+    "arrow": "חץ",
+    "line": "קו",
+    "freedraw": "ציור חופשי",
+    "text": "טקסט",
+    "image": "תמונה",
+    "group": "קבוצה",
+    "frame": "מסגרת",
+    "magicframe": "מתרשים קווי מתאר לקוד",
+    "embeddable": "הטמעה באתר",
+    "selection": "בחירה",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "פעולות קנבאס",
+    "selectedShapeActions": "פעולות על הצורות שנבחרו",
+    "shapes": "צורות"
+  },
+  "hints": {
+    "dismissSearch": "‏{{shortcut}} להתעלמות מהחיפוש",
+    "linearElement": "לחץ להתחלת מספר נקודות, גרור לקו יחיד",
+    "arrowTool": "לחץ להפעלת נקודות מרובות, גרור עבור קו יחיד. לחץ שוב על {{shortcut}} כדי לשנות את סוג החץ.",
+    "arrowBindModifiers": "החזק את {{shortcut_1}} כדי לבטל את הצירוף, או את {{shortcut_2}} כדי לצרף בנקודה קבועה",
+    "freeDraw": "לחץ וגרור, שחרר כשסיימת",
+    "text": "טיפ: אפשר להוסיף טקסט על ידי לחיצה כפולה בכל מקום עם כלי הבחירה",
+    "embeddable": "לחצו וגררו כדי ליצור הטמעת אתר",
+    "autoshape": "צייר מלבנים, עיגולים, יהלומים, קווים וחצים",
+    "text_selected": "לחיצה כפולה או הקשה על {{shortcut}} יאפשרו לך לערוך את הטקסט",
+    "text_editing": "יש ללחוץ על {{shortcut_1}} או {{shortcut_2}} לסיום העריכה",
+    "linearElementMulti": "לחץ על הנקודה האחרונה או הקש על {{shortcut_1}} או {{shortcut_2}} כדי לסיים",
+    "lockAngle": "ניתן להגביל את הזווית על ידי החזקת {{shortcut}}",
+    "resize": "ניתן להגביל פרופורציות על ידי החזקת {{shortcut_1}} בזמן שינוי הגודל, החזק את {{shortcut_2}} כדי לשנות גודל מהמרכז",
+    "resizeImage": "ניתן לשנות גודל חופשי על ידי החזקת {{shortcut_1}}, החזק את {{shortcut_2}} כדי לשנות גודל מהמרכז",
+    "rotate": "ניתן להגביל זוויות על ידי החזקת {{shortcut}} בזמן סיבוב",
+    "toggleArrowhead": "לחץ לחיצה כפולה כדי להחליף בין צורות ראש החץ",
+    "lineEditor_info": "החזק את {{shortcut_1}} ולחץ לחיצה כפולה או לחץ על {{shortcut_2}} כדי לערוך נקודות",
+    "lineEditor_line_info": "לחיצה כפולה או הקשה על {{shortcut}} יאפשרו לך לערוך נקודות",
+    "lineEditor_pointSelected": "יש ללחוץ על {{shortcut_1}} כדי להסיר נקודות,\nעל {{shortcut_2}} כדי לשכפל, או לגרור בשביל להזיז",
+    "lineEditor_nothingSelected": "בחר נקודה לעריכה (החזק את {{shortcut_1}} כדי לבחור מספר נקודות), או החזק את {{shortcut_2}} ולחץ להוספת נקודות חדשות",
+    "bindTextToElement": "‏{{shortcut}} להוספת טקסט",
+    "createFlowchart": "‏{{shortcut}} ליצירת תרשים זרימה",
+    "deepBoxSelect": "החזק את {{shortcut}} לבחירה עמוקה ולמניעת גרירה",
+    "eraserRevert": "החזק את {{shortcut}} כדי לשחזר את הרכיבים המסומנים למחיקה",
+    "firefox_clipboard_write": "יכולות זה ניתנת להפעלה על ידי שינוי הדגל של \"dom.events.asyncClipboard.clipboardItem\" למצב \"true\". כדי לשנות את הדגל בדפדפן Firefox, בקר בעמוד ״about:config״.",
+    "disableSnapping": "החזק את {{shortcut}} כדי לבטל את ההצמדה",
+    "enterCropEditor": "לחץ לחיצה כפולה על התמונה או לחץ על {{shortcut}} כדי לחתוך אותה",
+    "leaveCropEditor": "לחץ מחוץ לתמונה או לחץ על {{shortcut_1}} או {{shortcut_2}} כדי לסיים את החיתוך"
+  },
+  "canvasError": {
+    "cannotShowPreview": "לא ניתן להראות תצוגה מקדימה",
+    "canvasTooBig": "הקנבס עלול להיות גדול מדי.",
+    "canvasTooBigTip": "טיפ: נסה להזיז את הרכיבים הרחוקים ביותר מעט קרוב יותר האחד לשני."
+  },
+  "errorDialog": {
+    "title": "שגיאה"
+  },
+  "progressDialog": {
+    "defaultMessage": "בהכנות לשמירה..."
+  },
+  "exportDialog": {
+    "disk_title": "שמור לכונן",
+    "disk_details": "ייצא מידע של הקנבאס לקובץ שתוכל לייבא אחר כך.",
+    "disk_button": "שמירה לקובץ",
+    "link_title": "קבל קישור לשיתוף",
+    "link_details": "ייצוא כקישור לקריאה בלבד.",
+    "link_button": "ייצוא לקישור"
+  },
+  "helpDialog": {
+    "click": "קליק",
+    "deepSelect": "בחירה עמוקה",
+    "deepBoxSelect": "בחירה עמוקה בתוך קופסה ומניעת גרירה",
+    "createFlowchart": "יצירת תרשים זרימה מתוך רכיב רגיל",
+    "navigateFlowchart": "ניווט בתוך תרשים הזרימה",
+    "curvedArrow": "חץ מעוגל",
+    "curvedLine": "קו מעוגל",
+    "doubleClick": "לחיצה כפולה",
+    "drag": "גרור",
+    "editor": "עורך",
+    "editLineArrowPoints": "עריכת נקודות קו/חץ",
+    "editText": "עריכת טקסט / הוספת תווית",
+    "or": "או",
+    "preventBinding": "למנוע נעיצת חיצים",
+    "tools": "כלים",
+    "shortcuts": "קיצורי מקלדת",
+    "textFinish": "סיים עריכה (עורך טקסט)",
+    "textNewLine": "הוסף שורה חדשה (עורך טקסט)",
+    "title": "עזרה",
+    "view": "תצוגה",
+    "zoomToFit": "שינוי מרחק התצוגה כך שיוצגו כל הרכיבים",
+    "zoomToSelection": "שינוי מרחק התצוגה כך שיתאים לבחירה",
+    "toggleElementLock": "נעילה/ביטול הנעילה של הרכיבים הנבחרים",
+    "movePageUpDown": "זוז עמוד למעלה/למטה",
+    "movePageLeftRight": "זוז עמוד שמאלה/ימינה",
+    "cropStart": "חיתוך תמונה",
+    "cropFinish": "סיים לחתוך תמונה"
+  },
+  "clearCanvasDialog": {
+    "title": "ניקוי הקנבס"
+  },
+  "imageExportDialog": {
+    "header": "ייצוא תמונה",
+    "label": {
+      "withBackground": "רקע",
+      "onlySelected": "רק את מה שנבחר",
+      "darkMode": "מצב כהה",
+      "embedScene": "הטמעת סצנה",
+      "scale": "קנה מידה",
+      "padding": "ריפוד"
+    },
+    "tooltip": {
+      "embedScene": "הייצוא יבוצע לקובץ מסוג PNG/SVG כדי שהמידע על הסצנה ישמר בו וניתן יהיה לבצע שחזור ממנו.\nיגדיל את גודל הקובץ של הייצוא."
+    },
+    "title": {
+      "exportToPng": "ייצוא ל־PNG",
+      "exportToSvg": "ייצוא ל־SVG",
+      "copyPngToClipboard": "העתקת PNG ללוח"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "העתקה ללוח"
+    }
+  },
+  "stats": {
+    "shapes": "צורות",
+    "height": "גובה",
+    "scene": "תצוגה",
+    "fullTitle": "הגדרות הקנבס והצורות",
+    "title": "מאפיינים",
+    "generalStats": "כללי",
+    "elementProperties": "מאפייני צורה",
+    "width": "רוחב"
+  },
+  "toast": {
+    "copyStyles": "סגנונות הועתקו.",
+    "copyToClipboardAsPng": "{{exportSelection}} הועתקה ללוח כ-PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "{{exportSelection}} הועתקה ללוח כ-SVG\n({{exportColorScheme}})",
+    "fileSaved": "קובץ נשמר.",
+    "fileSavedToFilename": "נשמר לקובץ {filename}",
+    "canvas": "קנבאס",
+    "selection": "בחירה",
+    "pasteAsSingleElement": "השתמש ב- {{shortcut}} כדי להדביק כפריט יחיד,\nאו הדבק לתוך עורך טקסט קיים",
+    "unableToEmbed": "הטמעת כתובת הרשת הזו אינה מותרת לעת עתה. העלו סוגיה ב-GitHub כדי לבקש שכתובת זו תכנס לרשימה המותרת",
+    "unrecognizedLinkFormat": "הקישור שהוטמע אינו בפורמט המצופה. אנא נסו להדביק מחדש את מחרוזת ההטמעה מהאתר המבוקש",
+    "elementLinkCopied": "קישור הועתק ללוח"
+  },
+  "colors": {
+    "transparent": "שקוף",
+    "black": "שחור",
+    "white": "לבן",
+    "red": "אדום",
+    "pink": "ורוד",
+    "grape": "ענבים",
+    "violet": "סגול",
+    "gray": "אפור",
+    "blue": "כחול",
+    "cyan": "ציאן",
+    "teal": "ירוק-כחול",
+    "green": "ירוק",
+    "yellow": "צהוב",
+    "orange": "כתום",
+    "bronze": "ברונזה"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "ייצוא, העדפות, ועוד...",
+      "center_heading": "איורים. נעשים. פשוטים.",
+      "toolbarHint": "בחר כלי & והתחל לצייר!",
+      "helpHint": "קיצורים & עזרה"
+    }
+  },
+  "colorPicker": {
+    "color": "צבע",
+    "mostUsedCustomColors": "הצבעים הייחודיים שהכי נפוצים",
+    "colors": "צבעים",
+    "shades": "הצללות",
+    "hexCode": "קוד הקסדצימלי",
+    "noShades": "אין הצללות זמינות לצבע הזה",
+    "invalidColor": "לא צבע תקני",
+    "invalidHexLength": "הקוד ההקסדצימאלי חייב להיות בן 3, 4, 6 או 8 תווים",
+    "topPicksTip": "טיפ: גררו כל צבע אל הבחירות המובילות שלכם כדי להצמיד אותו",
+    "resetTopPicks": "איפוס לבחירות המומלצות כברירת מחדל"
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "ייצוא כתמונה",
+        "button": "ייצוא כתמונה",
+        "description": "ייצוא נתוני הסצנה כתמונה אותה אפשר לייבא בהמשך."
+      },
+      "saveToDisk": {
+        "title": "שמירה לכונן",
+        "button": "שמירה לכונן",
+        "description": "ייצוא נתוני הסצנה לקובץ אותו אפשר לייבא בהמשך."
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "טעינה מקובץ",
+        "button": "טעינה מקובץ",
+        "description": "טעינת הקובץ <bold>תחליף את התוכן הקיים</bold>.<br></br>אתם יכולים לגבות את העבודה שלכם תחילה בעזרת האפשרויות שלהלן."
+      }
+    }
+  },
+  "mermaid": {
+    "title": "Mermaid ל־Excalidraw",
+    "button": "הוספה",
+    "description": "נכון לעכשיו, רק דיאגרמות <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink> ו-<erdLink>Entity Relationship</erdLink> נתמכות. שאר הסוגים יוצגו כתמונה ב-Excalidraw.",
+    "inputPlaceholder": "נא לכתוב כאן הגדרת תרשים ל־Mermaid...",
+    "autoFixAvailable": "התיקון האוטומטי זמין"
+  },
+  "chat": {
+    "retry": "ניסיון חוזר",
+    "errors": {
+      "mermaidParseError": "שגיאת תחביר Mermaid"
+    }
+  },
+  "quickSearch": {
+    "placeholder": "חיפוש מהיר"
+  },
+  "fontList": {
+    "badge": {
+      "old": "ישן"
+    },
+    "sceneFonts": "בסצינה הנוכחית",
+    "availableFonts": "הפונטים הקיימים",
+    "empty": "לא נמצאו פונטים"
+  },
+  "userList": {
+    "empty": "לא נמצאו משתמשים",
+    "hint": {
+      "text": "יש ללחוץ על משתמש כדי לעקוב",
+      "followStatus": "המשתמש ברשימת המעקב שלך",
+      "inCall": "המשתמש בשיחה קולית",
+      "micMuted": "המיקרופון של המשתמש מושתק",
+      "isSpeaking": "המשתמש מדבר"
+    }
+  },
+  "commandPalette": {
+    "title": "לוח פקודות",
+    "shortcuts": {
+      "select": "בחירה",
+      "confirm": "אישור",
+      "close": "סגירה"
+    },
+    "recents": "בשימוש לאחרונה",
+    "search": {
+      "placeholder": "תפריטי חיפוש, פקודות ואבני חן נעלמות",
+      "noMatch": "אין פקודות תואמות…"
+    },
+    "itemNotAvailable": "הפקודה לא זמינה…",
+    "shortcutHint": "ללוח פקודות, יש להשתמש ב־{{shortcut}}"
+  },
+  "keys": {
+    "ctrl": "Ctrl",
+    "option": "Option",
+    "cmd": "Cmd",
+    "alt": "Alt",
+    "escape": "Esc",
+    "enter": "Enter",
+    "shift": "Shift",
+    "spacebar": "רווח",
+    "delete": "מחיקה"
+  }
+}

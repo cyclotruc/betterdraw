@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "",
+    "pasteAsPlaintext": "",
+    "pasteCharts": "",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "",
+    "multiSelect": "",
+    "moveCanvas": "",
+    "cut": "",
+    "copy": "",
+    "copyAsPng": "",
+    "copyAsSvg": "",
+    "copyText": "",
+    "bringForward": "",
+    "sendToBack": "",
+    "bringToFront": "",
+    "sendBackward": "",
+    "delete": "",
+    "copyStyles": "",
+    "pasteStyles": "",
+    "stroke": "",
+    "changeStroke": "",
+    "background": "",
+    "changeBackground": "",
+    "fill": "",
+    "strokeWidth": "",
+    "strokeStyle": "",
+    "strokeStyle_solid": "",
+    "strokeStyle_dashed": "",
+    "strokeStyle_dotted": "",
+    "sloppiness": "",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "",
+    "textAlign": "",
+    "edges": "",
+    "sharp": "",
+    "round": "",
+    "arrowheads": "",
+    "arrowhead_none": "",
+    "arrowhead_arrow": "",
+    "arrowhead_bar": "",
+    "arrowhead_circle": "",
+    "arrowhead_circle_outline": "",
+    "arrowhead_triangle": "",
+    "arrowhead_triangle_outline": "",
+    "arrowhead_diamond": "",
+    "arrowhead_diamond_outline": "",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "",
+    "fontFamily": "",
+    "handDrawn": "",
+    "normal": "",
+    "code": "",
+    "small": "",
+    "medium": "",
+    "large": "",
+    "veryLarge": "",
+    "solid": "",
+    "hachure": "",
+    "zigzag": "",
+    "crossHatch": "",
+    "thin": "",
+    "bold": "",
+    "left": "",
+    "center": "",
+    "right": "",
+    "architect": "",
+    "artist": "",
+    "cartoonist": "",
+    "fileTitle": "",
+    "colorPicker": "",
+    "canvasBackground": "",
+    "drawingCanvas": "",
+    "clearCanvas": "",
+    "layers": "",
+    "actions": "",
+    "liveCollaboration": "",
+    "duplicateSelection": "",
+    "untitled": "",
+    "group": "",
+    "ungroup": "",
+    "collaborators": "",
+    "you": "",
+    "toggleGrid": "",
+    "loadingScene": "",
+    "align": "",
+    "alignTop": "",
+    "alignBottom": "",
+    "alignLeft": "",
+    "alignRight": "",
+    "centerVertically": "",
+    "centerHorizontally": "",
+    "distributeHorizontally": "",
+    "distributeVertically": "",
+    "flipHorizontal": "",
+    "flipVertical": "",
+    "viewMode": "",
+    "share": "",
+    "showStroke": "",
+    "showBackground": "",
+    "showFonts": "",
+    "toggleTheme": "",
+    "theme": "",
+    "decreaseFontSize": "",
+    "increaseFontSize": "",
+    "unbindText": "",
+    "bindText": "",
+    "createContainerFromText": "",
+    "link": {
+      "edit": "",
+      "editEmbed": "",
+      "create": "",
+      "label": "",
+      "labelEmbed": "",
+      "empty": "",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "",
+      "unlock": "",
+      "unlockAll": ""
+    },
+    "sidebarLock": "",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "",
+    "exportImage": "",
+    "export": "",
+    "save": "",
+    "saveAs": "",
+    "load": "",
+    "close": "",
+    "scrollBackToContent": "",
+    "zoomIn": "",
+    "zoomOut": "",
+    "resetZoom": "",
+    "done": "",
+    "edit": "",
+    "undo": "",
+    "redo": "",
+    "darkMode": "",
+    "lightMode": "",
+    "systemMode": "",
+    "zenMode": "",
+    "objectsSnapMode": "",
+    "cancel": "",
+    "remove": "",
+    "confirm": "",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "",
+    "couldNotLoadInvalidFile": "",
+    "cannotExportEmptyCanvas": "",
+    "couldNotCopyToClipboard": "",
+    "cannotRestoreFromImage": ""
+  },
+  "errors": {
+    "unsupportedFileType": "",
+    "imageInsertError": "",
+    "fileTooBig": "",
+    "svgImageInsertError": "",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "",
+    "lasso": "",
+    "image": "",
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "lock": "",
+    "penMode": "",
+    "link": "",
+    "eraser": "",
+    "frame": "",
+    "embeddable": "",
+    "laser": "",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "",
+    "extraTools": "",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "",
+    "selectedShapeActions": "",
+    "shapes": ""
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "",
+    "text": "",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "",
+    "canvasTooBig": "",
+    "canvasTooBigTip": ""
+  },
+  "errorDialog": {
+    "title": ""
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "",
+    "disk_details": "",
+    "disk_button": "",
+    "link_title": "",
+    "link_details": "",
+    "link_button": ""
+  },
+  "helpDialog": {
+    "click": "",
+    "deepSelect": "",
+    "deepBoxSelect": "",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "",
+    "curvedLine": "",
+    "doubleClick": "",
+    "drag": "",
+    "editor": "",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "",
+    "preventBinding": "",
+    "tools": "",
+    "shortcuts": "",
+    "textFinish": "",
+    "textNewLine": "",
+    "title": "",
+    "view": "",
+    "zoomToFit": "",
+    "zoomToSelection": "",
+    "toggleElementLock": "",
+    "movePageUpDown": "",
+    "movePageLeftRight": "",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": ""
+  },
+  "imageExportDialog": {
+    "header": "",
+    "label": {
+      "withBackground": "",
+      "onlySelected": "",
+      "darkMode": "",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    },
+    "button": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "",
+    "scene": "",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": ""
+  },
+  "toast": {
+    "copyStyles": "",
+    "copyToClipboardAsPng": "",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "",
+    "fileSavedToFilename": "",
+    "canvas": "",
+    "selection": "",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "",
+    "black": "",
+    "white": "",
+    "red": "",
+    "pink": "",
+    "grape": "",
+    "violet": "",
+    "gray": "",
+    "blue": "",
+    "cyan": "",
+    "teal": "",
+    "green": "",
+    "yellow": "",
+    "orange": "",
+    "bronze": ""
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "",
+      "center_heading": "",
+      "toolbarHint": "",
+      "helpHint": ""
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "",
+    "colors": "",
+    "shades": "",
+    "hexCode": "",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

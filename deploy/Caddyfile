@@ -1,0 +1,18 @@
+# Public instance behind Caddy. Canvas addresses and agent links are secrets: they are rewritten before access logs are written.
+draw.example.com {
+	log {
+		output file /var/log/caddy/draw.log
+		format filter {
+			request>uri regexp ^/(c|agent)/[^/?#]+ /$1/REDACTED
+			request>headers>Referer delete
+			request>headers>Cookie delete
+		}
+	}
+	encode zstd gzip
+	# The largest body the server takes: a bug report with its screenshots, 51 MiB. Raise it if MAX_FILE_MB, or 16
+	# times MAX_ELEMENT_KB for the agent API, passes that.
+	request_body {
+		max_size 51MiB
+	}
+	reverse_proxy 127.0.0.1:3000
+}

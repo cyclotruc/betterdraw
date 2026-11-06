@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Liitä",
+    "pasteAsPlaintext": "Liitä pelkkänä tekstinä",
+    "pasteCharts": "Liitä kaaviot",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "Valitse kaikki",
+    "multiSelect": "Lisää kohde valintaan",
+    "moveCanvas": "Siirrä piirtoaluetta",
+    "cut": "Leikkaa",
+    "copy": "Kopioi",
+    "copyAsPng": "Kopioi leikepöydälle PNG-tiedostona",
+    "copyAsSvg": "Kopioi leikepöydälle SVG-tiedostona",
+    "copyText": "Kopioi tekstinä",
+    "bringForward": "Tuo eteenpäin",
+    "sendToBack": "Vie taakse",
+    "bringToFront": "Tuo eteen",
+    "sendBackward": "Vie taaksepäin",
+    "delete": "Poista",
+    "copyStyles": "Kopioi tyyli",
+    "pasteStyles": "Liitä tyyli",
+    "stroke": "Piirto",
+    "changeStroke": "",
+    "background": "Tausta",
+    "changeBackground": "",
+    "fill": "Täyttö",
+    "strokeWidth": "Viivan leveys",
+    "strokeStyle": "Viivan tyyli",
+    "strokeStyle_solid": "Yhtenäinen",
+    "strokeStyle_dashed": "Katkoviiva",
+    "strokeStyle_dotted": "Pisteviiva",
+    "sloppiness": "Viivan tarkkuus",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Peittävyys",
+    "textAlign": "Tekstin tasaus",
+    "edges": "Reunat",
+    "sharp": "Terävä",
+    "round": "Pyöristetty",
+    "arrowheads": "Nuolenkärjet",
+    "arrowhead_none": "Ei mitään",
+    "arrowhead_arrow": "Nuoli",
+    "arrowhead_bar": "Tasapää",
+    "arrowhead_circle": "Ympyrä",
+    "arrowhead_circle_outline": "Ympyrä (ääriviiva)",
+    "arrowhead_triangle": "Kolmio",
+    "arrowhead_triangle_outline": "Kolmio (ääriviiva)",
+    "arrowhead_diamond": "",
+    "arrowhead_diamond_outline": "",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "Kirjasinkoko",
+    "fontFamily": "Kirjasintyyppi",
+    "handDrawn": "Käsinpiirretty",
+    "normal": "Tavallinen",
+    "code": "Koodi",
+    "small": "Pieni",
+    "medium": "Keskikoko",
+    "large": "Suuri",
+    "veryLarge": "Erittäin suuri",
+    "solid": "Yhtenäinen",
+    "hachure": "Vinoviivoitus",
+    "zigzag": "",
+    "crossHatch": "Ristiviivoitus",
+    "thin": "Ohut",
+    "bold": "Lihavoitu",
+    "left": "Vasen",
+    "center": "Keskitä",
+    "right": "Oikea",
+    "architect": "Arkkitehti",
+    "artist": "Taiteilija",
+    "cartoonist": "Sarjakuva",
+    "fileTitle": "Tiedostonimi",
+    "colorPicker": "Värin valinta",
+    "canvasBackground": "Piirtoalueen tausta",
+    "drawingCanvas": "Piirtoalue",
+    "clearCanvas": "Tyhjennä piirtoalue",
+    "layers": "Tasot",
+    "actions": "Toiminnot",
+    "liveCollaboration": "Live Yhteistyö...",
+    "duplicateSelection": "Monista",
+    "untitled": "Nimetön",
+    "group": "Ryhmitä valinta",
+    "ungroup": "Pura valittu ryhmä",
+    "collaborators": "Yhteistyökumppanit",
+    "you": "",
+    "toggleGrid": "Näytä tai piilota ruudukko",
+    "loadingScene": "Ladataan työtä…",
+    "align": "Tasaa",
+    "alignTop": "Tasaa ylös",
+    "alignBottom": "Tasaa alas",
+    "alignLeft": "Tasaa vasemmalle",
+    "alignRight": "Tasaa oikealle",
+    "centerVertically": "Keskitä pystysuunnassa",
+    "centerHorizontally": "Keskitä vaakasuunnassa",
+    "distributeHorizontally": "Jaa vaakasuunnassa",
+    "distributeVertically": "Jaa pystysuunnassa",
+    "flipHorizontal": "Käännä vaakasuunnassa",
+    "flipVertical": "Käännä pystysuunnassa",
+    "viewMode": "Katselutila",
+    "share": "Jaa",
+    "showStroke": "Näytä viivan värin valitsin",
+    "showBackground": "Näytä taustavärin valitsin",
+    "showFonts": "",
+    "toggleTheme": "",
+    "theme": "Teema",
+    "decreaseFontSize": "Pienennä kirjasinkokoa",
+    "increaseFontSize": "Kasvata kirjasinkokoa",
+    "unbindText": "Irroita teksti",
+    "bindText": "Kiinnitä teksti säiliöön",
+    "createContainerFromText": "",
+    "link": {
+      "edit": "Muokkaa linkkiä",
+      "editEmbed": "",
+      "create": "",
+      "label": "Linkki",
+      "labelEmbed": "",
+      "empty": "Linkkiä ei ole asetettu",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "Muokkaa riviä",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "Lukitse",
+      "unlock": "Poista lukitus",
+      "unlockAll": "Poista lukitus kaikista"
+    },
+    "sidebarLock": "Pidä sivupalkki avoinna",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "Tyhjennä piirtoalue",
+    "exportImage": "Vie kuva...",
+    "export": "Tallenna nimellä...",
+    "save": "Tallenna nykyiseen tiedostoon",
+    "saveAs": "Tallenna nimellä",
+    "load": "Avaa",
+    "close": "Sulje",
+    "scrollBackToContent": "Näytä sisältö",
+    "zoomIn": "Lähennä",
+    "zoomOut": "Loitonna",
+    "resetZoom": "Nollaa suurennuksen taso",
+    "done": "Valmis",
+    "edit": "Muokkaa",
+    "undo": "Kumoa",
+    "redo": "Tee uudelleen",
+    "darkMode": "Tumma tila",
+    "lightMode": "Vaalea tila",
+    "systemMode": "Järjestelmätila",
+    "zenMode": "Zen-tila",
+    "objectsSnapMode": "",
+    "cancel": "Peruuta",
+    "remove": "Poista",
+    "confirm": "Vahvista",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "Tämä tyhjentää koko piirtoalueen. Jatketaanko?",
+    "couldNotLoadInvalidFile": "Virheellistä tiedostoa ei voitu avata",
+    "cannotExportEmptyCanvas": "Tyhjää piirtoaluetta ei voi viedä.",
+    "couldNotCopyToClipboard": "Leikepöydälle vieminen epäonnistui.",
+    "cannotRestoreFromImage": "Teosta ei voitu palauttaa tästä kuvatiedostosta"
+  },
+  "errors": {
+    "unsupportedFileType": "Tiedostotyyppiä ei tueta.",
+    "imageInsertError": "Kuvan lisääminen epäonnistui. Yritä myöhemmin uudelleen...",
+    "fileTooBig": "Tiedosto on liian suuri. Suurin sallittu koko on {{maxSize}}.",
+    "svgImageInsertError": "SVG- kuvaa ei voitu lisätä. Tiedoston SVG-sisältö näyttää virheelliseltä.",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "Ei voitu liittää.",
+    "copyToSystemClipboardFailed": "Kopiointi leikepöydälle epäonnistui."
+  },
+  "toolBar": {
+    "selection": "Valinta",
+    "lasso": "",
+    "image": "Lisää kuva",
+    "rectangle": "Suorakulmio",
+    "diamond": "Vinoneliö",
+    "ellipse": "Soikio",
+    "arrow": "Nuoli",
+    "line": "Viiva",
+    "freedraw": "Piirrä",
+    "text": "Teksti",
+    "lock": "Pidä valittu työkalu aktiivisena piirron jälkeen",
+    "penMode": "Kynätila - estä kosketus",
+    "link": "",
+    "eraser": "Poistotyökalu",
+    "frame": "",
+    "embeddable": "Verkkoupote",
+    "laser": "Laserosoitin",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "Käsi (panning-työkalu)",
+    "extraTools": "Lisää työkaluja",
+    "mermaidToExcalidraw": "Mermaid Excalidrawiksi",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "Piirtoalueen toiminnot",
+    "selectedShapeActions": "Valitun muodon toiminnot",
+    "shapes": "Muodot"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "Klikkaa piirtääksesi useampi piste, raahaa piirtääksesi yksittäinen viiva",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "Paina ja raahaa, päästä irti kun olet valmis",
+    "text": "Vinkki: voit myös lisätä tekstiä kaksoisnapsauttamalla mihin tahansa valintatyökalulla",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "Tämä ominaisuus voidaan todennäköisesti ottaa käyttöön asettamalla \"dom.events.asyncClipboard.clipboardItem\" kohta \"true\":ksi. Vaihtaaksesi selaimen kohdan Firefoxissa, käy \"about:config\" sivulla.",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "Esikatselua ei voitu näyttää",
+    "canvasTooBig": "Piirtoalue saattaa olla liian suuri.",
+    "canvasTooBigTip": "Vinkki: yritä siirtää kaukaisimpia elementtejä hieman lähemmäs toisiaan."
+  },
+  "errorDialog": {
+    "title": "Virhe"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "Tallenna levylle",
+    "disk_details": "Vie työn tiedot tiedostoon, josta sen voi tuoda myöhemmin.",
+    "disk_button": "Tallenna tiedostoon",
+    "link_title": "Jaettava linkki",
+    "link_details": "Vie vain luku -linkkinä.",
+    "link_button": "Vie linkkinä"
+  },
+  "helpDialog": {
+    "click": "klikkaa",
+    "deepSelect": "Syvävalinta",
+    "deepBoxSelect": "Käytä syvävalintaa ja estä raahaus",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "Kaareva nuoli",
+    "curvedLine": "Kaareva viiva",
+    "doubleClick": "kaksoisnapsautus",
+    "drag": "vedä",
+    "editor": "Muokkausohjelma",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "tai",
+    "preventBinding": "Estä nuolten kiinnitys",
+    "tools": "Työkalut",
+    "shortcuts": "Pikanäppäimet",
+    "textFinish": "Lopeta muokkaus (tekstieditori)",
+    "textNewLine": "Lisää uusi rivi (tekstieditori)",
+    "title": "Ohjeet",
+    "view": "Näkymä",
+    "zoomToFit": "Näytä kaikki elementit",
+    "zoomToSelection": "Näytä valinta",
+    "toggleElementLock": "Lukitse / poista lukitus valinta",
+    "movePageUpDown": "Siirrä sivua ylös/alas",
+    "movePageLeftRight": "Siirrä sivua vasemmalle/oikealle",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "Pyyhi piirtoalue"
+  },
+  "imageExportDialog": {
+    "header": "",
+    "label": {
+      "withBackground": "",
+      "onlySelected": "",
+      "darkMode": "Tumma tila",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": "Kopioi PNG leikepöydälle"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "Kopioi leikepöydälle"
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "Korkeus",
+    "scene": "Teos",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "Leveys"
+  },
+  "toast": {
+    "copyStyles": "Tyylit kopioitiin.",
+    "copyToClipboardAsPng": "Kopioitiin {{exportSelection}} leikepöydälle PNG:nä\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "Tiedosto tallennettu.",
+    "fileSavedToFilename": "Tallennettiin kohteeseen {filename}",
+    "canvas": "piirtoalue",
+    "selection": "valinta",
+    "pasteAsSingleElement": "Käytä {{shortcut}} liittääksesi yhtenä elementtinä,\ntai liittääksesi olemassa olevaan tekstieditoriin",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "Läpinäkyvä",
+    "black": "Musta",
+    "white": "Valkoinen",
+    "red": "Punainen",
+    "pink": "Pinkki",
+    "grape": "Rypäle",
+    "violet": "Violetti",
+    "gray": "Harmaa",
+    "blue": "Sininen",
+    "cyan": "Syaani",
+    "teal": "Sinivihreä",
+    "green": "Vihreä",
+    "yellow": "Keltainen",
+    "orange": "Oranssi",
+    "bronze": "Pronssi"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "Vie, asetukset ja lisää...",
+      "center_heading": "Kaaviot. Tehty. Yksinkertaiseksi.",
+      "toolbarHint": "Valitse työkalu ja aloita piirtäminen!",
+      "helpHint": "Pikanäppäimet & ohje"
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "Eniten käytetyt omat värit",
+    "colors": "Värit",
+    "shades": "Varjot",
+    "hexCode": "Hex koodi",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "Vie kuva",
+        "button": "Vie kuva",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "Tallenna levylle",
+        "button": "Tallenna levylle",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "Lataa tiedostosta",
+        "button": "Lataa tiedostosta",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "Valitse",
+      "confirm": "Vahvista",
+      "close": "Sulje"
+    },
+    "recents": "Viimeksi käytetty",
+    "search": {
+      "placeholder": "Hae valikoita, komentoja ja löydä piilotettuja helmiä",
+      "noMatch": "Ei vastaavia komentoja..."
+    },
+    "itemNotAvailable": "Komento ei ole käytettävissä...",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

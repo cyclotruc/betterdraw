@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "ஒட்டு",
+    "pasteAsPlaintext": "அலங்காரமின்றி ஒட்டு",
+    "pasteCharts": "விளக்கப்படங்களை ஒட்டு",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "எல்லாம் தேர்ந்தெடு",
+    "multiSelect": "உறுப்பைத் தெரிவில் சேர்",
+    "moveCanvas": "கித்தானை நகர்த்து",
+    "cut": "வெட்டு",
+    "copy": "நகலெடு",
+    "copyAsPng": "நகலகத்திற்கு PNG ஆக நகலெடு",
+    "copyAsSvg": "நகலகத்திற்கு SVG ஆக நகலெடு",
+    "copyText": "நகலகத்திற்கு உரையாக நகலெடு",
+    "bringForward": "முன்நோக்கி கொண்டுவா",
+    "sendToBack": "பின்னே அனுப்பு",
+    "bringToFront": "முன்னே கொண்டுவா",
+    "sendBackward": "பின்நோக்கி அனுப்பு",
+    "delete": "அழி",
+    "copyStyles": "ஒயில்களை நகலெடு",
+    "pasteStyles": "ஒயில்களை ஒட்டு",
+    "stroke": "கீறல்",
+    "changeStroke": "கீறல் நிறத்தை மாற்று",
+    "background": "பின்புலம்",
+    "changeBackground": "பின்புல நிறத்தை மாற்று",
+    "fill": "நிரப்பல்",
+    "strokeWidth": "கீறல் அகலம்",
+    "strokeStyle": "கீறல் ஒயில்",
+    "strokeStyle_solid": "திடமான",
+    "strokeStyle_dashed": "கோடிட்ட",
+    "strokeStyle_dotted": "புள்ளியிட்ட",
+    "sloppiness": "அசட்டுத்தனம்",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "ஒளிபுகாவியல்பு",
+    "textAlign": "உரைச் சீரமைப்பு",
+    "edges": "விளிம்புகள்",
+    "sharp": "கூர்மை",
+    "round": "வட்டம்",
+    "arrowheads": "அம்புத்தலைகள்",
+    "arrowhead_none": "ஏதுமில்லை",
+    "arrowhead_arrow": "அம்பு",
+    "arrowhead_bar": "பட்டை",
+    "arrowhead_circle": "வட்டம்",
+    "arrowhead_circle_outline": "வட்டம் (எல்லைக்கோடு)",
+    "arrowhead_triangle": "முக்கோணம்",
+    "arrowhead_triangle_outline": "முக்கோணம் (எல்லைக்கோடு)",
+    "arrowhead_diamond": "வைரம்",
+    "arrowhead_diamond_outline": "வைரம் (எல்லைக்கோடு)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "கூடுதல் விருப்பங்கள்",
+    "cardinality": "",
+    "arrowtypes": "அம்புக்குறி வகை",
+    "arrowtype_sharp": "கூர்மையான குறி",
+    "arrowtype_round": "வளைந்தக் குறி",
+    "arrowtype_elbowed": "",
+    "fontSize": "எழுத்துரு அளவு",
+    "fontFamily": "எழுத்துருக் குடும்பம்",
+    "handDrawn": "கையால்-வரைந்த",
+    "normal": "இயல்பு",
+    "code": "குறியீடு",
+    "small": "சிறிய",
+    "medium": "நடுத்தரமான",
+    "large": "பெரிய",
+    "veryLarge": "மிகப் பெரிய",
+    "solid": "திடமான",
+    "hachure": "மலைக்குறிக்கோடு",
+    "zigzag": "கோணல்மாணல்",
+    "crossHatch": "குறுக்குகதவு",
+    "thin": "மெல்லிய",
+    "bold": "பட்டை",
+    "left": "இடது",
+    "center": "மையம்",
+    "right": "வலது",
+    "architect": "கட்டடக்கலைஞர்",
+    "artist": "கலைஞர்",
+    "cartoonist": "கேலிச்சித்திர ஓவியர்",
+    "fileTitle": "கோப்புப் பெயர்",
+    "colorPicker": "நிறத் தேர்வி",
+    "canvasBackground": "கித்தான் பின்புலம்",
+    "drawingCanvas": "கித்தான் வரைகிறது",
+    "clearCanvas": "கித்தானைத் துடை",
+    "layers": "அடுக்குகள்",
+    "actions": "செயல்கள்",
+    "liveCollaboration": "நேரடி கூட்டுப்பணி...",
+    "duplicateSelection": "நகலாக்கு",
+    "untitled": "தலைப்பற்றது",
+    "group": "தேர்ந்ததை ஒன்றிணை",
+    "ungroup": "தேர்ந்ததைப் பிரி",
+    "collaborators": "கூட்டுப்பணியினர்",
+    "you": "",
+    "toggleGrid": "கட்டத்தை இருநிலைமாற்று",
+    "loadingScene": "காட்சியை ஏற்றுகிறது…",
+    "align": "சீரமை",
+    "alignTop": "மேலே சீரமை",
+    "alignBottom": "கீழே சீரமை",
+    "alignLeft": "இடதில் சீரமை",
+    "alignRight": "வலதில் சீரமை",
+    "centerVertically": "செங்குத்தாக மையப்படுத்து",
+    "centerHorizontally": "கிடைமட்டமாக மையப்படுத்து",
+    "distributeHorizontally": "கிடைமட்டமாக விநியோகி",
+    "distributeVertically": "செங்குத்தாக விநியோகி",
+    "flipHorizontal": "கிடைமட்டமாக புரட்டு",
+    "flipVertical": "செங்குத்தாக புரட்டு",
+    "viewMode": "பார்வை பயன்முறை",
+    "share": "பகிர்",
+    "showStroke": "கீறல் நிற எடுப்பானைக் காட்டு",
+    "showBackground": "பின்புலம் நிற எடுப்பானைக் காட்டு",
+    "showFonts": "எழுத்துருத் தேர்வியைக் காட்டு",
+    "toggleTheme": "வெளிர்ந்த/கருமை தோற்றத்தை இருநிலைமாற்று",
+    "theme": "தோற்றம்",
+    "decreaseFontSize": "எழுத்துரு அளவைக் குறை",
+    "increaseFontSize": "எழுத்துரு அளவை அதிகரி",
+    "unbindText": "உரையைப் பிணைவவிழ்",
+    "bindText": "உரையைக் கொள்கலனுக்குப் பிணை",
+    "createContainerFromText": "உரையைக் கொள்கலனுள் சுருட்டு",
+    "link": {
+      "edit": "தொடுப்பைத் திருத்து",
+      "editEmbed": "",
+      "create": "இணைப்பைச் சேர்க்கவும்",
+      "label": "தொடுப்பு",
+      "labelEmbed": "தொடுப்பு & உட்பொதிப்பு",
+      "empty": "தொடுப்பு அமைக்கப்படவில்லை",
+      "hint": "உங்கள் இணைப்பை இங்கே உள்ளிடவும்",
+      "goToElement": "இலக்கு கூறுக்கு செல்லவும்"
+    },
+    "lineEditor": {
+      "edit": "தொடுப்பைத் திருத்து",
+      "editArrow": "அம்பைத் திருத்து"
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "பூட்டு",
+      "unlock": "பூட்டவிழ்",
+      "unlockAll": "எல்லாம் பூட்டவிழ்"
+    },
+    "sidebarLock": "பக்கப்பட்டையைத் திறந்தே வை",
+    "selectAllElementsInFrame": "சட்டகத்திலுள்ள எல்லா உறுப்புகளையும் தேர்ந்தெடு",
+    "removeAllElementsFromFrame": "சட்டகத்திலுள்ள எல்லா உறுப்புகளையும் நீக்கு",
+    "eyeDropper": "கித்தானிலிருந்து நிறம் தேர்ந்தெடு",
+    "zoomToFitViewport": "பார்வைச்சாளரத்தில் பொருந்தும் வகையில் பெரிதாக்கு",
+    "autoResize": "உரையின் தானியங்கி அளவுத்திருத்தத்தை இயக்கு",
+    "imageCropping": "படத்தை வெட்டுதல்",
+    "unCroppedDimension": "முழு அளவு",
+    "copyElementLink": "இணைப்பை நகலெடு",
+    "linkToElement": "இணைப்பு",
+    "wrapSelectionInFrame": "தேர்வை வடிவத்தில் சுற்று",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "இணைப்பு",
+    "desc": "வடிவத்தைச் சொடுக்கவும் அல்லது ஒட்டவும்.",
+    "notFound": "பொருள் கிடைக்கவில்லை."
+  },
+  "search": {
+    "title": "கன்வாஸில் தேடு",
+    "noMatch": "பொருத்தங்கள் எதுவும் இல்லை...",
+    "singleResult": "முடிவு",
+    "multipleResults": "முடிவுகள்",
+    "placeholder": "கன்வாஸில் உரையைத் தேடு...",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "கித்தானை அகரமாக்கு",
+    "exportImage": "படத்தை ஏற்றுமதிசெய்...",
+    "export": "இதில் சேமி...",
+    "save": "தற்போதைய கோப்புக்குச் சேமி",
+    "saveAs": "இப்படி சேமி",
+    "load": "திற",
+    "close": "மூடு",
+    "scrollBackToContent": "உருட்டி உள்ளடக்கத்துக்குத் திரும்பு",
+    "zoomIn": "பெரிதாக்கு",
+    "zoomOut": "சிறிதாக்கு",
+    "resetZoom": "உருவளவை அகரமாக்கு",
+    "done": "முடிந்தது",
+    "edit": "திருத்து",
+    "undo": "செயல்தவிர்",
+    "redo": "மீண்டும்செய்",
+    "darkMode": "கருமை பயன்முறை",
+    "lightMode": "வெளிர்ந்த பயன்முறை",
+    "systemMode": "இயங்குதள பயன்முறை",
+    "zenMode": "ஜென் பயன்முறை",
+    "objectsSnapMode": "பொருட்களுடன் பற்று",
+    "cancel": "ரத்துசெய்",
+    "remove": "நீக்கு",
+    "confirm": "உறுதிசெய்",
+    "embeddableInteractionButton": "இடைவினைபுரிய சொடுக்கு"
+  },
+  "alerts": {
+    "clearReset": "இது முழு கித்தானையும் துடைக்கும். நீங்கள் உறுதியா?",
+    "couldNotLoadInvalidFile": "செல்லாத கோப்பை ஏற்ற முடியவில்லை",
+    "cannotExportEmptyCanvas": "காலியான கித்தானை ஏற்றுமதிசெய்ய முடியாது.",
+    "couldNotCopyToClipboard": "நகலகத்திற்கு நகலெடுக்க முடியவில்லை.",
+    "cannotRestoreFromImage": "இப்படக்கோப்பிலிருந்து காட்சி மீட்டெடுக்கப்பட முடியாது"
+  },
+  "errors": {
+    "unsupportedFileType": "ஆதரிக்கப்படா கோப்பு வகை.",
+    "imageInsertError": "படத்தைப் புகுத்தவியலா. பிறகு மீண்டும் முயலவும்...",
+    "fileTooBig": "கோப்பு மிகப்பெரிது. அனுமதிக்கப்பட்ட அதிகபட்ச அளவு {{maxSize}}.",
+    "svgImageInsertError": "எஸ்விஜி படத்தைப் புகுத்தவியலா. எஸ்விஜியின் மார்க்அப் செல்லாததாகத் தெரிகிறது.\n",
+    "failedToFetchImage": "படத்தைப் பெறுதல் தோல்வி.",
+    "imageToolNotSupported": "படங்கள் முடக்கப்பட்டுள்ளன.",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "ஒட்ட முடியவில்லை (கணினி கிளிப்போர்டிலிருந்து வாசிக்க முடியவில்லை).",
+    "asyncPasteFailedOnParse": "ஒட்ட முடியவில்லை.",
+    "copyToSystemClipboardFailed": "நகலகத்திற்கு நகலெடுக்க முடியவில்லை."
+  },
+  "toolBar": {
+    "selection": "தெரிவு",
+    "lasso": "",
+    "image": "படத்தைப் புகுத்து",
+    "rectangle": "செவ்வகம்",
+    "diamond": "வைரம்",
+    "ellipse": "நீள்வட்டம்",
+    "arrow": "அம்பு",
+    "line": "வரி",
+    "freedraw": "வரை",
+    "text": "உரை",
+    "lock": "தேர்ந்த கருவியை வரைந்த பின்பும் வைத்திரு",
+    "penMode": "பேனா - தடுப்பு தொடுதல்",
+    "link": "தேர்தெடுத்த வடிவத்திற்குத் தொடுப்பைச் சேர் / புதுப்பி",
+    "eraser": "அழிப்பி",
+    "frame": "சட்டகம் கருவி",
+    "embeddable": "வலை நுழைப்பு",
+    "laser": "சீரொளி குறிமுள்",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "கை (பார்வை நகர்கும் கருவி)",
+    "extraTools": "மற்ற கருவிகள்",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "செவ்வகம்",
+    "diamond": "வைரம்",
+    "ellipse": "நீள்வட்டம்",
+    "arrow": "அம்புக்குறி",
+    "line": "கோடு",
+    "freedraw": "வரை",
+    "text": "எழுத்து",
+    "image": "படம்",
+    "group": "குழு",
+    "frame": "வடிவு",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "தேர்வு",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "கித்தான் செயல்கள்",
+    "selectedShapeActions": "தேர்ந்த வடிவம் செயல்கள்",
+    "shapes": "வடிவங்கள்"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "பல புள்ளிகளைத் துவக்க சொடுக்கு, ஒற்றை வரிக்கு பிடித்திழு",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "சொடுக்கி பிடித்திழு, முடித்ததும் விடுவி",
+    "text": "துணுக்குதவி: தெரிவு கருவி கொண்டு எங்காவது இரு-சொடுக்கி உரையைச் சேர்க்கலாம்",
+    "embeddable": "இழுத்து வலை நுழைப்பு உருவாக்கு",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "முன்னோட்டம் காட்ட இயலவில்லை",
+    "canvasTooBig": "கித்தான் மிகப்பெரிதாக இருக்கலாம்.",
+    "canvasTooBigTip": "துணுக்குதவி: தூரத்திலுள்ள உறுப்புகளைப் நெருக்கமாக நகர்த்தப்பார்."
+  },
+  "errorDialog": {
+    "title": "பிழை"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "வட்டில் சேமி",
+    "disk_details": "காட்சித் தரவை நீங்கள் பின்னர் இறக்குமதி செய்யக்கூடிய ஒரு கோப்பிற்கு ஏற்றுமதிசெய்க.",
+    "disk_button": "கோப்பில் சேமி",
+    "link_title": "பகிரக்கூடிய தொடுப்பு",
+    "link_details": "வாசிக்க-மட்டும் தொடுப்பாக ஏற்றுமதிசெய்.",
+    "link_button": "தொடுப்புக்கு ஏற்றுமதிசெய்"
+  },
+  "helpDialog": {
+    "click": "சொடுக்கு",
+    "deepSelect": "ஆழ்ந்துத் தேர்",
+    "deepBoxSelect": "பெட்டியினுள் ஆழ்ந்துத் தேர், மற்றும் பிடித்திழுத்தலைத் தவிர்",
+    "createFlowchart": "செயல்வழிப் படம் உருவாக்கு",
+    "navigateFlowchart": "",
+    "curvedArrow": "வளைந்த அம்பு",
+    "curvedLine": "வளைந்த வரி",
+    "doubleClick": "இரு-சொடுக்கு",
+    "drag": "பிடித்திழு",
+    "editor": "திருத்தி",
+    "editLineArrowPoints": "வரி/அம்பு புள்ளிகளைத் திருத்து",
+    "editText": "உரையைத் திருத்து / முத்திரையைச் சேர்",
+    "or": "அ",
+    "preventBinding": "அம்பு பிணைதலைத் தவிர்",
+    "tools": "கருவிகள்",
+    "shortcuts": "விசைப்பலகை குறுக்குவழிகள்",
+    "textFinish": "திருத்துதலை முடி (உரை திருத்தி)",
+    "textNewLine": "புதிய வரியைச் சேர் (உரை திருத்தி)",
+    "title": "உதவி",
+    "view": "பார்",
+    "zoomToFit": "அனைத்துறுப்புகளும் பொருந்தும்படி விரிவாக்கு",
+    "zoomToSelection": "தெரிவுக்கு விரிவாக்கு",
+    "toggleElementLock": "தேர்ந்தெடுப்பைப் பூட்டு/பூட்டவிழ்",
+    "movePageUpDown": "மேலே/கீழே நகர்த்தவும்",
+    "movePageLeftRight": "இடது/வலது பக்கம் நகர்த்தவும்",
+    "cropStart": "படத்தை வெட்டு",
+    "cropFinish": "முடி"
+  },
+  "clearCanvasDialog": {
+    "title": "கித்தானைத் துடை"
+  },
+  "imageExportDialog": {
+    "header": "படத்தை ஏற்றுமதிதல",
+    "label": {
+      "withBackground": "பின்புலம்",
+      "onlySelected": "தேர்ந்ததை மட்டும்",
+      "darkMode": "இருள் பயன்முறை",
+      "embedScene": "காட்சியை உட்பொதி",
+      "scale": "அளவுகோல்",
+      "padding": "இடைவெளி"
+    },
+    "tooltip": {
+      "embedScene": "தளவட்டத் தரவை PNG/SVG கோப்பில் சேமிக்கப்படும், இதன் மூலம் தளவட்டை மீட்டமைக்கலாம். கோப்பு அளவு அதிகரிக்கும்."
+    },
+    "title": {
+      "exportToPng": "PNGக்கு ஏற்றுமதிசெய்",
+      "exportToSvg": "SVGக்கு ஏற்றுமதிசெய்",
+      "copyPngToClipboard": "PNGஐ நகலகத்திற்கு நகலெடு"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "நகலகத்திற்கு நகலெடு"
+    }
+  },
+  "stats": {
+    "shapes": "வடிவங்கள்",
+    "height": "உயரம்",
+    "scene": "காட்சி",
+    "fullTitle": "கன்வாஸ் & வடிவ பண்புகள்",
+    "title": "அமைப்புகள்",
+    "generalStats": "பொது",
+    "elementProperties": "வடிவத்தின் அமைப்புகள்",
+    "width": "அகலம்"
+  },
+  "toast": {
+    "copyStyles": "ஒயில்கள் நகலெடுக்கப்பட்டன.",
+    "copyToClipboardAsPng": "{{exportSelection}}-ஐ நகலகத்திற்கு PNG ஆக நகலெடுத்தது\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "{{exportSelection}} ({{exportColorScheme}}) SVG நகல்",
+    "fileSaved": "கோப்பு சேமிக்கப்பட்டது.",
+    "fileSavedToFilename": "{filename}-க்கு சேமிக்கப்பட்டது",
+    "canvas": "கித்தான்",
+    "selection": "தெரிவு",
+    "pasteAsSingleElement": "{{shortcut}} பயன்படுத்தி ஒன்றாக ஒட்டவும், அல்லது உள்ள உரை தொகுப்பியில் ஒட்டவும்",
+    "unableToEmbed": "இந்த Url-ஐ நுழைக்க தற்போது அனுமதி இல்லை. Url-ஐ வெள்ளிய பட்டியலில் சேர்க்க GitHub-ல் பிரச்சனை எழுப்பவும்",
+    "unrecognizedLinkFormat": "நீங்கள் நுழைத்த இணைப்பு எதிர்பார்க்கப்படும் வடிவத்துடன் பொருந்தவில்லை. மூலத்தளத்தால் வழங்கப்பட்ட 'embed' ஸ்டிரிங்கை ஒட்ட முயற்சிக்கவும்",
+    "elementLinkCopied": "இணைப்பு கிளிப்போர்டிற்கு நகலெடுக்கப்பட்டது"
+  },
+  "colors": {
+    "transparent": "ஒளிபுகுத்தன்மை",
+    "black": "கருப்பு",
+    "white": "வெள்ளை",
+    "red": "சிவப்பு",
+    "pink": "இளஞ்சிவப்பு",
+    "grape": "திராட்சை",
+    "violet": "ஊதா",
+    "gray": "சாம்பல்",
+    "blue": "நீலம்",
+    "cyan": "மயில்நிறம்",
+    "teal": "டீல்",
+    "green": "பச்சை",
+    "yellow": "மஞ்சள்",
+    "orange": "ஆரஞ்சு",
+    "bronze": "வெண்கலம்"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "விருப்பத்தேர்வுகள் மற்றும் பலவற்றை ஏற்றுமதிசெய்...",
+      "center_heading": "எளிமையாக வரைபடங்கள் உருவாக்க!",
+      "toolbarHint": "கருவியைத் தேர்ந்தெடு & வரை!",
+      "helpHint": "குறுக்குவழிகள் & உதவி"
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "அதகம் பயன்படுத்தப்பட்ட தனிப்பயன் நிறங்கள்",
+    "colors": "நிறங்கள்",
+    "shades": "சாயல்கள்",
+    "hexCode": "ஹெக்ஸ் குறியீடு",
+    "noShades": "இந்நிறத்திற்குச் சாயல்கள் இல்லை",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "படமாக ஏற்றுமதிசெய்",
+        "button": "படமாக ஏற்றுமதிசெய்",
+        "description": "காட்சித் தரவை நீங்கள் பின்னர் இறக்குமதி செய்யக்கூடிய ஒரு படமாக ஏற்றுமதிசெய்க."
+      },
+      "saveToDisk": {
+        "title": "வட்டில் சேமி",
+        "button": "வட்டில் சேமி",
+        "description": "காட்சித் தரவை நீங்கள் பின்னர் இறக்குமதி செய்யக்கூடிய ஒரு கோப்பிற்கு ஏற்றுமதிசெய்க."
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "கோப்பிலிருந்து ஏற்று",
+        "button": "கோப்பிலிருந்து ஏற்று",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "மெர்மெய்டிலிருந்து எக்ஸ்காலிட்ரா",
+    "button": "புகுத்து",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": "விரைவு தேடல்"
+  },
+  "fontList": {
+    "badge": {
+      "old": "பழைய"
+    },
+    "sceneFonts": "இந்தத் தளவட்டத்தில்",
+    "availableFonts": "எழுத்துருக்கள்",
+    "empty": "எழுத்துருக்கள் எதுவும் இல்லை"
+  },
+  "userList": {
+    "empty": "பயனர்கள் காணவில்லை",
+    "hint": {
+      "text": "பின்தொடர அந்தப் பயனரைச் சொடுக்கவும்",
+      "followStatus": "தற்போது இப்பயனரைப் பின்தொடர்கிறீர்",
+      "inCall": "பயனர் ஓர் ஒலியழைப்பில் உள்ளார்",
+      "micMuted": "பயனரின் ஒலிவாங்கி ஒலிமறுக்கப்பட்டுள்ளது",
+      "isSpeaking": "பயனர் பேசுகிறார்"
+    }
+  },
+  "commandPalette": {
+    "title": "கட்டளை பட்டை",
+    "shortcuts": {
+      "select": "தேர்ந்தெடு",
+      "confirm": "உறுதிசெய்",
+      "close": "மூடு"
+    },
+    "recents": "அண்மையில் பயன்படுத்தியவை",
+    "search": {
+      "placeholder": "மெனு & கட்டளைகள் தேடு, மறைந்த வசதிகளைக் கண்டறி",
+      "noMatch": "பொருந்தும் கட்டளைகள் எதுவும் இல்லை…"
+    },
+    "itemNotAvailable": "கட்டளை கிடைக்கவில்லை...",
+    "shortcutHint": "கட்டளை பட்டை பயன்படுத்த {{shortcut}}"
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

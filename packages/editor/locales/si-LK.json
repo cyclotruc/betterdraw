@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "අලවන්න",
+    "pasteAsPlaintext": "සරල පෙළ ලෙස අලවන්න",
+    "pasteCharts": "ප්‍රස්ථාරය",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "සියල්ලම",
+    "multiSelect": "තෝරා ගැනීමට අංගය එකතු කරන්න",
+    "moveCanvas": "කැන්වසය චලනය කරන්න",
+    "cut": "කපන්න",
+    "copy": "පිටපත් කරන්න",
+    "copyAsPng": "PNG ලෙස පිටපත් කරන්න",
+    "copyAsSvg": "SVG ලෙස පිටපත් කරන්න",
+    "copyText": "පෙළ පිටපත් කරන්න",
+    "bringForward": "ඉදිරියට ගෙන්න",
+    "sendToBack": "පසුපසටම ගෙනියන්න",
+    "bringToFront": "ඉදිරියටම ගෙන්න",
+    "sendBackward": "පසුපසට ගෙනියන්න",
+    "delete": "මකන්න",
+    "copyStyles": "ශෛලීන් පිටපත් කරන්න",
+    "pasteStyles": "ශෛලීන් අලවන්න",
+    "stroke": "පහර",
+    "changeStroke": "",
+    "background": "පසුබිම",
+    "changeBackground": "",
+    "fill": "පිරවුම",
+    "strokeWidth": "පහර පළල",
+    "strokeStyle": "පහර ශෛලිය",
+    "strokeStyle_solid": "ඝන",
+    "strokeStyle_dashed": "කඩකිරීම්",
+    "strokeStyle_dotted": "තිත් සහිත",
+    "sloppiness": "අනියම් බව",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "පාරදෘශ්‍යතාව",
+    "textAlign": "පෙළ පෙළගැස්ම",
+    "edges": "දාර",
+    "sharp": "තියුණු",
+    "round": "වට",
+    "arrowheads": "ඊතල හිස",
+    "arrowhead_none": "කිසිවක් නැත",
+    "arrowhead_arrow": "ඊතලය",
+    "arrowhead_bar": "බාර්",
+    "arrowhead_circle": "වෘත්තය",
+    "arrowhead_circle_outline": "වෘත්ත රූපරේඛාව",
+    "arrowhead_triangle": "ත්‍රිකෝණය",
+    "arrowhead_triangle_outline": "ත්‍රිකෝණ රූපරේඛාව",
+    "arrowhead_diamond": "දියමන්ති",
+    "arrowhead_diamond_outline": "දියමන්ති රූපරේඛාව",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "අකුරු ප්‍රමාණය",
+    "fontFamily": "අකුරු පවුල",
+    "handDrawn": "අතින් ඇඳි",
+    "normal": "සාමාන්‍ය",
+    "code": "කේත",
+    "small": "කුඩා",
+    "medium": "මධ්‍යම",
+    "large": "විශාල",
+    "veryLarge": "ඉතා විශාල",
+    "solid": "ඝන",
+    "hachure": "හැචුර",
+    "zigzag": "සිග්සැග්",
+    "crossHatch": "හරස් හැචුර",
+    "thin": "කෙට්ටු",
+    "bold": "තද",
+    "left": "වම",
+    "center": "මැද",
+    "right": "දකුණ",
+    "architect": "වාස්තුවේදීයා",
+    "artist": "කලාකරු",
+    "cartoonist": "සැකිලිරූකරු",
+    "fileTitle": "ගොනු නාමය",
+    "colorPicker": "පාට තෝරකය",
+    "canvasBackground": "කැන්වස පසුබිම",
+    "drawingCanvas": "චිත්‍රක කැන්වසය",
+    "clearCanvas": "",
+    "layers": "ලේයර",
+    "actions": "ක්‍රියාකාරකම",
+    "liveCollaboration": "සජීවී සහයෝගිතාව",
+    "duplicateSelection": "තෝරාගැනීම පිටපත් කරන්න",
+    "untitled": "නිර්නාමික",
+    "group": "කණ්ඩායම",
+    "ungroup": "කණ්ඩායම් ඉවත් කරන්න",
+    "collaborators": "සහයෝගිකයන්",
+    "you": "",
+    "toggleGrid": "",
+    "loadingScene": "දර්ශනය පූරණය වෙමින්",
+    "align": "පෙළගැස්වීම",
+    "alignTop": "ඉහළට පෙළගස්වන්න",
+    "alignBottom": "පහළට පෙළගස්වන්න",
+    "alignLeft": "වමට පෙළගස්වන්න",
+    "alignRight": "දකුණට පෙළගස්වන්න",
+    "centerVertically": "සිරස්ව මැදට",
+    "centerHorizontally": "තිරස්ව මැදට",
+    "distributeHorizontally": "තිරස්ව බෙදාහරින්න",
+    "distributeVertically": "සිරස්ව බෙදාහරින්න",
+    "flipHorizontal": "තිරස්ව පෙරළන්න",
+    "flipVertical": "සිරස්ව පෙරළන්න",
+    "viewMode": "දසුන් මාදිලිය",
+    "share": "බෙදාහදා ගන්න",
+    "showStroke": "පහර පෙන්වන්න",
+    "showBackground": "පසුබිම පෙන්වන්න",
+    "showFonts": "",
+    "toggleTheme": "තේමාව ටොගල් කරන්න",
+    "theme": "",
+    "decreaseFontSize": "අකුරු ප්‍රමාණය අඩු කරන්න",
+    "increaseFontSize": "අකුරු ප්‍රමාණය වැඩි කරන්න",
+    "unbindText": "පෙළ විසන්ධි කරන්න",
+    "bindText": "පෙළ බන්ධනය කරන්න",
+    "createContainerFromText": "පෙළෙන් බහාලුමක් සාදන්න",
+    "link": {
+      "edit": "සංස්කරණය",
+      "editEmbed": "බිහිදැමීම සංස්කරණය",
+      "create": "සාදන්න",
+      "label": "ලේබලය",
+      "labelEmbed": "බිහිදැමීම ලේබලය",
+      "empty": "හිස්",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "සංස්කරණය",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "අගුලු දමන්න",
+      "unlock": "අගුලු ඉවත් කරන්න",
+      "unlockAll": "සියල්ල අගුලු ඉවත් කරන්න"
+    },
+    "sidebarLock": "පැති තීරුව අගුලු",
+    "selectAllElementsInFrame": "අඳින ලද රාමුවේ සියලුම අංග තෝරන්න",
+    "removeAllElementsFromFrame": "රාමුවෙන් සියලුම අංග ඉවත් කරන්න",
+    "eyeDropper": "අක්ෂි බිංදුකරු",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "පිරිසිදු කර ප්‍රතිස්ථාපනය",
+    "exportImage": "පින්තූරය ලෙස නිර්යාත කරන්න",
+    "export": "නිර්යාත",
+    "save": "සුරකින්න",
+    "saveAs": "ලෙස සුරකින්න",
+    "load": "පූරණය",
+    "close": "වසන්න",
+    "scrollBackToContent": "අන්තර්ගතයට ආපසු යන්න",
+    "zoomIn": "විශාලනය",
+    "zoomOut": "කුඩාකිරීම",
+    "resetZoom": "විශාලනය යළි සකසන්න",
+    "done": "සම්පූර්ණයි",
+    "edit": "සංස්කරණය",
+    "undo": "පසුගමන",
+    "redo": "නැවත කරන්න",
+    "darkMode": "අඳුරු මාදිලිය",
+    "lightMode": "ලා පැහැ මාදිලිය",
+    "systemMode": "",
+    "zenMode": "සෙන් මාදිලිය",
+    "objectsSnapMode": "වස්තු ස්නැප් මාදිලිය",
+    "cancel": "අවලංගු කරන්න",
+    "remove": "ඉවත් කරන්න",
+    "confirm": "තහවුරු කරන්න",
+    "embeddableInteractionButton": "බිහිදැමීමේ අන්තර්ක්‍රියා බොත්තම"
+  },
+  "alerts": {
+    "clearReset": "පිරිසිදු කිරීම හා යළි සැකසීම ගැන ඇඟවීම",
+    "couldNotLoadInvalidFile": "වලංගු නොවන ගොනුවක් පූරණය කළ නොහැක",
+    "cannotExportEmptyCanvas": "හිස් කැන්වසයක් නිර්යාත කළ නොහැක",
+    "couldNotCopyToClipboard": "ක්ලිප්බෝඩ් එකට පිටපත් කළ නොහැක",
+    "cannotRestoreFromImage": "පින්තූරයෙන් ප්‍රතිස්ථාපනය කළ නොහැක"
+  },
+  "errors": {
+    "unsupportedFileType": "සහාය නොදක්වන ගොනු වර්ගය",
+    "imageInsertError": "පින්තූර ඇතුළත් කිරීමේ දෝෂය",
+    "fileTooBig": "ගොනුව ඉතා විශාලයි",
+    "svgImageInsertError": "SVG පින්තූර ඇතුළත් කිරීමේ දෝෂය",
+    "failedToFetchImage": "පින්තූරය ලබා ගැනීමට අසමත් විය",
+    "imageToolNotSupported": "පින්තූර මෙවලම සහාය නොදක්වයි",
+    "brave_measure_text_error": {
+      "line1": "බ්‍රේව් බ්‍රව්සරයේ පෙළ මැනීමේ දෝෂය",
+      "line2": "මෙම දෝෂය බ්‍රේව් බ්‍රව්සරයේ ගැටලුවකි"
+    },
+    "asyncPasteFailedOnRead": "අසින්ක් ඇලවීම කියවීමේදී අසාර්ථකයි",
+    "asyncPasteFailedOnParse": "අසින්ක් ඇලවීම විග්‍රහ කිරීමේදී අසාර්ථකයි",
+    "copyToSystemClipboardFailed": "පද්ධති ක්ලිප්බෝඩ් එකට පිටපත් කිරීම අසාර්ථකයි"
+  },
+  "toolBar": {
+    "selection": "තේරීම",
+    "lasso": "",
+    "image": "පින්තූරය",
+    "rectangle": "සෘජුකෝණාස්‍රය",
+    "diamond": "දියමන්ති",
+    "ellipse": "ඉලිප්සය",
+    "arrow": "ඊතලය",
+    "line": "රේඛාව",
+    "freedraw": "නිදහස් ඇඳීම",
+    "text": "පෙළ",
+    "lock": "අගුල",
+    "penMode": "පෑන් මාදිලිය",
+    "link": "සබැඳිය",
+    "eraser": "මකනය",
+    "frame": "රාමුව",
+    "embeddable": "බිහිදැමිය හැකි",
+    "laser": "ලේසර්",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "අත",
+    "extraTools": "අමතර මෙවලම්",
+    "mermaidToExcalidraw": "Mermaid වලින් Excalidraw වෙත",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "කැන්වස ක්‍රියා",
+    "selectedShapeActions": "තෝරාගත් හැඩතල ක්‍රියා",
+    "shapes": "හැඩතල"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "රේඛීය අංගය",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "නිදහස් ඇඳීම",
+    "text": "පෙළ",
+    "embeddable": "බිහිදැමිය හැකි",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "Firefox ක්ලිප්බෝඩ් ලිවීම",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "පූර්වදර්ශනය පෙන්විය නොහැක",
+    "canvasTooBig": "කැන්වසය ඉතා විශාලයි",
+    "canvasTooBigTip": "කැන්වසය ඉතා විශාල බවට ඉඟිය"
+  },
+  "errorDialog": {
+    "title": "දෝෂ සංවාද මාතෘකාව"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "තැටි මාතෘකාව",
+    "disk_details": "තැටි විස්තර",
+    "disk_button": "තැටි බොත්තම",
+    "link_title": "සබැඳි මාතෘකාව",
+    "link_details": "සබැඳි විස්තර",
+    "link_button": "සබැඳි බොත්තම"
+  },
+  "helpDialog": {
+    "click": "ක්ලික්",
+    "deepSelect": "ගැඹුරු තේරීම",
+    "deepBoxSelect": "ගැඹුරු කොටු තේරීම",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "වක්‍ර ඊතලය",
+    "curvedLine": "වක්‍ර රේඛාව",
+    "doubleClick": "ද්විත්ව ක්ලික්",
+    "drag": "අදින්න",
+    "editor": "සංස්කාරක",
+    "editLineArrowPoints": "රේඛා ඊතල ලක්ෂ්‍ය සංස්කරණය",
+    "editText": "පෙළ සංස්කරණය",
+    "or": "හෝ",
+    "preventBinding": "බන්ධනය වැළැක්වීම",
+    "tools": "මෙවලම්",
+    "shortcuts": "කෙටිමං",
+    "textFinish": "පෙළ අවසන්",
+    "textNewLine": "පෙළ නව රේඛාව",
+    "title": "මාතෘකාව",
+    "view": "දසුන",
+    "zoomToFit": "විශාලනයට ගැළපීම",
+    "zoomToSelection": "තේරීමට විශාලනය",
+    "toggleElementLock": "අංග අගුලු ටොගල්",
+    "movePageUpDown": "පිටුව ඉහළට/පහළට ගෙනයාම",
+    "movePageLeftRight": "පිටුව වමට/දකුණට ගෙනයාම",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "කැන්වසය පිරිසිදු කිරීමේ සංවාදය"
+  },
+  "imageExportDialog": {
+    "header": "පින්තූර නිර්යාත සංවාදය",
+    "label": {
+      "withBackground": "පසුබිම සමඟ",
+      "onlySelected": "තෝරාගත් පමණක්",
+      "darkMode": "අඳුරු මාදිලිය",
+      "embedScene": "දර්ශනය බිහිදැමීම",
+      "scale": "පරිමාණය",
+      "padding": "පෑඩිං"
+    },
+    "tooltip": {
+      "embedScene": "දර්ශනය බිහිදැමීම ගැන ඉඟිය"
+    },
+    "title": {
+      "exportToPng": "PNG ලෙස නිර්යාත",
+      "exportToSvg": "SVG ලෙස නිර්යාත",
+      "copyPngToClipboard": "PNG ලෙස ක්ලිප්බෝඩ් එකට පිටපත්"
+    },
+    "button": {
+      "exportToPng": "PNG ලෙස නිර්යාත කරන්න",
+      "exportToSvg": "SVG ලෙස නිර්යාත කරන්න",
+      "copyPngToClipboard": "PNG ලෙස ක්ලිප්බෝඩ් එකට පිටපත් කරන්න"
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "උස",
+    "scene": "දර්ශනය",
+    "fullTitle": "",
+    "title": "සංඛ්‍යාලේඛන මාතෘකාව",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "පළල"
+  },
+  "toast": {
+    "copyStyles": "ශෛලීන් පිටපත් කරන ලදි",
+    "copyToClipboardAsPng": "PNG ලෙස ක්ලිප්බෝඩ් එකට පිටපත් කරන ලදි",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "ගොනුව සුරැකිණි",
+    "fileSavedToFilename": "ගොනුව ගොනු නාමයට සුරැකිණි",
+    "canvas": "කැන්වස ටෝස්ට්",
+    "selection": "තේරීම ටෝස්ට්",
+    "pasteAsSingleElement": "තනි අංගයක් ලෙස ඇලවීම",
+    "unableToEmbed": "බිහිදැමීමට නොහැක",
+    "unrecognizedLinkFormat": "නොහඳුනන සබැඳි ආකෘතිය",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "පාරදෘශ්‍ය",
+    "black": "කළු",
+    "white": "සුදු",
+    "red": "රතු",
+    "pink": "රෝස",
+    "grape": "දම්",
+    "violet": "දම්පාට",
+    "gray": "අළු",
+    "blue": "නිල්",
+    "cyan": "සයන්",
+    "teal": "ටීල්",
+    "green": "කොළ",
+    "yellow": "කහ",
+    "orange": "තැඹිලි",
+    "bronze": "ලෝකඩ"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "පෙරනිමි මෙනු ඉඟිය",
+      "center_heading": "පෙරනිමි මධ්‍ය ශීර්ෂය",
+      "toolbarHint": "මෙවලම් තීරු ඉඟිය",
+      "helpHint": "උපකාර ඉඟිය"
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "බහුලව භාවිතා වන අභිරුචි පාට",
+    "colors": "පාට",
+    "shades": "සෙවනැලි",
+    "hexCode": "හෙක්ස් කේත",
+    "noShades": "සෙවනැලි නැත",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "පින්තූරයට නිර්යාත ආවරණය",
+        "button": "පින්තූරයට නිර්යාත බොත්තම",
+        "description": "පින්තූරයට නිර්යාත විස්තර"
+      },
+      "saveToDisk": {
+        "title": "තැටියට සුරැකීම ආවරණය",
+        "button": "තැටියට සුරැකීම බොත්තම",
+        "description": "තැටියට සුරැකීම විස්තර"
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "ගොනුවෙන් පූරණය ආවරණය",
+        "button": "ගොනුවෙන් පූරණය බොත්තම",
+        "description": "ගොනුවෙන් පූරණය විස්තර"
+      }
+    }
+  },
+  "mermaid": {
+    "title": "Mermaid මාතෘකාව",
+    "button": "Mermaid බොත්තම",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

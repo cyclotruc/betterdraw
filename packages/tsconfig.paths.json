@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@betterdraw/common": ["./common/src/index.ts"],
+      "@betterdraw/common/*": ["./common/src/*"],
+      "@betterdraw/editor": ["./editor/index.tsx"],
+      "@betterdraw/editor/*": ["./editor/*"],
+      "@betterdraw/element": ["./element/src/index.ts"],
+      "@betterdraw/element/*": ["./element/src/*"],
+      "@betterdraw/fractional-indexing": ["./fractional-indexing/src/index.ts"],
+      "@betterdraw/fractional-indexing/*": ["./fractional-indexing/src/*"],
+      "@betterdraw/laser-pointer": ["./laser-pointer/src/index.ts"],
+      "@betterdraw/laser-pointer/*": ["./laser-pointer/src/*"],
+      "@betterdraw/math": ["./math/src/index.ts"],
+      "@betterdraw/math/*": ["./math/src/*"],
+      "@betterdraw/utils": ["./utils/src/index.ts"],
+      "@betterdraw/utils/*": ["./utils/src/*"]
+    }
+  }
+}

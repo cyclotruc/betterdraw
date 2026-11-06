@@ -1,0 +1,33 @@
+#!/bin/sh
+# Commits here are signed by the people who make them. A coding agent may write the code, never the
+# signature: no AI co-author, no session link, no "Generated with" line, no agent as author or committer.
+# As a hook it refuses such a commit before it exists; turn it on once per clone with
+#   git config core.hooksPath .githooks
+# CI runs the same check on every commit it receives: sh .githooks/commit-msg --log <range>
+set -eu
+
+# An agent is known by its address, so people named Claude or Jules still sign freely.
+agent='<[^>]*(noreply@anthropic\.com|noreply@openai\.com|codex@openai\.com|cursoragent@cursor\.com|noreply@aider\.chat|copilot@users\.noreply\.github\.com|(copilot-swe-agent|google-labs-jules|devin-ai-integration|claude)\[bot\])'
+signature="^(co-authored-by|author|committer):? .*$agent|^claude-session:|generated with \[?(claude|codex|cursor|copilot)"
+
+# The lines of one commit (author, committer, then the message) that carry a signature.
+signed() { printf '%s\n' "$1" | grep -iE "$signature" || true; }
+
+if [ "${1:-}" = "--log" ]; then
+  status=0
+  for commit in $(git rev-list "$2"); do
+    found=$(signed "$(git log -1 --format='author %an <%ae>%ncommitter %cn <%ce>%n%B' "$commit")")
+    if [ -n "$found" ]; then
+      printf 'commit %s\n%s\n' "$commit" "$found"
+      status=1
+    fi
+  done
+  [ "$status" = 0 ] || echo "These commits carry a coding agent's signature. Sign them as yourself, without it."
+  exit "$status"
+fi
+
+found=$(signed "$(printf 'author %s\ncommitter %s\n' "$(git var GIT_AUTHOR_IDENT)" "$(git var GIT_COMMITTER_IDENT)"; cat "$1")")
+[ -z "$found" ] && exit 0
+printf '%s\n' "$found" >&2
+echo "This commit carries a coding agent's signature. Sign it as yourself, without it." >&2
+exit 1

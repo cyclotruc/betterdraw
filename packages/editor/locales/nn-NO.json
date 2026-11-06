@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Lim inn",
+    "pasteAsPlaintext": "",
+    "pasteCharts": "Lim inn diagram",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "Vel alt",
+    "multiSelect": "Legg til element i utval",
+    "moveCanvas": "Flytt lerretet",
+    "cut": "Klipp ut",
+    "copy": "Kopier",
+    "copyAsPng": "Kopier til utklippstavla som PNG",
+    "copyAsSvg": "Kopier til utklippstavla som SVG",
+    "copyText": "",
+    "bringForward": "Flytt framover",
+    "sendToBack": "Send heilt bak",
+    "bringToFront": "Flytt heilt fram",
+    "sendBackward": "Send bakover",
+    "delete": "Slett",
+    "copyStyles": "Kopier stilar",
+    "pasteStyles": "Lim inn stilar",
+    "stroke": "Strek",
+    "changeStroke": "",
+    "background": "Bakgrunn",
+    "changeBackground": "",
+    "fill": "Fyll",
+    "strokeWidth": "Strekbreidd",
+    "strokeStyle": "Strekstil",
+    "strokeStyle_solid": "",
+    "strokeStyle_dashed": "Stipla",
+    "strokeStyle_dotted": "Prikka",
+    "sloppiness": "Ujamnheit",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Synlegheit",
+    "textAlign": "Tekstjustering",
+    "edges": "Kanter",
+    "sharp": "Skarp",
+    "round": "Rund",
+    "arrowheads": "Pilhovud",
+    "arrowhead_none": "Ingen",
+    "arrowhead_arrow": "Pil",
+    "arrowhead_bar": "Stolpe",
+    "arrowhead_circle": "",
+    "arrowhead_circle_outline": "",
+    "arrowhead_triangle": "Trekant",
+    "arrowhead_triangle_outline": "",
+    "arrowhead_diamond": "",
+    "arrowhead_diamond_outline": "",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "Skriftstorleik",
+    "fontFamily": "Skrifttype",
+    "handDrawn": "Handteikna",
+    "normal": "",
+    "code": "Kode",
+    "small": "Liten",
+    "medium": "",
+    "large": "Stor",
+    "veryLarge": "Svært stor",
+    "solid": "",
+    "hachure": "Skravert",
+    "zigzag": "",
+    "crossHatch": "Krysskravert",
+    "thin": "Tynn",
+    "bold": "Tjukk",
+    "left": "Venstre",
+    "center": "Midstill",
+    "right": "Høgre",
+    "architect": "Arkitekt",
+    "artist": "Kunstnar",
+    "cartoonist": "Teiknar",
+    "fileTitle": "Filnamn",
+    "colorPicker": "Fargeveljar",
+    "canvasBackground": "Lerretsbakgrunn",
+    "drawingCanvas": "Lerret",
+    "clearCanvas": "",
+    "layers": "Lag",
+    "actions": "Handlingar",
+    "liveCollaboration": "",
+    "duplicateSelection": "Dupliser",
+    "untitled": "Utan namn",
+    "group": "Grupper utval",
+    "ungroup": "Avgrupper utval",
+    "collaborators": "Samarbeidarar",
+    "you": "",
+    "toggleGrid": "",
+    "loadingScene": "Laster scene…",
+    "align": "Juster",
+    "alignTop": "Juster til topp",
+    "alignBottom": "Juster til botn",
+    "alignLeft": "Juster til venstre",
+    "alignRight": "Juster til høgre",
+    "centerVertically": "Midtstill vertikalt",
+    "centerHorizontally": "Midtstill horisontalt",
+    "distributeHorizontally": "Sprei horisontalt",
+    "distributeVertically": "Sprei vertikalt",
+    "flipHorizontal": "Vipp vassrett",
+    "flipVertical": "Vipp loddrett",
+    "viewMode": "Visningsmodus",
+    "share": "Del",
+    "showStroke": "Vis fargeveljar for linjer",
+    "showBackground": "Vis fargeveljar for bakgrunn",
+    "showFonts": "",
+    "toggleTheme": "",
+    "theme": "",
+    "decreaseFontSize": "Gjer skriftstorleik mindre",
+    "increaseFontSize": "Gjer skriftstorleik større",
+    "unbindText": "Avbind tekst",
+    "bindText": "",
+    "createContainerFromText": "",
+    "link": {
+      "edit": "Rediger lenke",
+      "editEmbed": "",
+      "create": "",
+      "label": "Lenke",
+      "labelEmbed": "",
+      "empty": "",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "",
+      "unlock": "",
+      "unlockAll": ""
+    },
+    "sidebarLock": "",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "Tilbakestill lerretet",
+    "exportImage": "",
+    "export": "",
+    "save": "Lagre til noverande fil",
+    "saveAs": "Lagre som",
+    "load": "",
+    "close": "Lukk",
+    "scrollBackToContent": "Skroll tilbake til innhald",
+    "zoomIn": "Zoom inn",
+    "zoomOut": "Zoom ut",
+    "resetZoom": "Nullstill zoom",
+    "done": "Ferdig",
+    "edit": "Rediger",
+    "undo": "Angre",
+    "redo": "Gjer om",
+    "darkMode": "Mørk modus",
+    "lightMode": "Lys modus",
+    "systemMode": "",
+    "zenMode": "Zen-modus",
+    "objectsSnapMode": "",
+    "cancel": "Avbryt",
+    "remove": "Fjern",
+    "confirm": "Stadfest",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "Dette vil tømme lerretet. Er du sikker?",
+    "couldNotLoadInvalidFile": "Kunne ikkje laste inn ugyldig fil",
+    "cannotExportEmptyCanvas": "Kan ikkje eksportere eit tomt lerret.",
+    "couldNotCopyToClipboard": "",
+    "cannotRestoreFromImage": "Scena kunne ikkje gjenopprettast frå denne biletfila"
+  },
+  "errors": {
+    "unsupportedFileType": "Filtypen er ikkje støtta.",
+    "imageInsertError": "Kunne ikkje sette inn biletet. Prøv igjen seinare...",
+    "fileTooBig": "Fila er for stor. Maksimal tillate storleik er {{maxSize}}.",
+    "svgImageInsertError": "Kunne ikkje sette inn SVG-biletet. SVG-koden ser ugyldig ut.",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "Vel",
+    "lasso": "",
+    "image": "Sett in bilete",
+    "rectangle": "Rektangel",
+    "diamond": "Diamant",
+    "ellipse": "",
+    "arrow": "Pil",
+    "line": "Linje",
+    "freedraw": "Teikn",
+    "text": "Tekst",
+    "lock": "Hald fram med valt verktøy",
+    "penMode": "",
+    "link": "",
+    "eraser": "Viskelêr",
+    "frame": "",
+    "embeddable": "",
+    "laser": "",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "",
+    "extraTools": "",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "Handlingar: lerret",
+    "selectedShapeActions": "Handlingar: valt objekt",
+    "shapes": "Formar"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "Klikk for å starte linje med fleire punkt, eller drag for ei enkel linje",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "Klikk og drag, slepp når du er ferdig",
+    "text": "Tips: du kan òg leggje til tekst ved å dobbeltklikke kor som helst med utvalgsverktyet",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "Kan ikkje vise førehandsvising",
+    "canvasTooBig": "Lerretet er mogleg for stort.",
+    "canvasTooBigTip": "Tips: prøv å flytte elementa som er lengst frå kvarandre, litt nærare kvarandre."
+  },
+  "errorDialog": {
+    "title": "Feil"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "Lagre til disk",
+    "disk_details": "Eksporter scenedataa til ei fil du kan importere seinare.",
+    "disk_button": "Lagre til fil",
+    "link_title": "Deleleg lenke",
+    "link_details": "Eksporter som skrivebeskytta lenke.",
+    "link_button": "Eksporter til lenke"
+  },
+  "helpDialog": {
+    "click": "klikk",
+    "deepSelect": "Marker djupt",
+    "deepBoxSelect": "Marker djupt inni boksen og forhindr flytting",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "Boga pil",
+    "curvedLine": "Boga linje",
+    "doubleClick": "dobbelklikk",
+    "drag": "",
+    "editor": "Redigering",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "eller",
+    "preventBinding": "Hindre pilkopling",
+    "tools": "",
+    "shortcuts": "Tastatursnarvegar",
+    "textFinish": "Fullfør redigering (teksthandsamar)",
+    "textNewLine": "Legg til ny linje (teksthandsamar)",
+    "title": "Hjelp",
+    "view": "Vising",
+    "zoomToFit": "Zoom for å sjå alle elementa",
+    "zoomToSelection": "Zoom til utval",
+    "toggleElementLock": "",
+    "movePageUpDown": "",
+    "movePageLeftRight": "",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "Tøm lerretet"
+  },
+  "imageExportDialog": {
+    "header": "",
+    "label": {
+      "withBackground": "",
+      "onlySelected": "",
+      "darkMode": "",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    },
+    "button": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "Høgde",
+    "scene": "",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "Breidde"
+  },
+  "toast": {
+    "copyStyles": "Kopierte stilane.",
+    "copyToClipboardAsPng": "Kopierte {{exportSelection}} til utklippstavla som PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "Fila er lagra.",
+    "fileSavedToFilename": "Lagra som {filename}",
+    "canvas": "lerret",
+    "selection": "val",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "Gjennomsiktig",
+    "black": "",
+    "white": "",
+    "red": "",
+    "pink": "",
+    "grape": "",
+    "violet": "",
+    "gray": "",
+    "blue": "",
+    "cyan": "",
+    "teal": "",
+    "green": "",
+    "yellow": "",
+    "orange": "",
+    "bronze": ""
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "",
+      "center_heading": "",
+      "toolbarHint": "",
+      "helpHint": ""
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "",
+    "colors": "",
+    "shades": "",
+    "hexCode": "",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

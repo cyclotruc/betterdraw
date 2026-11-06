@@ -1,0 +1,37 @@
+# One light check on every push to main and every pull request: no commit signed by a coding agent,
+# then install, type-check and build. The editor's tests run locally (npm test), not here.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Commits here are signed by the people who make them, never by a coding agent: see the hook.
+      - name: No commit signed by a coding agent
+        env:
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          range="$BASE..$HEAD"
+          if ! git cat-file -e "$BASE^{commit}" 2>/dev/null; then range="$HEAD"; fi
+          sh .githooks/commit-msg --log "$range"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build

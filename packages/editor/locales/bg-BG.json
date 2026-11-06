@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Постави",
+    "pasteAsPlaintext": "Постави като обикновен текст",
+    "pasteCharts": "Постави графики",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "Маркирай всичко",
+    "multiSelect": "Добави елемент към селекция",
+    "moveCanvas": "Премести платно",
+    "cut": "Изрежи",
+    "copy": "Копирай",
+    "copyAsPng": "Копиране в клипборда",
+    "copyAsSvg": "Копирано в клипборда като SVG",
+    "copyText": "Копирай в клипборда като текст",
+    "bringForward": "Преместване напред",
+    "sendToBack": "Изнасяне назад",
+    "bringToFront": "Изнасяне отпред",
+    "sendBackward": "Изпрати отзад",
+    "delete": "Изтрий",
+    "copyStyles": "Копирайте стилове",
+    "pasteStyles": "Постави стилове",
+    "stroke": "Щрих",
+    "changeStroke": "Смени цвета на щрих",
+    "background": "Фон",
+    "changeBackground": "Смени цвета на фон",
+    "fill": "Наситеност",
+    "strokeWidth": "Ширина на щриха",
+    "strokeStyle": "Стил на линия",
+    "strokeStyle_solid": "Плътен",
+    "strokeStyle_dashed": "Пунктир",
+    "strokeStyle_dotted": "Пунктирано",
+    "sloppiness": "Небрежност",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Прозрачност",
+    "textAlign": "Подравняване на текста",
+    "edges": "Крайща",
+    "sharp": "Остър",
+    "round": "Закръглено",
+    "arrowheads": "Стрелки",
+    "arrowhead_none": "Без",
+    "arrowhead_arrow": "Стрелка",
+    "arrowhead_bar": "Връх на стрелката",
+    "arrowhead_circle": "Кръг",
+    "arrowhead_circle_outline": "Окръжност",
+    "arrowhead_triangle": "Триъгълник",
+    "arrowhead_triangle_outline": "Триъгълник (очертание)",
+    "arrowhead_diamond": "Диамант",
+    "arrowhead_diamond_outline": "Диамант (очертание)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "Вид стрелка",
+    "arrowtype_sharp": "Остра стрелка",
+    "arrowtype_round": "Извита стрелка",
+    "arrowtype_elbowed": "",
+    "fontSize": "Размер на шрифта",
+    "fontFamily": "Семейство шрифтове",
+    "handDrawn": "Нарисувано на ръка",
+    "normal": "Нормален",
+    "code": "Код",
+    "small": "Малък",
+    "medium": "Среден",
+    "large": "Голям",
+    "veryLarge": "Много голям",
+    "solid": "Солиден",
+    "hachure": "Хералдика",
+    "zigzag": "Зигзаг",
+    "crossHatch": "Двойно-пресечено",
+    "thin": "Тънък",
+    "bold": "Ясно очертан",
+    "left": "Ляво",
+    "center": "Център",
+    "right": "Дясно",
+    "architect": "Архитект",
+    "artist": "Художник",
+    "cartoonist": "Карикатурист",
+    "fileTitle": "Име на файл",
+    "colorPicker": "Избор на цвят",
+    "canvasBackground": "Фон на платно",
+    "drawingCanvas": "Платно за рисуване",
+    "clearCanvas": "Изчисти платното",
+    "layers": "Слоеве",
+    "actions": "Действия",
+    "liveCollaboration": "Сътрудничество на живо...",
+    "duplicateSelection": "Дублирай",
+    "untitled": "Неозаглавено",
+    "group": "Групирай селекцията",
+    "ungroup": "Спри групирането на селекцията",
+    "collaborators": "Сътрудници",
+    "you": "",
+    "toggleGrid": "Превключване на мрежа",
+    "loadingScene": "Зареждане на сцена…",
+    "align": "Подравняване",
+    "alignTop": "Подравняване отгоре",
+    "alignBottom": "Подравняване отдолу",
+    "alignLeft": "Подравняване отляво",
+    "alignRight": "Подравняване отдясно",
+    "centerVertically": "Центрирай вертикално",
+    "centerHorizontally": "Центрирай хоризонтално",
+    "distributeHorizontally": "Разпредели хоризонтално",
+    "distributeVertically": "Разпредели вертикално",
+    "flipHorizontal": "Хоризонтално обръщане",
+    "flipVertical": "Вертикално обръщане",
+    "viewMode": "Изглед",
+    "share": "Сподели",
+    "showStroke": "Покажи избора на цвят за щрих",
+    "showBackground": "Покажи избора на цвят за фон",
+    "showFonts": "",
+    "toggleTheme": "Превключване на светла/тъмна тема",
+    "theme": "Тема",
+    "decreaseFontSize": "Намали размера на шрифта",
+    "increaseFontSize": "Увеличи размера на шрифта",
+    "unbindText": "",
+    "bindText": "",
+    "createContainerFromText": "",
+    "link": {
+      "edit": "Редактирай линк",
+      "editEmbed": "",
+      "create": "Добавяне на връзка",
+      "label": "Линк",
+      "labelEmbed": "",
+      "empty": "Няма зададен линк",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "Редактирай линия",
+      "editArrow": "Редактирай стрелка"
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "Заключи",
+      "unlock": "Отключи",
+      "unlockAll": "Отключи всички"
+    },
+    "sidebarLock": "",
+    "selectAllElementsInFrame": "Избери всички елементи в рамка",
+    "removeAllElementsFromFrame": "Премахни всички елементи от рамка",
+    "eyeDropper": "Избери цвят от платното",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "резултат",
+    "multipleResults": "резултати",
+    "placeholder": "Търсене на текст по платното...",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "Нулиране на платно",
+    "exportImage": "Изнеси изображение...",
+    "export": "Запази на...",
+    "save": "Запази към текущ файл",
+    "saveAs": "Запиши като",
+    "load": "Отвори",
+    "close": "Затвори",
+    "scrollBackToContent": "Превъртете обратно към съдържанието",
+    "zoomIn": "Приближаване",
+    "zoomOut": "Отдалечаване",
+    "resetZoom": "Стандартен мащаб",
+    "done": "Завършено",
+    "edit": "Редактиране",
+    "undo": "Отмяна",
+    "redo": "Повтори",
+    "darkMode": "Тъмен режим",
+    "lightMode": "Светъл режим",
+    "systemMode": "Системен режим",
+    "zenMode": "Режим Zen",
+    "objectsSnapMode": "Прилепване към обекти",
+    "cancel": "Отмени",
+    "remove": "Премахване",
+    "confirm": "Потвърждаване",
+    "embeddableInteractionButton": "Натисни, за да взаимодействаш"
+  },
+  "alerts": {
+    "clearReset": "Това ще изчисти цялото платно. Сигурни ли сте?",
+    "couldNotLoadInvalidFile": "Невалиден файл не може да се зареди",
+    "cannotExportEmptyCanvas": "Не може да се експортира празно платно.",
+    "couldNotCopyToClipboard": "Не можем да копираме в клипбоарда.",
+    "cannotRestoreFromImage": "Не може да бъде възстановена сцена от този файл"
+  },
+  "errors": {
+    "unsupportedFileType": "Този файлов формат не се поддържа.",
+    "imageInsertError": "Неуспешно поставяне на изображение. Опитайте по-късно...",
+    "fileTooBig": "Файлът е твърде голям. Максималния допустим размер е {{maxSize}}.",
+    "svgImageInsertError": "Неуспешно поставяне на SVG изборажение. SVG данните изглеждат невалидни.",
+    "failedToFetchImage": "Неуспешно получаване на изборажение.",
+    "imageToolNotSupported": "Изображенията са изключени.",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "Селекция",
+    "lasso": "",
+    "image": "Вмъкване на изображение",
+    "rectangle": "Правоъгълник",
+    "diamond": "Диамант",
+    "ellipse": "Елипс",
+    "arrow": "Стрелка",
+    "line": "Линия",
+    "freedraw": "Рисуване",
+    "text": "Текст",
+    "lock": "Поддържайте избрания инструмент активен след рисуване",
+    "penMode": "",
+    "link": "",
+    "eraser": "Гума",
+    "frame": "Инструмент за рамки",
+    "embeddable": "",
+    "laser": "Лазерна показалка",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "",
+    "extraTools": "Още инструменти",
+    "mermaidToExcalidraw": "Mermaid към Excalidraw",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "Правоъгълник",
+    "diamond": "Диамант",
+    "ellipse": "Елипса",
+    "arrow": "Стрелка",
+    "line": "Линия",
+    "freedraw": "Свободно рисуване",
+    "text": "Текст",
+    "image": "Изображение",
+    "group": "Група",
+    "frame": "Рамка",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "Действия по платното",
+    "selectedShapeActions": "Избрани действия",
+    "shapes": "Фигури"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "Кликнете, за да стартирате няколко точки, плъзнете за една линия",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "Натиснете и влачете, пуснете като сте готови",
+    "text": "Подсказка: Можете също да добавите текст като натиснете някъде два път с инструмента за селекция",
+    "embeddable": "Натисни-премести, за да създадеш вметка за уебсайт",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "Невъзможност за показване на preview",
+    "canvasTooBig": "Платното е твърде голямо.",
+    "canvasTooBigTip": "Подсказка: пробвайте да приближите далечните елементи по-близко."
+  },
+  "errorDialog": {
+    "title": "Грешка"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "Запази към диск",
+    "disk_details": "",
+    "disk_button": "Запази като файл",
+    "link_title": "Връзка за споделяне",
+    "link_details": "",
+    "link_button": ""
+  },
+  "helpDialog": {
+    "click": "клик",
+    "deepSelect": "",
+    "deepBoxSelect": "",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "Извита стрелка",
+    "curvedLine": "Извита линия",
+    "doubleClick": "двойно-щракване",
+    "drag": "плъзнете",
+    "editor": "Редактор",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "или",
+    "preventBinding": "Спри прилепяне на стрелките",
+    "tools": "Инструменти",
+    "shortcuts": "Клавиши за бърз достъп",
+    "textFinish": "Завърши редактиране (текстов редактор)",
+    "textNewLine": "Добави нова линия (текстов редактор)",
+    "title": "Помощ",
+    "view": "Преглед",
+    "zoomToFit": "Приближи докато се виждат всички елементи",
+    "zoomToSelection": "Приближи селекцията",
+    "toggleElementLock": "Заключи/Отключи селекция",
+    "movePageUpDown": "Премести страница нагоре/надолу",
+    "movePageLeftRight": "Премести страница наляво/надясно",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "Изчисти платното"
+  },
+  "imageExportDialog": {
+    "header": "",
+    "label": {
+      "withBackground": "Фон",
+      "onlySelected": "Само избраното",
+      "darkMode": "Тъмен режим",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "Изнасяне в PNG",
+      "exportToSvg": "Изнасяне в SVG",
+      "copyPngToClipboard": "Копирай PNG в клипборда"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "Копиране в клипборда"
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "Височина",
+    "scene": "Сцена",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "Широчина"
+  },
+  "toast": {
+    "copyStyles": "Копирани стилове.",
+    "copyToClipboardAsPng": "Копира {{exportSelection}} в клипборда като PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "Файлът е запазен.",
+    "fileSavedToFilename": "Запазен към {filename}",
+    "canvas": "платно",
+    "selection": "селекция",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "Прозрачен",
+    "black": "Черен",
+    "white": "Бял",
+    "red": "Червен",
+    "pink": "Розов",
+    "grape": "Грозде",
+    "violet": "Виолетово",
+    "gray": "Сив",
+    "blue": "Син",
+    "cyan": "Синьозелено",
+    "teal": "Тъмно синьо-зелено",
+    "green": "Зелено",
+    "yellow": "Жълто",
+    "orange": "Оранжево",
+    "bronze": "Бронзово"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "Експорт, предпочитания, и още...",
+      "center_heading": "Диаграми. Направени. Просто.",
+      "toolbarHint": "Изберете инструмент & Започнете да рисувате!",
+      "helpHint": "Преки пътища & помощ"
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "Най-често използвани цветове",
+    "colors": "Цветове",
+    "shades": "Нюанси",
+    "hexCode": "Шестнадесетичен код",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "Изнеси като изображение",
+        "button": "Изнеси като изображение",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "Запази към диск",
+        "button": "Запази към диск",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "Зареди от файл",
+        "button": "Зареди от файл",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "Вмъкни",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "Натиснете потребител, за да го следвате",
+      "followStatus": "В момента следвате този потребител",
+      "inCall": "",
+      "micMuted": "Микрофона на потребителят е заглушен",
+      "isSpeaking": "Потребителят говори"
+    }
+  },
+  "commandPalette": {
+    "title": "Палитра команди",
+    "shortcuts": {
+      "select": "Избери",
+      "confirm": "Потвърди",
+      "close": "Затвори"
+    },
+    "recents": "Наскоро използвани",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

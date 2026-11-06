@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Plakken",
+    "pasteAsPlaintext": "Plakken als platte tekst",
+    "pasteCharts": "Grafieken plakken",
+    "chartType_bar": "Staafdiagram",
+    "chartType_line": "Lijndiagram",
+    "chartType_radar": "Spinnenweb diagram",
+    "chartType_plaintext": "Tekst zonder opmaak",
+    "selectAll": "Alles selecteren",
+    "multiSelect": "Voeg element toe aan selectie",
+    "moveCanvas": "Canvas verplaatsen",
+    "cut": "Knip",
+    "copy": "Kopiëren",
+    "copyAsPng": "Kopieer als PNG",
+    "copyAsSvg": "Kopieer naar klembord als SVG",
+    "copyText": "Kopieer naar klembord als tekst",
+    "bringForward": "Breng naar voren",
+    "sendToBack": "Stuur naar achtergrond",
+    "bringToFront": "Breng naar voorgrond",
+    "sendBackward": "Breng naar achter",
+    "delete": "Verwijderen",
+    "copyStyles": "Kopieer opmaak",
+    "pasteStyles": "Plak opmaak",
+    "stroke": "Lijn",
+    "changeStroke": "Verander lijn kleur",
+    "background": "Achtergrond",
+    "changeBackground": "Verander achtergrond kleur",
+    "fill": "Invulling",
+    "strokeWidth": "Lijnbreedte",
+    "strokeStyle": "Lijnstijl",
+    "strokeStyle_solid": "Ononderbroken",
+    "strokeStyle_dashed": "Gestreept",
+    "strokeStyle_dotted": "Gestippeld",
+    "sloppiness": "Slordigheid",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Doorzichtigheid",
+    "textAlign": "Uitlijning",
+    "edges": "Randen",
+    "sharp": "Hoekig",
+    "round": "Rond",
+    "arrowheads": "Pijlpunten",
+    "arrowhead_none": "Geen",
+    "arrowhead_arrow": "Pijl",
+    "arrowhead_bar": "Balk",
+    "arrowhead_circle": "Rond",
+    "arrowhead_circle_outline": "Rond (omtrek)",
+    "arrowhead_triangle": "Driehoek",
+    "arrowhead_triangle_outline": "Driehoek (omtrek)",
+    "arrowhead_diamond": "Diamant",
+    "arrowhead_diamond_outline": "Diamant (omtrek)",
+    "arrowhead_cardinality_one": "Kardinaliteit (één)",
+    "arrowhead_cardinality_many": "Kardinaliteit (Meerdere)",
+    "arrowhead_cardinality_one_or_many": "Kardinaliteit (één of meerdere)",
+    "arrowhead_cardinality_exactly_one": "Kardinaliteit (Precies één)",
+    "arrowhead_cardinality_zero_or_one": "Kardinaliteit (nul of één)",
+    "arrowhead_cardinality_zero_or_many": "Kardinaliteit (nul of meerdere)",
+    "more_options": "Meer opties",
+    "cardinality": "Kardinaliteit",
+    "arrowtypes": "Pijl type",
+    "arrowtype_sharp": "Scherpe pijl",
+    "arrowtype_round": "Gebogen pijl",
+    "arrowtype_elbowed": "Hoek pijl",
+    "fontSize": "Tekstgrootte",
+    "fontFamily": "Lettertype",
+    "handDrawn": "Handgetekend",
+    "normal": "Normaal",
+    "code": "Code",
+    "small": "Klein",
+    "medium": "Middel",
+    "large": "Groot",
+    "veryLarge": "Zeer groot",
+    "solid": "Ingekleurd",
+    "hachure": "Arcering",
+    "zigzag": "Zigzag",
+    "crossHatch": "Tweemaal gearceerd",
+    "thin": "Dun",
+    "bold": "Vet",
+    "left": "Links",
+    "center": "Midden",
+    "right": "Rechts",
+    "architect": "Architect",
+    "artist": "Artiest",
+    "cartoonist": "Cartoonist",
+    "fileTitle": "Bestandsnaam",
+    "colorPicker": "Kleurenkiezer",
+    "canvasBackground": "Canvas achtergrond",
+    "drawingCanvas": "Canvas",
+    "clearCanvas": "Canvas legen",
+    "layers": "Lagen",
+    "actions": "Acties",
+    "liveCollaboration": "Live Samenwerking...",
+    "duplicateSelection": "Dupliceer",
+    "untitled": "Naamloos",
+    "group": "Groeperen",
+    "ungroup": "Groep opheffen",
+    "collaborators": "Deelnemers",
+    "you": "",
+    "toggleGrid": "Raster in-/uitschakelen",
+    "loadingScene": "Scène laden…",
+    "align": "Uitlijnen",
+    "alignTop": "Boven uitlijnen",
+    "alignBottom": "Onder uitlijnen",
+    "alignLeft": "Links uitlijnen",
+    "alignRight": "Rechts uitlijnen",
+    "centerVertically": "Verticaal Centreren",
+    "centerHorizontally": "Horizontaal Centreren",
+    "distributeHorizontally": "Horizontaal verspreiden",
+    "distributeVertically": "Verticaal distribueren",
+    "flipHorizontal": "Horizontaal spiegelen",
+    "flipVertical": "Verticaal spiegelen",
+    "viewMode": "Weergavemodus",
+    "share": "Deel",
+    "showStroke": "Toon lijn kleur kiezer",
+    "showBackground": "Toon achtergrondkleur kiezer",
+    "showFonts": "Lettertype kiezer weergeven",
+    "toggleTheme": "Licht-/donkerthema in-/uitschakelen",
+    "theme": "Thema",
+    "decreaseFontSize": "Letters verkleinen",
+    "increaseFontSize": "Letters vergroten",
+    "unbindText": "Ontkoppel tekst",
+    "bindText": "Koppel tekst aan de container",
+    "createContainerFromText": "Tekst in een container laten doorlopen",
+    "link": {
+      "edit": "Wijzig link",
+      "editEmbed": "Bewerken van insluitbare link",
+      "create": "Link toevoegen",
+      "label": "Link",
+      "labelEmbed": "Link toevoegen & embedden",
+      "empty": "Er is geen link ingesteld",
+      "hint": "Typ of plak je link hier",
+      "goToElement": "Ga naar doelelement"
+    },
+    "lineEditor": {
+      "edit": "Bewerk regel",
+      "editArrow": "Pijl bewerken"
+    },
+    "polygon": {
+      "breakPolygon": "Breek veelhoek",
+      "convertToPolygon": "Veranderen naar veelhoek"
+    },
+    "elementLock": {
+      "lock": "Vergrendel",
+      "unlock": "Ontgrendel",
+      "unlockAll": "Ontgrendel alles"
+    },
+    "sidebarLock": "Zijbalk open houden",
+    "selectAllElementsInFrame": "Selecteer alle elementen in het frame",
+    "removeAllElementsFromFrame": "Verwijder alle elementen in het frame",
+    "eyeDropper": "Kies kleur van canvas",
+    "zoomToFitViewport": "Zoom om in het venster te laten passen",
+    "autoResize": "Automatisch aanpassen van tekst inschakelen",
+    "imageCropping": "Afbeelding bijsnijden",
+    "unCroppedDimension": "Niet bijgesneden dimensie",
+    "copyElementLink": "Kopieer link naar object",
+    "linkToElement": "Link naar object",
+    "wrapSelectionInFrame": "Selectie omslaan in frame",
+    "shapeSwitch": "Verander vorm",
+    "preferences": "Voorkeuren",
+    "preferences_toolLock": "Tool vergrendelen",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "Pijlverbinding",
+    "midpointSnapping": "Vastklikken op middelpunt"
+  },
+  "elementLink": {
+    "title": "Link naar object",
+    "desc": "Klik op een vorm op canvas of plak een link.",
+    "notFound": "Gekoppeld object is niet gevonden op canvas."
+  },
+  "search": {
+    "title": "Zoek op canvas",
+    "noMatch": "Geen overeenkomsten gevonden...",
+    "singleResult": "resultaat",
+    "multipleResults": "resultaten",
+    "placeholder": "Zoek text op canvas...",
+    "frames": "Frames",
+    "texts": "Teksten"
+  },
+  "buttons": {
+    "clearReset": "Canvas opnieuw instellen",
+    "exportImage": "Exporteer afbeelding...",
+    "export": "Sla op...",
+    "save": "Opslaan naar huidige bestand",
+    "saveAs": "Opslaan als",
+    "load": "Open",
+    "close": "Sluiten",
+    "scrollBackToContent": "Scroll terug naar inhoud",
+    "zoomIn": "Inzoomen",
+    "zoomOut": "Uitzoomen",
+    "resetZoom": "Zoom terugzetten",
+    "done": "Klaar",
+    "edit": "Bewerken",
+    "undo": "Ongedaan maken",
+    "redo": "Herstel ongedaan maken",
+    "darkMode": "Donkere modus",
+    "lightMode": "Lichte modus",
+    "systemMode": "Systeemmodus",
+    "zenMode": "Zen modus",
+    "objectsSnapMode": "Uitlijnen op objecten",
+    "cancel": "Annuleren",
+    "remove": "Verwijderen",
+    "confirm": "Bevestigen",
+    "embeddableInteractionButton": "Klik voor interactie"
+  },
+  "alerts": {
+    "clearReset": "Dit zal het hele canvas verwijderen. Weet je het zeker?",
+    "couldNotLoadInvalidFile": "Kan ongeldig bestand niet laden",
+    "cannotExportEmptyCanvas": "Kan geen leeg canvas exporteren.",
+    "couldNotCopyToClipboard": "Kon niet naar klembord kopiëren.",
+    "cannotRestoreFromImage": "Scène kan niet worden hersteld vanuit dit afbeeldingsbestand"
+  },
+  "errors": {
+    "unsupportedFileType": "Niet-ondersteund bestandstype.",
+    "imageInsertError": "Afbeelding invoegen mislukt. Probeer het later opnieuw...",
+    "fileTooBig": "Bestand is te groot. Maximale grootte is {{maxSize}}.",
+    "svgImageInsertError": "Kon geen SVG-afbeelding invoegen. De SVG-opmaak ziet er niet geldig uit.",
+    "failedToFetchImage": "Afbeeldingen ophalen mislukt.",
+    "imageToolNotSupported": "Afbeeldingen zijn uitgeschakeld.",
+    "brave_measure_text_error": {
+      "line1": "Het lijkt erop dat je de Brave browser gebruikt met de instelling <bold>Agressief vingerafdrukken blokkeren</bold> ingeschakeld.",
+      "line2": "Dit kan leiden tot het breken van de <bold>Tekst Elementen</bold> in je tekening."
+    },
+    "asyncPasteFailedOnRead": "Plakken mislukt (kan niet van het systeem klembord lezen).",
+    "asyncPasteFailedOnParse": "Kon niet plakken.",
+    "copyToSystemClipboardFailed": "Kon niet naar klembord kopiëren."
+  },
+  "toolBar": {
+    "selection": "Selectie",
+    "lasso": "Lasso selectie",
+    "image": "Voeg afbeelding in",
+    "rectangle": "Rechthoek",
+    "diamond": "Ruit",
+    "ellipse": "Ovaal",
+    "arrow": "Pijl",
+    "line": "Lijn",
+    "freedraw": "Teken",
+    "text": "Tekst",
+    "lock": "Geselecteerde tool actief houden na tekenen",
+    "penMode": "Pen modus - Blokkeer aanraken",
+    "link": "Link toevoegen / bijwerken voor een geselecteerde vorm",
+    "eraser": "Gum",
+    "frame": "Frame tool",
+    "embeddable": "Web Embed",
+    "laser": "Laseraanwijzer",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "Hand (panning tool)",
+    "extraTools": "Meer tools",
+    "mermaidToExcalidraw": "Mermaid naar Excalidraw",
+    "convertElementType": "Vorm type in-/uitschakelen"
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "Rechthoek",
+    "diamond": "Diamant",
+    "ellipse": "Ovaal",
+    "arrow": "Pijl",
+    "line": "Lijn",
+    "freedraw": "Los tekenen",
+    "text": "Tekst",
+    "image": "Afbeelding",
+    "group": "Groep",
+    "frame": "Kader",
+    "magicframe": "Wireframe naar code",
+    "embeddable": "Web Embed",
+    "selection": "Selectie",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "Canvasacties",
+    "selectedShapeActions": "Acties van geselecteerde vorm",
+    "shapes": "Vormen"
+  },
+  "hints": {
+    "dismissSearch": "{{shortcut}} om zoekopdracht te sluiten",
+    "linearElement": "Klik om meerdere punten te starten, sleep voor één lijn",
+    "arrowTool": "Klik om meerdere punten te starten, sleep naar een enkele lijn. Druk nogmaals op {{shortcut}} om het pijltype te wijzigen.",
+    "arrowBindModifiers": "Houd {{shortcut_1}} ingedrukt om binding uit te schakelen of {{shortcut_2}} om op een vast punt te binden",
+    "freeDraw": "Klik en sleep, laat los als je klaar bent",
+    "text": "Tip: je kunt tekst toevoegen door ergens dubbel te klikken met de selectietool",
+    "embeddable": "Klink-sleep om een website-insluiting te maken",
+    "autoshape": "",
+    "text_selected": "Dubbelklik of druk op {{shortcut}} om de tekst te bewerken",
+    "text_editing": "Druk op {{shortcut_1}} of {{shortcut_2}} om het bewerken te voltooien",
+    "linearElementMulti": "Klik op het laatste punt of druk op {{shortcut_1}} of {{shortcut_2}} om te voltooien",
+    "lockAngle": "Je kan hoek beperken door {{shortcut}} ingedrukt te houden",
+    "resize": "Je kunt de verhoudingen behouden door {{shortcut_1}} ingedrukt te houden tijdens het schalen,\nhoud {{shortcut_2}} ingedrukt om vanuit het midden te schalen",
+    "resizeImage": "Je kunt vrij vergroten of verkleinen door {{shortcut_1}} ingedrukt te houden,\nhoud {{shortcut_2}} ingedrukt om vanuit het midden te schalen",
+    "rotate": "Je kan hoeken beperken door {{shortcut}} ingedrukt te houden tijdens het draaien",
+    "toggleArrowhead": "",
+    "lineEditor_info": "Houd {{shortcut_1}} en Dubbelklik of druk op {{shortcut_2}} om punten te bewerken",
+    "lineEditor_line_info": "Dubbelklik of druk op {{shortcut}} om punten te bewerken",
+    "lineEditor_pointSelected": "Druk op {{shortcut_1}} om punt(en) te verwijderen,\n{{shortcut_2}} om te dupliceren, of sleep om te verplaatsen",
+    "lineEditor_nothingSelected": "Selecteer een punt om te bewerken (houd {{shortcut_1}} ingedrukt om meerdere te selecteren),\nof houd {{shortcut_2}} ingedrukt en klik om nieuwe punten toe te voegen",
+    "bindTextToElement": "{{shortcut}} om tekst toe te voegen",
+    "createFlowchart": "{{shortcut}} voor het maken van een flowchart",
+    "deepBoxSelect": "Houd {{shortcut}} ingedrukt om diep te selecteren, en om slepen te voorkomen",
+    "eraserRevert": "Houd {{shortcut}} ingedrukt om de elementen die voor verwijdering zijn gemarkeerd te herstellen",
+    "firefox_clipboard_write": "Deze functie kan waarschijnlijk worden ingeschakeld door de vlag \"dom.events.asyncClipboard.clipboardItem\" op \"true\" te zetten. Om de browser flags in Firefox te wijzigen, ga naar de pagina \"about:config\".",
+    "disableSnapping": "Houd {{shortcut}} ingedrukt om uitlijnen uit te schakelen",
+    "enterCropEditor": "Dubbelklik op de afbeelding of druk op {{shortcut}} om de afbeelding bij te snijden",
+    "leaveCropEditor": "Klik buiten de afbeelding of druk op {{shortcut_1}} of {{shortcut_2}} om het bijsnijden te voltooien"
+  },
+  "canvasError": {
+    "cannotShowPreview": "Kan voorbeeld niet tonen",
+    "canvasTooBig": "Het canvas is mogelijk te groot.",
+    "canvasTooBigTip": "Tip: beweeg de verste elementen iets dichter bij elkaar."
+  },
+  "errorDialog": {
+    "title": "Fout"
+  },
+  "progressDialog": {
+    "defaultMessage": "Voorbereiden om op te slaan..."
+  },
+  "exportDialog": {
+    "disk_title": "Opslaan op schijf",
+    "disk_details": "De scènegegevens exporteren naar een bestand waaruit u later kunt importeren.",
+    "disk_button": "Opslaan naar bestand",
+    "link_title": "Deelbare link",
+    "link_details": "Exporteren als een alleen-lezen link.",
+    "link_button": "Exporteer naar link"
+  },
+  "helpDialog": {
+    "click": "klik",
+    "deepSelect": "Deep selecteer",
+    "deepBoxSelect": "Diep selecteren binnen het kader en slepen voorkomen",
+    "createFlowchart": "Maak een flowchart van een generiek element",
+    "navigateFlowchart": "Navigeer naar een flowchart",
+    "curvedArrow": "Gebogen pijl",
+    "curvedLine": "Kromme lijn",
+    "doubleClick": "dubbelklikken",
+    "drag": "slepen",
+    "editor": "Editor",
+    "editLineArrowPoints": "Lijn/pijl punten bewerken",
+    "editText": "Tekst bewerken / label toevoegen",
+    "or": "of",
+    "preventBinding": "Pijlbinding voorkomen",
+    "tools": "Tools",
+    "shortcuts": "Sneltoetsen",
+    "textFinish": "Voltooi het bewerken (teksteditor)",
+    "textNewLine": "Nieuwe regel toevoegen (teksteditor)",
+    "title": "Help",
+    "view": "Weergave",
+    "zoomToFit": "Zoom in op alle elementen",
+    "zoomToSelection": "Inzoomen op selectie",
+    "toggleElementLock": "Selectie vergrendelen/ontgrendelen",
+    "movePageUpDown": "Pagina omhoog/omlaag",
+    "movePageLeftRight": "Verplaats pagina links/rechts",
+    "cropStart": "Afbeelding bijsnijden",
+    "cropFinish": "Afbeelding bijsnijden voltooien"
+  },
+  "clearCanvasDialog": {
+    "title": "Wis canvas"
+  },
+  "imageExportDialog": {
+    "header": "Exporteer afbeelding",
+    "label": {
+      "withBackground": "Achtergrond",
+      "onlySelected": "Alleen geselecteerd",
+      "darkMode": "Donkere modus",
+      "embedScene": "Scène embedden",
+      "scale": "Schaal",
+      "padding": "Padding"
+    },
+    "tooltip": {
+      "embedScene": "Scènegegevens worden opgeslagen in het geëxporteerde PNG/SVG-bestand, zodat de scène hieruit kan worden hersteld.\nDit zal de geëxporteerde bestandsgrootte verhogen."
+    },
+    "title": {
+      "exportToPng": "Exporteer naar PNG",
+      "exportToSvg": "Exporteer naar SVG",
+      "copyPngToClipboard": "Kopieer PNG naar klembord"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "Kopieer naar klembord"
+    }
+  },
+  "stats": {
+    "shapes": "Vormen",
+    "height": "Hoogte",
+    "scene": "Scene",
+    "fullTitle": "Canvas & Vorm eigenschappen",
+    "title": "Eigenschappen",
+    "generalStats": "Algemeen",
+    "elementProperties": "Vorm eigenschappen",
+    "width": "Breedte"
+  },
+  "toast": {
+    "copyStyles": "Stijlen gekopieerd.",
+    "copyToClipboardAsPng": "{{exportSelection}} naar klembord gekopieerd als PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "{{exportSelection}} gekopieerd naar klembord als SVG\n({{exportColorScheme}})",
+    "fileSaved": "Bestand opgeslagen.",
+    "fileSavedToFilename": "Opgeslagen als {filename}",
+    "canvas": "canvas",
+    "selection": "selectie",
+    "pasteAsSingleElement": "Gebruik {{shortcut}} om te plakken als een enkel element,\nof plak in een bestaande teksteditor",
+    "unableToEmbed": "Het insluiten van deze URL is momenteel niet toegestaan. Zet een probleem op GitHub om de URL op de whitelist te zetten",
+    "unrecognizedLinkFormat": "De link die u hebt ingesloten komt niet overeen met het verwachte formaat. Probeer de 'embed' string van de bronsite te plakken",
+    "elementLinkCopied": "Link gekopieerd naar klembord"
+  },
+  "colors": {
+    "transparent": "Transparant",
+    "black": "Zwart",
+    "white": "Wit",
+    "red": "Rood",
+    "pink": "Roze",
+    "grape": "Druif",
+    "violet": "Violet",
+    "gray": "Grijs",
+    "blue": "Blauw",
+    "cyan": "Cyaan",
+    "teal": "Groenblauw",
+    "green": "Groen",
+    "yellow": "Geel",
+    "orange": "Oranje",
+    "bronze": "Brons"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "Exporteren, voorkeuren en meer...",
+      "center_heading": "Diagrammen. Eenvoudig. Gemaakt.",
+      "toolbarHint": "Kies een tool & begin met tekenen!",
+      "helpHint": "Snelkoppelingen en hulp"
+    }
+  },
+  "colorPicker": {
+    "color": "Kleur",
+    "mostUsedCustomColors": "Meest gebruikte aangepaste kleur",
+    "colors": "Kleuren",
+    "shades": "Tinten",
+    "hexCode": "HEX-code",
+    "noShades": "Geen tinten beschikbaar voor deze kleur",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "Exporteer als afbeelding",
+        "button": "Exporteer als afbeelding",
+        "description": "Exporteer de scènegegevens als een afbeelding die je later weer kunt importeren."
+      },
+      "saveToDisk": {
+        "title": "Opslaan op schijf",
+        "button": "Opslaan op schijf",
+        "description": "Exporteer de scènegegevens als bestand die je later weer kunt importeren."
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "Laad vanuit bestand",
+        "button": "Laad vanuit bestand",
+        "description": "Het laden van een bestand zal <bold>je bestaande inhoud vervangen</bold>.<br></br>Je kunt eerst een back-up van je tekening maken via een van de onderstaande opties."
+      }
+    }
+  },
+  "mermaid": {
+    "title": "Mermaid naar Excalidraw",
+    "button": "Invoegen",
+    "description": "Momenteel worden alleen <flowchartLink>Stroomdiagram</flowchartLink>, <sequenceLink>Volgordediagram</sequenceLink>, <classLink>Klasse</classLink>, en <erdLink>Entiteitsrelatie</erdLink>diagrammen ondersteund. De andere typen worden weergegeven als afbeelding in Excalidraw.",
+    "inputPlaceholder": "Noteer Mermaid diagram omschrijving hier...",
+    "autoFixAvailable": "Auto-correctie is beschikbaar"
+  },
+  "chat": {
+    "retry": "Opnieuw proberen",
+    "errors": {
+      "mermaidParseError": "Mermaid syntax fout"
+    }
+  },
+  "quickSearch": {
+    "placeholder": "Snel Zoeken"
+  },
+  "fontList": {
+    "badge": {
+      "old": "oud"
+    },
+    "sceneFonts": "In deze scène",
+    "availableFonts": "Beschikbare lettertypen",
+    "empty": "Geen lettertypes gevonden"
+  },
+  "userList": {
+    "empty": "Geen gebruikers gevonden",
+    "hint": {
+      "text": "Klik op de gebruiker om te volgen",
+      "followStatus": "Je volgt momenteel deze gebruiker",
+      "inCall": "Gebruiker is in een spraakoproep",
+      "micMuted": "Microfoon van gebruiker is gedempt",
+      "isSpeaking": "Gebruiker praat"
+    }
+  },
+  "commandPalette": {
+    "title": "Opdrachtenpalet",
+    "shortcuts": {
+      "select": "Selecteer",
+      "confirm": "Bevestigen",
+      "close": "Sluiten"
+    },
+    "recents": "Laatst gebruikt",
+    "search": {
+      "placeholder": "Zoek in menu's, commando's en ontdek geheimpjes",
+      "noMatch": "Geen overeenkomende opdrachten..."
+    },
+    "itemNotAvailable": "Opdracht is niet beschikbaar...",
+    "shortcutHint": "Gebruik {{shortcut}} voor het palet"
+  },
+  "keys": {
+    "ctrl": "Ctrl",
+    "option": "Optie",
+    "cmd": "Cmd",
+    "alt": "Alt",
+    "escape": "Esc",
+    "enter": "Enter",
+    "shift": "Shift",
+    "spacebar": "Spatie",
+    "delete": "Delete"
+  }
+}

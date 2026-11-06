@@ -1,0 +1,41 @@
+# A public instance: the app, Postgres, and a nightly database dump. Fill in deploy/.env.prod from
+# deploy/env.prod.example, then start it from the repository's root with:
+#   docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.prod up -d
+# Every setting of docs/self-hosting.md can go in deploy/.env.prod.
+name: betterdraw
+services:
+  app:
+    build: { context: .., dockerfile: deploy/Dockerfile }
+    ports: ["127.0.0.1:3000:3000"]
+    env_file: [.env.prod]
+    environment:
+      DATABASE_URL: postgres://betterdraw:${POSTGRES_PASSWORD}@db:5432/betterdraw
+      MAIL_TO_LOGS: ${MAIL_TO_LOGS:-off}
+      LEGAL_DIR: ${LEGAL_DIR:-/legal}
+      # Caddy on the host reaches the app from the gateway of Docker's network, in one of these ranges: what it
+      # writes in X-Forwarded-For names the visitor. Leave them out if the port is published beyond 127.0.0.1.
+      TRUSTED_PROXIES: ${TRUSTED_PROXIES:-172.16.0.0/12,192.168.0.0/16}
+    volumes:
+      - data:/data
+      - ./legal:/legal:ro
+    depends_on:
+      db: { condition: service_healthy }
+    restart: unless-stopped
+  db:
+    image: postgres:16-alpine
+    environment: { POSTGRES_USER: betterdraw, POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:?set it in deploy/.env.prod}", POSTGRES_DB: betterdraw }
+    volumes: ["pg:/var/lib/postgresql/data"]
+    healthcheck: { test: ["CMD", "pg_isready", "-U", "betterdraw"], interval: 5s, retries: 10 }
+    restart: unless-stopped
+  backup:
+    image: postgres:16-alpine
+    env_file: [.env.prod]
+    environment: { PGPASSWORD: "${POSTGRES_PASSWORD}" }
+    volumes: ["backups:/backups", "./backup-postgres.sh:/backup.sh:ro"]
+    entrypoint: ["sh", "-c", "apk add --no-cache curl >/dev/null 2>&1; while true; do sh /backup.sh; sleep 86400; done"]
+    depends_on: [db]
+    restart: unless-stopped
+volumes:
+  data:
+  pg:
+  backups:

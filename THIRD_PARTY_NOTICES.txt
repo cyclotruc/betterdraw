@@ -1,0 +1,370 @@
+Third-party notices for betterdraw
+
+betterdraw copies some fonts, icons and code from other projects into its own source tree. These notices credit them: each entry gives its copyright lines and names its license, and the full texts of those licenses come at the end, each given once. A betterdraw server serves these notices at /licenses.txt, followed by the licenses of the npm packages it uses.
+
+========================================================================
+FONTS
+========================================================================
+
+The web app serves these fonts from /fonts/. When a drawing is exported as SVG, subsets of the fonts it uses are embedded in the file.
+
+Assistant (fonts/Assistant): SIL Open Font License 1.1
+Copyright 2020 The Assistant Project Authors (https://github.com/hafontia/Assistant).
+Copyright 2010 The Source Sans Pro Authors (https://github.com/adobe-fonts/source-sans-pro), with Reserved Font Name 'Source'.
+Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
+
+Bricolage Grotesque (fonts/BricolageGrotesque): SIL Open Font License 1.1
+Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)
+
+Cascadia Code (fonts/CascadiaCode): SIL Open Font License 1.1
+Copyright (c) 2019 - Present, Microsoft Corporation,
+with Reserved Font Name Cascadia Code.
+
+Comic Shanns (fonts/ComicShanns): MIT License
+Copyright (c) 2018 Shannon Miwa
+Copyright (c) 2023 Jesus Gonzalez
+Copyright (c) 2023 Rodrigo Batista de Moraes
+Copyright (c) 2024 Fini Jastrow
+Copyright (c) 2024 Kyle Beechly
+
+Excalifont (fonts/Excalifont): SIL Open Font License 1.1
+Copyright (c) 2024 by Excalidraw. All rights reserved.
+Excalifont is a trademark of Excalidraw.
+
+Liberation Sans 2.1.5 (fonts/LiberationSans): SIL Open Font License 1.1
+Digitized data copyright (c) 2010 Google Corporation
+with Reserved Font Arimo, Tinos and Cousine.
+Copyright (c) 2012 Red Hat, Inc.
+with Reserved Font Name Liberation.
+Liberation is a trademark of Red Hat, Inc. registered in U.S. Patent and Trademark Office and certain other jurisdictions.
+
+Lilita One (fonts/Lilita): SIL Open Font License 1.1
+Copyright (c) 2011 Juan Montoreano (juan@remolacha.biz),
+with Reserved Font Name Lilita
+Lilita is a trademark of Juan Montoreano.
+
+Nunito (fonts/Nunito): SIL Open Font License 1.1
+Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito)
+
+Virgil (fonts/Virgil): SIL Open Font License 1.1
+Copyright (c) 2021 - Present, Ellinor Rapp, with Reserved Font Name Virgil.
+The font file itself states: Copyright (c) 2011 by Your Own Font Foundry. All rights reserved. Virgil YOFF is a trademark of Your Own Font Foundry.
+
+Xiaolai SC (fonts/Xiaolai): SIL Open Font License 1.1
+Copyright 2020-2024 LXGW (https://github.com/lxgw/kose-font)
+Copyright 2014 Nozomi Seto (https://ja.osdn.net/projects/setofont/)
+
+========================================================================
+ICONS
+========================================================================
+
+Font Awesome Free, by Fonticons, Inc. (https://fontawesome.com)
+Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+The icons are licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/) and come with no warranty. The editor uses check, download, question-circle and save, and the sun and the moon of its dark mode button, all from version 5.15.4 and unmodified.
+
+Tabler Icons (https://tabler.io/icons): MIT License
+Copyright (c) 2020-2026 Paweł Kuna
+Most of the editor's tool and menu icons, and the device, system and browser icons of the admin dashboard. Several are modified.
+
+Feather (https://feathericons.com): MIT License
+Copyright (c) 2013-2023 Cole Bemis
+Several of the app's interface icons, and the editor's external-link icon.
+
+Lucide (https://lucide.dev): ISC License (text below)
+Copyright (c) 2026 Lucide Icons and Contributors
+Many of the app's interface icons, some modified. The Lucide icons that are derived from Feather are under Feather's MIT License (Copyright (c) 2013-present Cole Bemis).
+
+Phosphor Icons (https://phosphoricons.com): MIT License
+Copyright (c) 2023 Phosphor Icons
+The Linux logo of the admin dashboard.
+
+Mermaid (https://github.com/mermaid-js/mermaid): MIT License
+Copyright (c) 2014 - 2022 Knut Sveidqvist
+The Mermaid logo.
+
+Icons8 Flat Color Icons (https://github.com/icons8/flat-color-icons): MIT License
+The "G" of the sign-in button is drawn after its "google" icon.
+
+Google, Windows, Apple, Android, Chrome, Safari, Firefox, Edge, Opera, Linux and Mermaid, and their logos, are trademarks of their owners. betterdraw shows them only to name their products.
+
+========================================================================
+CODE
+========================================================================
+
+Excalidraw (https://github.com/excalidraw/excalidraw): MIT License
+Copyright (c) 2020 Excalidraw
+betterdraw's editor (packages/) is a fork of Excalidraw. Its laser pointer (packages/laser-pointer) is also from Excalidraw: Copyright (c) 2023 Excalidraw, MIT License.
+
+Font subsetting, used when a drawing is exported, runs two WebAssembly modules and their JavaScript bindings:
+
+harfbuzzjs 0.3.6 (https://github.com/harfbuzz/harfbuzzjs), hb-subset.wasm: MIT License
+Copyright (c) 2019 Ebrahim Byagowi
+
+HarfBuzz (https://github.com/harfbuzz/harfbuzz), compiled into hb-subset.wasm: "Old MIT" license (notices and text below)
+
+subset-font (https://github.com/papandreou/subset-font), the hb-subset bindings, modified: BSD 3-Clause License (text below)
+Copyright (c) 2012, Andreas Lind Petersen
+
+fonteditor-core 2.4.0 (https://github.com/kekee000/fonteditor-core), woff2.wasm and its bindings, slightly modified: MIT License
+Copyright (c) 2014 ecomfe
+
+WOFF2 (https://github.com/google/woff2), compiled into woff2.wasm: MIT License
+Copyright (c) 2013-2017 by the WOFF2 Authors.
+
+Brotli (https://github.com/google/brotli), compiled into woff2.wasm: MIT License
+Copyright (c) 2009, 2010, 2013-2016 by the Brotli Authors.
+
+Emscripten (https://github.com/emscripten-core/emscripten), whose runtime is compiled into both modules: MIT License
+Copyright (c) 2010-2014 Emscripten authors, see AUTHORS file.
+The runtime includes musl libc (https://musl.libc.org): MIT License
+Copyright © 2005-2020 Rich Felker, et al.
+
+Smaller pieces of code copied into the editor, most of them modified:
+
+javascript-astar (https://github.com/bgrins/javascript-astar), the route search of elbow arrows and its binary heap: MIT License
+Copyright (c) Brian Grinstead, http://briangrinstead.com
+The binary heap comes, with changes, from Eloquent JavaScript, 1st edition, Appendix 2: Binary Heaps (https://eloquentjavascript.net/1st_edition/appendix2.html), © Marijn Haverbeke, licensed under the Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/). betterdraw's copy is ported to TypeScript and changed.
+
+lodash (https://lodash.com), deburr and chunk: MIT License
+Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+Based on Underscore.js, copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>
+
+clipboard.js (https://github.com/zenorocha/clipboard.js), the fallback for copying text: MIT License
+Copyright (c) Zeno Rocha
+
+klona (https://github.com/lukeed/klona), deep copy of elements: MIT License
+Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
+
+Modernizr (https://github.com/Modernizr/Modernizr), the emoji support test: MIT License
+Copyright (c) 2026 The Modernizr Team
+
+Radix UI Primitives (https://github.com/radix-ui/primitives), composeEventHandlers: MIT License
+Copyright (c) 2022 WorkOS
+
+p-try (https://github.com/sindresorhus/p-try), Promise.try: MIT License
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+Array.prototype.at polyfill (https://github.com/tc39/proposal-relative-indexing-method): MIT License
+Copyright (c) 2020 Tab Atkins Jr.
+
+open-color (https://github.com/yeun/open-color), color values: MIT License
+Copyright (c) 2016 heeyeun
+
+fractional-indexing (https://github.com/rocicorp/fractional-indexing), based on "Implementing Fractional Indexing" by David Greenspan: dedicated to the public domain under CC0 1.0.
+
+========================================================================
+LICENSE TEXTS
+========================================================================
+
+------------------------------------------------------------------------
+MIT License: for every item above marked "MIT License", with its own copyright lines
+------------------------------------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+------------------------------------------------------------------------
+ISC License: Lucide
+------------------------------------------------------------------------
+
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+------------------------------------------------------------------------
+BSD 3-Clause License: subset-font
+------------------------------------------------------------------------
+
+Copyright (c) 2012, Andreas Lind Petersen
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+  * Neither the name of the author nor the names of contributors may
+    be used to endorse or promote products derived from this
+    software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+------------------------------------------------------------------------
+HarfBuzz "Old MIT" license
+------------------------------------------------------------------------
+
+HarfBuzz is licensed under the so-called "Old MIT" license.  Details follow.
+For parts of HarfBuzz that are licensed under different licenses see individual
+files names COPYING in subdirectories where applicable.
+
+Copyright © 2010-2022  Google, Inc.
+Copyright © 2015-2020  Ebrahim Byagowi
+Copyright © 2019,2020  Facebook, Inc.
+Copyright © 2012,2015  Mozilla Foundation
+Copyright © 2011  Codethink Limited
+Copyright © 2008,2010  Nokia Corporation and/or its subsidiary(-ies)
+Copyright © 2009  Keith Stribley
+Copyright © 2011  Martin Hosken and SIL International
+Copyright © 2007  Chris Wilson
+Copyright © 2005,2006,2020,2021,2022,2023  Behdad Esfahbod
+Copyright © 2004,2007,2008,2009,2010,2013,2021,2022,2023  Red Hat, Inc.
+Copyright © 1998-2005  David Turner and Werner Lemberg
+Copyright © 2016  Igalia S.L.
+Copyright © 2022  Matthias Clasen
+Copyright © 2018,2021  Khaled Hosny
+Copyright © 2018,2019,2020  Adobe, Inc
+Copyright © 2013-2015  Alexei Podtelezhnikov
+
+For full copyright notices consult the individual files in the package.
+
+
+Permission is hereby granted, without written agreement and without
+license or royalty fees, to use, copy, modify, and distribute this
+software and its documentation for any purpose, provided that the
+above copyright notice and the following two paragraphs appear in
+all copies of this software.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR
+DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN
+IF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+THE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
+PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+------------------------------------------------------------------------
+SIL Open Font License 1.1: for every font above marked so, with its own copyright lines
+------------------------------------------------------------------------
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.

@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "ਪੇਸਟ ਕਰੋ",
+    "pasteAsPlaintext": "ਸਾਦੇ ਪਾਠ ਵਜੋਂ ਪੇਸਟ ਕਰੋ",
+    "pasteCharts": "ਚਾਰਟ ਪੇਸਟ ਕਰੋ",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "ਸਾਰੇ ਚੁਣੋ",
+    "multiSelect": "ਐਲੀਮੈਂਟ ਨੂੰ ਚੋਣ ਵਿੱਚ ਜੋੜੋ",
+    "moveCanvas": "ਕੈਨਵਸ ਹਿਲਾਓ",
+    "cut": "ਕੱਟੋ",
+    "copy": "ਕਾਪੀ ਕਰੋ",
+    "copyAsPng": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ PNG ਵਜੋਂ ਕਾਪੀ ਕਰੋ",
+    "copyAsSvg": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ SVG ਵਜੋਂ ਕਾਪੀ ਕਰੋ",
+    "copyText": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਪਾਠ ਵਜੋਂ ਕਾਪੀ ਕਰੋ",
+    "bringForward": "ਅੱਗੇ ਲਿਆਓ",
+    "sendToBack": "ਸਭ ਤੋਂ ਪਿੱਛੇ ਭੇਜੋ",
+    "bringToFront": "ਸਭ ਤੋਂ ਅੱਗੇ ਲਿਆਓ",
+    "sendBackward": "ਪਿੱਛੇ ਭੇਜੋ",
+    "delete": "ਮਿਟਾਓ",
+    "copyStyles": "ਸਟਾਇਲ ਕਾਪੀ ਕਰੋ",
+    "pasteStyles": "ਸਟਾਇਲ ਪੇਸਟ ਕਰੋ",
+    "stroke": "ਰੇਖਾ",
+    "changeStroke": "",
+    "background": "ਬੈਕਗਰਾਉਂਡ",
+    "changeBackground": "",
+    "fill": "ਭਰਨਾ",
+    "strokeWidth": "ਰੇਖਾ ਦੀ ਚੌੜਾਈ",
+    "strokeStyle": "ਰੇਖਾ ਦਾ ਸਟਾਇਲ",
+    "strokeStyle_solid": "ਠੋਸ",
+    "strokeStyle_dashed": "ਡੈਸ਼ ਵਾਲੀ",
+    "strokeStyle_dotted": "ਬਿੰਦੀਆਂ ਵਾਲੀ",
+    "sloppiness": "ਬੇਤਰਤੀਬੀ",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "ਅਪਾਰਦਰਸ਼ਤਾ",
+    "textAlign": "ਲਿਖਤ ਇਕਸਾਰਤਾ",
+    "edges": "ਕਿਨਾਰੇ",
+    "sharp": "ਤਿੱਖੇ",
+    "round": "ਗੋਲ",
+    "arrowheads": "ਤੀਰ ਦੇ ਸਿਰੇ",
+    "arrowhead_none": "ਕੋਈ ਨਹੀਂ",
+    "arrowhead_arrow": "ਤੀਰ",
+    "arrowhead_bar": "ਡੰਡੀ",
+    "arrowhead_circle": "",
+    "arrowhead_circle_outline": "",
+    "arrowhead_triangle": "ਤਿਕੋਣ",
+    "arrowhead_triangle_outline": "",
+    "arrowhead_diamond": "",
+    "arrowhead_diamond_outline": "",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "ਫੌਂਟ ਅਕਾਰ",
+    "fontFamily": "ਫੌਂਟ ਪਰਿਵਾਰ",
+    "handDrawn": "ਹੱਥਲਿਖਤ",
+    "normal": "ਆਮ",
+    "code": "ਕੋਡ",
+    "small": "ਛੋਟਾ",
+    "medium": "ਮੱਧਮ",
+    "large": "ਵੱਡਾ",
+    "veryLarge": "ਬਹੁਤ ਵੱਡਾ",
+    "solid": "ਠੋਸ",
+    "hachure": "ਤਿਰਛੀਆਂ ਗਰਿੱਲਾਂ",
+    "zigzag": "ਵਿੰਗ-ਤੜਿੰਗ",
+    "crossHatch": "ਜਾਲੀ",
+    "thin": "ਪਤਲੀ",
+    "bold": "ਮੋਟੀ",
+    "left": "ਖੱਬੇ",
+    "center": "ਵਿਚਕਾਰ",
+    "right": "ਸੱਜੇ",
+    "architect": "ਭਵਨ ਨਿਰਮਾਣਕਾਰੀ",
+    "artist": "ਕਲਾਕਾਰ",
+    "cartoonist": "ਕਾਰਟੂਨਿਸਟ",
+    "fileTitle": "ਫਾਈਲ ਦਾ ਨਾਂ",
+    "colorPicker": "ਰੰਗ ਚੋਣਕਾਰ",
+    "canvasBackground": "ਕੈਨਵਸ ਦਾ ਬੈਕਗਰਾਉਂਡ",
+    "drawingCanvas": "ਡਰਾਇੰਗ ਕੈਨਵਸ",
+    "clearCanvas": "",
+    "layers": "ਪਰਤਾਂ",
+    "actions": "ਕਾਰਵਾਈਆਂ",
+    "liveCollaboration": "ਲਾਇਵ ਸਹਿਯੋਗ...",
+    "duplicateSelection": "ਡੁਪਲੀਕੇਟ ਬਣਾਓ",
+    "untitled": "ਬੇ-ਸਿਰਨਾਵਾਂ",
+    "group": "ਚੋਣ ਦਾ ਗਰੁੱਪ ਬਣਾਓ",
+    "ungroup": "ਚੋਣ ਦਾ ਗਰੁੱਪ ਤੋੜੋ",
+    "collaborators": "ਸਹਿਯੋਗੀ",
+    "you": "",
+    "toggleGrid": "",
+    "loadingScene": "ਦ੍ਰਿਸ਼ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…",
+    "align": "ਇਕਸਾਰ",
+    "alignTop": "ਉੱਪਰ ਇਕਸਾਰ ਕਰੋ",
+    "alignBottom": "ਹੇਠਾਂ ਇਕਸਾਰ ਕਰੋ",
+    "alignLeft": "ਖੱਬੇ ਇਕਸਾਰ ਕਰੋ",
+    "alignRight": "ਸੱਜੇ ਇਕਸਾਰ ਕਰੋ",
+    "centerVertically": "ਲੇਟਵੇਂ ਵਿਚਕਾਰ ਕਰੋ",
+    "centerHorizontally": "ਖੜ੍ਹਵੇਂ ਵਿਚਕਾਰ ਕਰੋ",
+    "distributeHorizontally": "ਖੜ੍ਹਵੇਂ ਇਕਸਾਰ ਵੰਡੋ",
+    "distributeVertically": "ਲੇਟਵੇਂ ਇਕਸਾਰ ਵੰਡੋ",
+    "flipHorizontal": "ਲੇਟਵੇਂ ਪਾਸੇ ਪਲਟੋ",
+    "flipVertical": "ਖੜ੍ਹਵੇਂ ਪਾਸੇ ਪਲਟੋ",
+    "viewMode": "ਦੇਖਣ ਵਾਲਾ ਮੋਡ",
+    "share": "ਸਾਂਝਾ ਕਰੋ",
+    "showStroke": "ਰੇਖਾ ਦਾ ਰੰਗ ਚੋਣਕਾਰ ਦਿਖਾਓ",
+    "showBackground": "ਬੈਕਗਰਾਉਂਡ ਦਾ ਰੰਗ ਚੋਣਕਾਰ ਦਿਖਾਓ",
+    "showFonts": "",
+    "toggleTheme": "",
+    "theme": "",
+    "decreaseFontSize": "ਫੌਂਟ ਦਾ ਅਕਾਰ ਘਟਾਓ",
+    "increaseFontSize": "ਫੌਂਟ ਦਾ ਅਕਾਰ ਵਧਾਓ",
+    "unbindText": "ਪਾਠ ਨੂੰ ਵੱਖ ਕਰੋ",
+    "bindText": "ਪਾਠ ਨੂੰ ਕੰਟੇਨਰ ਨਾਲ ਬੰਨ੍ਹੋ",
+    "createContainerFromText": "ਪਾਠ ਨੂੰ ਕੰਟੇਨਰ ਵਿੱਚ ਇਕੱਠਾ ਕਰੋ",
+    "link": {
+      "edit": "ਕੜੀ ਸੋਧੋ",
+      "editEmbed": "",
+      "create": "",
+      "label": "ਕੜੀ",
+      "labelEmbed": "",
+      "empty": "",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "ਪੰਕਤੀ ਸੋਧੋ",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "ਲਾਕ ਕਰੋ",
+      "unlock": "ਅਨਲਾਕ ਕਰੋ",
+      "unlockAll": "ਸਭ ਅਨਲਾਕ ਕਰੋ"
+    },
+    "sidebarLock": "ਸਾਈਡਬਾਰ ਨੂੰ ਖੁੱਲ੍ਹਾ ਰੱਖੋ",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "ਕੈਨਵਸ ਰੀਸੈੱਟ ਕਰੋ",
+    "exportImage": "ਤਸਵੀਰ ਨਿਰਯਾਤ ਕਰੋ...",
+    "export": "ਇਸ ਵਿੱਚ ਸਾਂਭੋ...",
+    "save": "ਮੌਜੂਦਾ ਫਾਈਲ ਵਿੱਚ ਸਾਂਭੋ",
+    "saveAs": "ਇਸ ਵਜੋਂ ਸਾਂਭੋ",
+    "load": "ਖੋਲ੍ਹੋ",
+    "close": "ਬੰਦ ਕਰੋ",
+    "scrollBackToContent": "ਸਮੱਗਰੀ 'ਤੇ ਵਾਪਸ ਸਕਰੋਲ ਕਰੋ",
+    "zoomIn": "ਜ਼ੂਮ ਵਧਾਓ",
+    "zoomOut": "ਜ਼ੂਮ ਘਟਾਓ",
+    "resetZoom": "ਜ਼ੂਮ ਰੀਸੈੱਟ ਕਰੋ",
+    "done": "ਹੋ ਗਿਆ",
+    "edit": "ਸੋਧੋ",
+    "undo": "ਅਣਕੀਤਾ ਕਰੋ",
+    "redo": "ਮੁੜ-ਕਰੋ",
+    "darkMode": "ਡਾਰਕ ਮੋਡ",
+    "lightMode": "ਲਾਇਟ ਮੋਡ",
+    "systemMode": "",
+    "zenMode": "ਜ਼ੈੱਨ ਮੋਡ",
+    "objectsSnapMode": "",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "remove": "ਹਟਾਓ",
+    "confirm": "ਪੁਸ਼ਟੀ ਕਰੋ",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "ਇਹ ਸਾਰਾ ਕੈਨਵਸ ਸਾਫ ਕਰ ਦੇਵੇਗਾ। ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇੰਝ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "couldNotLoadInvalidFile": "ਨਜਾਇਜ਼ ਫਾਈਲ ਲੋਡ ਨਹੀਂ ਕਰ ਸਕੇ",
+    "cannotExportEmptyCanvas": "ਖਾਲੀ ਕੈਨਵਸ ਨੂੰ ਨਿਰਯਾਤ ਨਹੀਂ ਕਰ ਸਕਦੇ।",
+    "couldNotCopyToClipboard": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।",
+    "cannotRestoreFromImage": "ਇਸ ਤਸਵੀਰ ਫਾਈਲ ਤੋਂ ਦ੍ਰਿਸ਼ ਬਹਾਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
+  },
+  "errors": {
+    "unsupportedFileType": "ਫਾਈਲ ਦੀ ਕਿਸਮ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ।",
+    "imageInsertError": "ਚਿੱਤਰ ਸ਼ਾਮਲ ਨਹੀਂ ਜਾ ਸਕਿਆ, ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ...",
+    "fileTooBig": "ਫਾਈਲ ਬਹੁਤ ਜ਼ਿਆਦਾ ਵੱਡੀ ਹੈ। ਵੱਧ-ਤੋਂ-ਵੱਧ ਪ੍ਰਵਾਨਤ ਅਕਾਰ {{maxSize}} ਹੈ।",
+    "svgImageInsertError": "SVG ਤਸਵੀਰ ਸ਼ਾਮਲ ਨਹੀਂ ਕਰ ਸਕੇ। SVG ਮਾਰਕ-ਅੱਪ ਨਜਾਇਜ਼ ਲੱਗ ਰਿਹਾ ਹੈ।",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "ਚੋਣਕਾਰ",
+    "lasso": "",
+    "image": "ਤਸਵੀਰ ਸ਼ਾਮਲ ਕਰੋ",
+    "rectangle": "ਆਇਤ",
+    "diamond": "ਹੀਰਾ",
+    "ellipse": "ਅੰਡਾਕਾਰ",
+    "arrow": "ਤੀਰ",
+    "line": "ਲਕੀਰ",
+    "freedraw": "ਵਾਹੋ",
+    "text": "ਪਾਠ",
+    "lock": "ਡਰਾਇੰਗ ਤੋਂ ਬਾਅਦ ਵੀ ਚੁਣੇ ਹੋਏ ਸੰਦ ਨੂੰ ਸਰਗਰਮ ਰੱਖੋ ",
+    "penMode": "ਪੈੱਨ ਮੋਡ - ਟੱਚ ਤੋਂ ਬਚਾਉਂਦਾ ਹੈ",
+    "link": "",
+    "eraser": "ਰਬੜ",
+    "frame": "",
+    "embeddable": "",
+    "laser": "",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "",
+    "extraTools": "",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "ਕੈਨਵਸ ਦੀਆਂ ਕਾਰਵਾਈਆਂ",
+    "selectedShapeActions": "ਚੁਣੀ ਆਕ੍ਰਿਤੀ ਦੀਆਂ ਕਾਰਵਾਈਆਂ",
+    "shapes": "ਆਕ੍ਰਿਤੀਆਂ"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "ਇੱਕ ਤੋਂ ਜ਼ਿਆਦਾ ਬਿੰਦੂਆਂ ਲਈ ਕਲਿੱਕ ਕਰਕੇ ਸ਼ੁਰੂਆਤ ਕਰੋ, ਇਕਹਿਰੀ ਲਕੀਰ ਲਈ ਘਸੀਟੋ",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "ਕਲਿੱਕ ਕਰਕੇ ਘਸੀਟੋ, ਪੂਰਾ ਹੋਣ 'ਤੇ ਛੱਡ ਦਿਉ",
+    "text": "ਨੁਸਖਾ: ਤੁਸੀਂ ਚੋਣਕਾਰ ਸੰਦ ਰਾਹੀਂ ਕਿਤੇ ਵੀ ਡਬਲ-ਕਲਿੱਕ ਕਰਕੇ ਵੀ ਪਾਠ ਜੋੜ ਸਕਦੇ ਹੋ",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "ਝਲਕ ਨਹੀਂ ਦਿਖਾ ਸਕਦੇ",
+    "canvasTooBig": "ਸ਼ਾਇਦ ਕੈਨਵਸ ਬਹੁਤ ਜ਼ਿਆਦਾ ਵੱਡਾ ਹੈ।",
+    "canvasTooBigTip": "ਨੁਸਖਾ: ਸਭ ਤੋਂ ਦੂਰ ਸਥਿੱਤ ਐਲੀਮੈਂਟਾਂ ਨੂੰ ਥੋੜ੍ਹਾ ਜਿਹਾ ਨੇੜੇ ਲਿਆ ਕੇ ਦੇਖੋ।"
+  },
+  "errorDialog": {
+    "title": "ਗਲਤੀ"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "ਡਿਸਕ ਵਿੱਚ ਸਾਂਭੋ",
+    "disk_details": "ਦ੍ਰਿਸ਼ ਦਾ ਡਾਟਾ ਫਾਈਲ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ ਜਿੱਥੋਂ ਤੁਸੀਂ ਇਸਨੂੰ ਬਾਅਦ ਵਿੱਚ ਆਯਾਤ ਕਰ ਸਕਦੇ ਹੋ।",
+    "disk_button": "ਫਾਈਲ ਵਿੱਚ ਸਾਂਭੋ",
+    "link_title": "ਸਾਂਝੀ ਕਰਨ ਵਾਲੀ ਲਿੰਕ",
+    "link_details": "ਸਿਰਫ ਦੇਖੇ-ਜਾਣ ਵਾਲੀ ਲਿੰਕ ਵਜੋਂ ਨਿਰਯਾਤ ਕਰੋ।",
+    "link_button": "ਲਿੰਕ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ"
+  },
+  "helpDialog": {
+    "click": "ਕਲਿੱਕ",
+    "deepSelect": "",
+    "deepBoxSelect": "",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "ਵਿੰਗਾ ਤੀਰ",
+    "curvedLine": "ਵਿੰਗੀ ਲਕੀਰ",
+    "doubleClick": "ਡਬਲ-ਕਲਿੱਕ",
+    "drag": "ਘਸੀਟੋ",
+    "editor": "ਸੋਧਕ",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "ਜਾਂ",
+    "preventBinding": "ਤੀਰ ਬੱਝਣਾ ਰੋਕੋ",
+    "tools": "ਟੂਲ",
+    "shortcuts": "ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ",
+    "textFinish": "ਸੋਧਣਾ ਮੁਕੰਮਲ ਕਰੋ (ਪਾਠ ਸੋਧਕ)",
+    "textNewLine": "ਨਵੀਂ ਪੰਕਤੀ ਜੋੜੋ (ਪਾਠ ਸੋਧਕ)",
+    "title": "ਮਦਦ",
+    "view": "ਦਿੱਖ",
+    "zoomToFit": "ਸਾਰੇ ਐਲੀਮੈਂਟਾਂ ਨੂੰ ਫਿੱਟ ਕਰਨ ਲਈ ਜ਼ੂਮ ਕਰੋ",
+    "zoomToSelection": "ਚੋਣ ਤੱਕ ਜ਼ੂਮ ਕਰੋ",
+    "toggleElementLock": "",
+    "movePageUpDown": "",
+    "movePageLeftRight": "",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "ਕੈਨਵਸ ਨੂੰ ਸਾਫ਼ ਕਰੋ"
+  },
+  "imageExportDialog": {
+    "header": "ਤਸਵੀਰ ਨਿਰਯਾਤ ਕਰੋ",
+    "label": {
+      "withBackground": "ਪਿਛੋਕੜ",
+      "onlySelected": "ਸਿਰਫ ਚੁਣੇ ਹੋਏ",
+      "darkMode": "ਡਾਰਕ ਮੋਡ",
+      "embedScene": "ਦ੍ਰਿਸ਼ ਮੜ੍ਹੋ",
+      "scale": "ਸਕੇਲ",
+      "padding": "ਪੈਡਿੰਗ"
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "PNG ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ",
+      "exportToSvg": "SVG ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ",
+      "copyPngToClipboard": "PNG ਨੂੰ ਕਲਿੱਪੋਬਰਡ ‘ਤੇ ਕਾਪੀ ਕਰੋ"
+    },
+    "button": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": "ਗੱਤੇ 'ਤੇ ਕਾਪੀ ਕਰੋ"
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "ਉਚਾਈ",
+    "scene": "ਦ੍ਰਿਸ਼",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "ਚੌੜਾਈ"
+  },
+  "toast": {
+    "copyStyles": "ਕਾਪੀ ਕੀਤੇ ਸਟਾਇਲ।",
+    "copyToClipboardAsPng": "{{exportSelection}} ਨੂੰ ਕਲਿੱਪਬੋਰਡ 'ਤੇ PNG ਵਜੋਂ ਕਾਪੀ ਕੀਤਾ ({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "ਫਾਈਲ ਸਾਂਭੀ ਗਈ।",
+    "fileSavedToFilename": "{filename} ਵਿੱਚ ਸਾਂਭੀ",
+    "canvas": "ਕੈਨਵਸ",
+    "selection": "ਚੋਣ",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "ਪਾਰਦਰਸ਼ੀ",
+    "black": "ਕਾਲੀ",
+    "white": "ਸਫ਼ੈਦ",
+    "red": "ਲਾਲ",
+    "pink": "ਗੁਲਾਬੀ",
+    "grape": "ਅੰਗੂਰੀ",
+    "violet": "ਜਾਮਣੀ",
+    "gray": "ਸੁਰਮਈ",
+    "blue": "ਨੀਲਾ",
+    "cyan": "ਫਿਰੋਜੀ",
+    "teal": "ਟੀਲ",
+    "green": "ਹਰਾ",
+    "yellow": "ਪੀਲਾ",
+    "orange": "ਸੰਤਰੀ",
+    "bronze": "ਕਾਂਸੇਰੰਗਾ"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "ਨਿਰਯਾਤ, ਤਰਜੀਹਾਂ, ਅਤੇ ਹੋਰ ਵੀ ਬਹੁਤ ਕੁਝ…",
+      "center_heading": "ਡਾਇਆਗ੍ਰਾਮਾਂ। ਕੀਤੀਆਂ। ਸੁਖਾਲੀਆਂ।",
+      "toolbarHint": "",
+      "helpHint": "ਸ਼ਾਰਟਕੱਟ ਤੇ ਮਦਦ"
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "ਸਭ ਤੋਂ ਵੱਧ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਕਸਟਮ ਰੰਗ",
+    "colors": "ਰੰਗ",
+    "shades": "ਸ਼ੇਡਾਂ",
+    "hexCode": "ਹੈਕਸ ਕੋਡ",
+    "noShades": "ਇਸ ਰੰਗ ਦੀ ਕੋਈ ਸ਼ੇਡ ਉਪਲਬਧ ਨਹੀਂ ਹੈ",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "បិទភ្ជាប់",
+    "pasteAsPlaintext": "បិទភ្ជាប់ជាអត្ថបទធម្មតា",
+    "pasteCharts": "បិទភ្ជាប់តារាង",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "ជ្រើសរើស​ទាំងអស់",
+    "multiSelect": "បន្ថែមធាតុទៅលើការជ្រើសរើស",
+    "moveCanvas": "ផ្លាស់ទីបាវ",
+    "cut": "កាត់",
+    "copy": "ចម្លង",
+    "copyAsPng": "ចម្លងទៅក្តារតម្បៀតខ្ទាស់ជា​ PNG",
+    "copyAsSvg": "ចម្លងទៅក្តារតម្បៀតខ្ទាស់ជា​ SVG",
+    "copyText": "ចម្លងទៅក្តារតម្បៀតខ្ទាស់ជា​អត្ថបទ",
+    "bringForward": "នាំយកទៅលើ",
+    "sendToBack": "នាំយកទៅក្រោយបង្អស់",
+    "bringToFront": "នាំយកទៅលើបង្អស់",
+    "sendBackward": "នាំយកទៅក្រោយ",
+    "delete": "លុប",
+    "copyStyles": "ចម្លងរចនាប័ទ្ម",
+    "pasteStyles": "បិទភ្ជាប់រចនាប័ទ្ម",
+    "stroke": "ខ្វាច់",
+    "changeStroke": "",
+    "background": "ផ្ទៃខាងក្រោយ",
+    "changeBackground": "",
+    "fill": "បំពេញ",
+    "strokeWidth": "ទទឹងខ្វាច់",
+    "strokeStyle": "រចនាប័ទ្មរបស់ខ្វាច់",
+    "strokeStyle_solid": "តាន់",
+    "strokeStyle_dashed": "ដាច់ៗ",
+    "strokeStyle_dotted": "ចំណុចៗ",
+    "sloppiness": "រចនាប័ទ្មបន្ទាត់",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "ភាពច្បាស់",
+    "textAlign": "តម្រឹមអត្ថបទ",
+    "edges": "គែម",
+    "sharp": "មុត",
+    "round": "រាងមូល",
+    "arrowheads": "ក្បាលព្រួញ",
+    "arrowhead_none": "គ្មាន",
+    "arrowhead_arrow": "ព្រួញ",
+    "arrowhead_bar": "របារ",
+    "arrowhead_circle": "",
+    "arrowhead_circle_outline": "",
+    "arrowhead_triangle": "ត្រីកោណ",
+    "arrowhead_triangle_outline": "",
+    "arrowhead_diamond": "",
+    "arrowhead_diamond_outline": "",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "ទំហំពុម្ពអក្សរ",
+    "fontFamily": "ក្រុម​ពុម្ពអក្សរ",
+    "handDrawn": "គូរដោយដៃ",
+    "normal": "ធម្មតា",
+    "code": "កូដ",
+    "small": "តូច",
+    "medium": "មធ្យម",
+    "large": "ធំ",
+    "veryLarge": "ធំខ្លាំង",
+    "solid": "តាន់",
+    "hachure": "",
+    "zigzag": "",
+    "crossHatch": "បន្ទាត់ឆ្នូតៗ",
+    "thin": "ស្តើង",
+    "bold": "ដឹត",
+    "left": "ខាងឆ្វេង",
+    "center": "កណ្ដាល",
+    "right": "នៅខាងស្ដាំ",
+    "architect": "ស្ថាបត្យករ",
+    "artist": "សិល្បៈករ",
+    "cartoonist": "អ្នកគំនូរជីវចល",
+    "fileTitle": "ឈ្មោះ​ឯកសារ",
+    "colorPicker": "ឧបករណ៍​ជ្រើស​ពណ៌",
+    "canvasBackground": "ផ្ទៃខាងក្រោយបាវ",
+    "drawingCanvas": "តំបន់គំនូរ",
+    "clearCanvas": "",
+    "layers": "ស្រទាប់",
+    "actions": "សកម្មភាព",
+    "liveCollaboration": "សហការគ្នាផ្ទាល់...",
+    "duplicateSelection": "ចម្លង",
+    "untitled": "គ្មានឈ្មោះ",
+    "group": "ការជ្រើសរើសជាក្រុម",
+    "ungroup": "បំបែកក្រុមការជ្រើសរើសជាក្រុម",
+    "collaborators": "អ្នកសហការ",
+    "you": "",
+    "toggleGrid": "",
+    "loadingScene": "កំពុង​ផ្ទុក​ស៊ីន...",
+    "align": "តម្រឹម",
+    "alignTop": "តម្រឹមផ្នែកខាងលើ",
+    "alignBottom": "តម្រឹមផ្នែកខាងក្រោម",
+    "alignLeft": "​តម្រឹម​ឆ្វេង",
+    "alignRight": "តម្រឹម​ស្តាំ",
+    "centerVertically": "កណ្តាល​បញ្ឈរ",
+    "centerHorizontally": "កណ្តាល​ផ្ដេក",
+    "distributeHorizontally": "ចែកចាយផ្ដេក",
+    "distributeVertically": "ចែកចាយបញ្ឈរ",
+    "flipHorizontal": "ត្រឡប់​ដោយ​ផ្ដេក",
+    "flipVertical": "ត្រឡប់​ដោយ​បញ្ឈរ",
+    "viewMode": "ម៉ូដ​បង្ហាញ",
+    "share": "ចែករំលែក",
+    "showStroke": "បង្ហាញឧបករណ៍ជ្រើសរើសពណ៌ខ្វាច់",
+    "showBackground": "បង្ហាញឧបករណ៍ជ្រើសរើសពណ៌ផ្ទៃខាងក្រោយ",
+    "showFonts": "",
+    "toggleTheme": "",
+    "theme": "",
+    "decreaseFontSize": "បន្ថយទំហំពុម្ពអក្សរ",
+    "increaseFontSize": "បង្កើនទំហំពុម្ពអក្សរ",
+    "unbindText": "ស្រាយអត្ថបទ",
+    "bindText": "ភ្ជាប់អត្ថបទទៅប្រអប់",
+    "createContainerFromText": "រុំអត្ថបទក្នុងប្រអប់មួយ",
+    "link": {
+      "edit": "កែតំណភ្ជាប់",
+      "editEmbed": "",
+      "create": "",
+      "label": "តំណ",
+      "labelEmbed": "",
+      "empty": "",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "កែសម្រួលបន្ទាត់",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "ចាក់សោ",
+      "unlock": "ដោះសោ",
+      "unlockAll": "ដោះសោទាំងអស់"
+    },
+    "sidebarLock": "ទុករបារចំហៀងបើក",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "កំណត់បាវឡើងវិញ",
+    "exportImage": "នាំរូបភាពចេញ",
+    "export": "រក្សាទុក​នៅ...",
+    "save": "រក្សាទុកទៅឯកសារបច្ចុប្បន្ន",
+    "saveAs": "រក្សាទុក​ជា",
+    "load": "បើក",
+    "close": "បិទ",
+    "scrollBackToContent": "រំកិលត្រឡប់ទៅមាតិកាវិញ",
+    "zoomIn": "ពង្រីក",
+    "zoomOut": "បង្រួម",
+    "resetZoom": "កំណត់ការពង្រីកឡើងវិញ",
+    "done": "រួចរាល់",
+    "edit": "កែ",
+    "undo": "ត្រឡប់វិញ",
+    "redo": "ធ្វើ​វិញ",
+    "darkMode": "ម៉ូដងងឹត",
+    "lightMode": "ម៉ូដភ្លឺ",
+    "systemMode": "",
+    "zenMode": "ម៉ូត Zen",
+    "objectsSnapMode": "",
+    "cancel": "បោះបង់",
+    "remove": "ដកចេញ",
+    "confirm": "បញ្ជាក់",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "វានឹងសម្អាតបាវទាំងមូល។ តើ​អ្នក​ប្រាកដ​ឬ​អត់?",
+    "couldNotLoadInvalidFile": "មិនអាចផ្ទុកឯកសារមិនត្រឹមត្រូវបានទេ។",
+    "cannotExportEmptyCanvas": "មិនអាចនាំចេញបាវទទេបានទេ។",
+    "couldNotCopyToClipboard": "មិនអាចចម្លងទៅក្ដារតម្បៀតខ្ទាស់បានទេ។",
+    "cannotRestoreFromImage": "មិនអាចស្ដារស៊ីនពីឯកសាររូបភាពនេះបានទេ"
+  },
+  "errors": {
+    "unsupportedFileType": "ប្រភេទឯកសារមិនត្រូវបានគាំទ្រទេ។",
+    "imageInsertError": "មិនអាចបញ្ចូលរូបភាពបានទេ។ សូម​ព្យាយាម​ម្តង​ទៀត​នៅ​ពេល​ក្រោយ……",
+    "fileTooBig": "ឯកសារធំពេក។ ទំហំអតិបរមាដែលអនុញ្ញាតគឺ {{maxSize}}។",
+    "svgImageInsertError": "មិនអាចបញ្ចូលរូបភាព SVG បានទេ។ ស្លាក SVG ហាក់ដូចជាមិនត្រឹមត្រូវ។",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "អ្នកហាក់ដូចជាកំពុងប្រើប្រាស់កម្មវិធីរុករកតាមអ៊ីនធឺណិត Brave ជាមួយនឹងការកំណត់ <bold>ការពារស្នាមម្រាមដៃយ៉ាងធ្ងន់ធ្ងរ</bold> ត្រូវបានបើក។",
+      "line2": "វាអាចបណ្តាលឱ្យមានការបំបែក <bold>ធាតុអត្ថបទ</bold> នៅក្នុងគំនូររបស់អ្នក។"
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "ការជ្រើសរើស",
+    "lasso": "",
+    "image": "បញ្ចូលរូបភាព",
+    "rectangle": "ចតុ​កោណ​កែង​",
+    "diamond": "ពេជ្រ",
+    "ellipse": "ពងក្រពើ",
+    "arrow": "ព្រួញ",
+    "line": "បន្ទាត់",
+    "freedraw": "គូរ",
+    "text": "អត្ថបទ",
+    "lock": "រក្សារឧបករណ៍ដែលបានជ្រើសរើសបន្ទាប់ពីគូររួច",
+    "penMode": "របៀបប៊ិច - ជៀសវាងការប៉ះ",
+    "link": "",
+    "eraser": "ជ័រលុប",
+    "frame": "",
+    "embeddable": "",
+    "laser": "",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "ដៃ (panning tool)",
+    "extraTools": "",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "សកម្មភាពបាវ",
+    "selectedShapeActions": "សកម្មភាពរបស់រាងដែលបានជ្រើសរើស",
+    "shapes": "រាង"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "ចុចដើម្បីបង្កើតចំណុចច្រើន អូសដើម្បីបង្កើតបន្ទាត់មួយ",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "ចុច​ហើយ​អូស លែង​ពេល​រួចរាល់",
+    "text": "គន្លឹះ៖ អ្នកក៏អាចបន្ថែមអត្ថបទដោយចុចពីរដងនៅកន្លែងណាមួយដោយប្រើឧបករណ៍ជ្រើសរើស",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "បើកមុខងារនេះដោយកំណត់ទង់ \"dom.events.asyncClipboard.clipboardItem\" ទៅ \"true\" \nដើម្បីផ្លាស់ប្តូរទង់កម្មវិធីរុករកនៅក្នុង Firefox សូមចូលទៅកាន់ទំព័រ \"about:config\"។",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "មិនអាចបង្ហាញការមើលជាមុនបាន",
+    "canvasTooBig": "បាវអាចមានទំហំធំពេក។",
+    "canvasTooBigTip": "គន្លឹះ៖ ព្យាយាមផ្លាស់ទីធាតុដែលឆ្ងាយបំផុតឱ្យទៅជិតគ្នាបន្តិច។"
+  },
+  "errorDialog": {
+    "title": "មានកំហុស"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "រក្សាទុកទៅថាស",
+    "disk_details": "នាំចេញទិន្នន័យរបស់ស៊ីនជាឯកសារដែលអ្នកអាចនាំចូលនៅពេលក្រោយ។",
+    "disk_button": "រក្សាទុកក្នុងឯកសារ",
+    "link_title": "តំណដែលអាចចែករំលែកបាន",
+    "link_details": "នាំចេញជាតំណបានតែមើលឬអាន។",
+    "link_button": "នាំចេញជាតំណ"
+  },
+  "helpDialog": {
+    "click": "ចុច",
+    "deepSelect": "ការជ្រើសរើសជាក្រុម",
+    "deepBoxSelect": "ជ្រើសរើសជាក្រុម និង ជៀសវាងការអូសទាញផ្លាស់ទី",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "ព្រួញកោង",
+    "curvedLine": "ព្រួញកោង",
+    "doubleClick": "ចុច​ពីរ​ដង",
+    "drag": "អូស",
+    "editor": "កម្មវិធីនិពន្ធ",
+    "editLineArrowPoints": "កែសម្រួលចំណុចនៃបន្ទាត់ ឬព្រួញ",
+    "editText": "បន្ថែម ឬកែសម្រួលអត្ថបទ",
+    "or": "ឬ",
+    "preventBinding": "ទប់ស្កាត់ការចងព្រួញ",
+    "tools": "ឧបករណ៍",
+    "shortcuts": "ផ្លូវកាត់ក្តារចុច",
+    "textFinish": "បញ្ចប់ការកែសម្រួល (កម្មវិធីនិពន្ធអត្ថបទ)",
+    "textNewLine": "ចុះបន្ទាត់ (កម្មវិធីនិពន្ធអត្ថបទ)",
+    "title": "ជំនួយ",
+    "view": "បង្ហាញ",
+    "zoomToFit": "ធ្វើមាត្រដ្ឋានឱ្យសមនឹងធាតុទាំងអស់។",
+    "zoomToSelection": "ពង្រីកទៅការជ្រើសរើស",
+    "toggleElementLock": "ចាក់សោ/ដោះសោការជ្រើសរើស",
+    "movePageUpDown": "ផ្លាស់ទីទំព័រឡើងលើ/ចុះក្រោម",
+    "movePageLeftRight": "ផ្លាស់ទីទំព័រទៅឆ្វេង/ស្ដាំ",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "សម្អាតបាវ"
+  },
+  "imageExportDialog": {
+    "header": "",
+    "label": {
+      "withBackground": "",
+      "onlySelected": "",
+      "darkMode": "",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    },
+    "button": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "កម្ពស់",
+    "scene": "ស៊ីន",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "ទទឹង​"
+  },
+  "toast": {
+    "copyStyles": "រចនាប័ទ្មត្រូវបានចម្លង។",
+    "copyToClipboardAsPng": "បានចម្លង {{exportSelection}} ទៅក្ដារតម្បៀតខ្ទាស់ជា PNG\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "ឯកសារត្រូវបានរក្សាទុក។",
+    "fileSavedToFilename": "បានរក្សាទុកនៅក្នុង {filename}",
+    "canvas": "តំបន់គំនូរ",
+    "selection": "ការជ្រើសរើស",
+    "pasteAsSingleElement": "ប្រើ {{shortcut}} ដើម្បីបិទភ្ជាប់ជាធាតុតែមួយ,\nឬបិទភ្ជាប់ទៅក្នុងកម្មវិធីនិពន្ធអត្ថបទដែលមានស្រាប់",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "ថ្លាមើលធ្លុះ",
+    "black": "ពណ៍ខ្មៅ",
+    "white": "ពណ៌ស",
+    "red": "ពណ៌ក្រហម",
+    "pink": "ពណ៌ផ្កាឈូក",
+    "grape": "ពណ៌ទំពាំងបាយជូរ",
+    "violet": "ពណ៌ស្វាយ",
+    "gray": "ពណ៌ប្រផេះ",
+    "blue": "ពណ៌ខៀវ",
+    "cyan": "ពណ៌ផ្ទៃមេឃ",
+    "teal": "ពណ៌​ខៀវបៃតង",
+    "green": "ពណ៌បៃតង",
+    "yellow": "ពណ៌លឿង",
+    "orange": "ពណ៌ទឹកក្រូច",
+    "bronze": "ពណ៌សំរិទ្ធ"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "ការនាំចេញ ចំណូលចិត្ត និង ច្រើនទៀត...",
+      "center_heading": "ងាយស្រួល ។ ធ្វើ ។​ ដ្យាក្រាម ។",
+      "toolbarHint": "ជ្រើសរើសឧបករណ៍មួយ និង ចាប់ផ្តើមគូរ!",
+      "helpHint": "ផ្លូវកាត់ &​ ជំនួយ"
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "ពណ៌ផ្ទាល់ខ្លួនដែលប្រើច្រើនបំផុត",
+    "colors": "ពណ៌",
+    "shades": "ស្រមោល",
+    "hexCode": "លេខកូដ hex",
+    "noShades": "មិនមានស្រមោលសម្រាប់ពណ៌នេះទេ",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

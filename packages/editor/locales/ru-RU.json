@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Вставить",
+    "pasteAsPlaintext": "Вставить как обычный текст",
+    "pasteCharts": "Вставить диаграммы",
+    "chartType_bar": "Гистограмма",
+    "chartType_line": "Линейная диаграмма",
+    "chartType_radar": "Лепестковая диаграмма",
+    "chartType_plaintext": "Обычный текст",
+    "selectAll": "Выбрать всё",
+    "multiSelect": "Добавить элемент в выделенный фрагмент",
+    "moveCanvas": "Переместить холст",
+    "cut": "Вырезать",
+    "copy": "Копировать",
+    "copyAsPng": "Скопировать в буфер обмена как PNG",
+    "copyAsSvg": "Скопировать в буфер обмена как SVG",
+    "copyText": "Скопировать в буфер обмена как текст",
+    "bringForward": "Переместить вперед",
+    "sendToBack": "На задний план",
+    "bringToFront": "На передний план",
+    "sendBackward": "Переместить назад",
+    "delete": "Удалить",
+    "copyStyles": "Скопировать стили",
+    "pasteStyles": "Вставить стили",
+    "stroke": "Обводка",
+    "changeStroke": "Изменить цвет обводки",
+    "background": "Фон",
+    "changeBackground": "Изменить цвет фона",
+    "fill": "Заливка",
+    "strokeWidth": "Толщина штриха",
+    "strokeStyle": "Стиль обводки",
+    "strokeStyle_solid": "Сплошная",
+    "strokeStyle_dashed": "Пунктирная",
+    "strokeStyle_dotted": "Точечная",
+    "sloppiness": "Стиль обводки",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Непрозрачность",
+    "textAlign": "Выравнивание текста",
+    "edges": "Края",
+    "sharp": "Острые",
+    "round": "Скруглённые",
+    "arrowheads": "Стрелка",
+    "arrowhead_none": "Нет",
+    "arrowhead_arrow": "Стрелка",
+    "arrowhead_bar": "Черта",
+    "arrowhead_circle": "Круг",
+    "arrowhead_circle_outline": "Круг (контур)",
+    "arrowhead_triangle": "Треугольник",
+    "arrowhead_triangle_outline": "Треугольник (контур)",
+    "arrowhead_diamond": "Ромб",
+    "arrowhead_diamond_outline": "Ромб (контур)",
+    "arrowhead_cardinality_one": "Кардинальность (одна)",
+    "arrowhead_cardinality_many": "Кардинальность (много)",
+    "arrowhead_cardinality_one_or_many": "Кардинальность (одна или много)",
+    "arrowhead_cardinality_exactly_one": "Кардинальность (ровно одна)",
+    "arrowhead_cardinality_zero_or_one": "Кардинальность (ноль или одна)",
+    "arrowhead_cardinality_zero_or_many": "Кардинальность (ноль или много)",
+    "more_options": "Больше вариантов",
+    "cardinality": "Кардинальность",
+    "arrowtypes": "Тип стрелки",
+    "arrowtype_sharp": "Острая стрелка",
+    "arrowtype_round": "Изогнутая стрелка",
+    "arrowtype_elbowed": "Прямоугольная стрелка",
+    "fontSize": "Размер шрифта",
+    "fontFamily": "Семейство шрифтов",
+    "handDrawn": "От руки",
+    "normal": "Обычный",
+    "code": "Код",
+    "small": "Малый",
+    "medium": "Средний",
+    "large": "Большой",
+    "veryLarge": "Очень большой",
+    "solid": "Однотонная",
+    "hachure": "Штрихованная",
+    "zigzag": "Зигзаг",
+    "crossHatch": "Перекрестная",
+    "thin": "Тонкая",
+    "bold": "Жирная",
+    "left": "Слева",
+    "center": "Центр",
+    "right": "Справа",
+    "architect": "Архитектор",
+    "artist": "Художник",
+    "cartoonist": "Карикатурист",
+    "fileTitle": "Имя файла",
+    "colorPicker": "Выбор цвета",
+    "canvasBackground": "Фон холста",
+    "drawingCanvas": "Полотно",
+    "clearCanvas": "Очистить холст",
+    "layers": "Слои",
+    "actions": "Действия",
+    "liveCollaboration": "Онлайн взаимодействие...",
+    "duplicateSelection": "Дубликат",
+    "untitled": "Безымянный",
+    "group": "Сгруппировать выделение",
+    "ungroup": "Разделить выделение",
+    "collaborators": "Участники",
+    "you": "",
+    "toggleGrid": "Переключить сетку",
+    "loadingScene": "Загрузка сцены…",
+    "align": "Выровнять",
+    "alignTop": "Выровнять по верхнему краю",
+    "alignBottom": "Выровнять по нижнему краю",
+    "alignLeft": "Выровнять по левому краю",
+    "alignRight": "Выровнять по правому краю",
+    "centerVertically": "Центрировать по вертикали",
+    "centerHorizontally": "Центрировать по горизонтали",
+    "distributeHorizontally": "Распределить по горизонтали",
+    "distributeVertically": "Распределить по вертикали",
+    "flipHorizontal": "Переворот по горизонтали",
+    "flipVertical": "Переворот по вертикали",
+    "viewMode": "Вид",
+    "share": "Поделиться",
+    "showStroke": "Показать выбор цвета обводки",
+    "showBackground": "Показать выбор цвета фона",
+    "showFonts": "Показать выбор шрифта",
+    "toggleTheme": "Переключить светлую/тёмную тему",
+    "theme": "Тема",
+    "decreaseFontSize": "Уменьшить шрифт",
+    "increaseFontSize": "Увеличить шрифт",
+    "unbindText": "Отвязать текст",
+    "bindText": "Привязать текст к контейнеру",
+    "createContainerFromText": "Поместить текст в контейнер",
+    "link": {
+      "edit": "Редактировать ссылку",
+      "editEmbed": "Редактировать встраиваемую ссылку",
+      "create": "Добавить ссылку",
+      "label": "Ссылка",
+      "labelEmbed": "Ссылка и встраивание",
+      "empty": "Ссылка не установлена",
+      "hint": "Введите или вставьте ссылку здесь",
+      "goToElement": "Перейти к элементу"
+    },
+    "lineEditor": {
+      "edit": "Редактирование строки",
+      "editArrow": "Изменить стрелку"
+    },
+    "polygon": {
+      "breakPolygon": "Разбить полигон",
+      "convertToPolygon": "Преобразовать в полигон"
+    },
+    "elementLock": {
+      "lock": "Блокировать",
+      "unlock": "Разблокировать",
+      "unlockAll": "Разблокировать все"
+    },
+    "sidebarLock": "Держать боковую панель открытой",
+    "selectAllElementsInFrame": "Выбрать все элементы фрейма",
+    "removeAllElementsFromFrame": "Убрать все элементы из фрейма",
+    "eyeDropper": "Взять образец цвета с холста",
+    "zoomToFitViewport": "Масштабировать до области просмотра",
+    "autoResize": "Включить автоизменение размера текста",
+    "imageCropping": "Обрезка изображения",
+    "unCroppedDimension": "Необрезанный размер",
+    "copyElementLink": "Скопировать ссылку на объект",
+    "linkToElement": "Ссылка на объект",
+    "wrapSelectionInFrame": "Поместить выделенное в фрейм",
+    "shapeSwitch": "Сменить форму",
+    "preferences": "Настройки",
+    "preferences_toolLock": "Закрепить инструмент",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "Привязка стрелкой",
+    "midpointSnapping": "Привязка к средней точке"
+  },
+  "elementLink": {
+    "title": "Ссылка на объект",
+    "desc": "Нажмите на фигуру на холсте или вставьте ссылку.",
+    "notFound": "Связанный объект не найден на холсте."
+  },
+  "search": {
+    "title": "Найти на холсте",
+    "noMatch": "Совпадения не найдены...",
+    "singleResult": "результат",
+    "multipleResults": "результатов",
+    "placeholder": "Найти текст на холсте...",
+    "frames": "Рамки",
+    "texts": "Текст"
+  },
+  "buttons": {
+    "clearReset": "Очистить холст и сбросить цвет фона",
+    "exportImage": "Экспортировать изображение...",
+    "export": "Сохранить как...",
+    "save": "Сохранить в текущий файл",
+    "saveAs": "Сохранить как",
+    "load": "Открыть",
+    "close": "Закрыть",
+    "scrollBackToContent": "Вернуться к содержимому",
+    "zoomIn": "Увеличить",
+    "zoomOut": "Уменьшить",
+    "resetZoom": "Сбросить масштаб",
+    "done": "Готово",
+    "edit": "Изменить",
+    "undo": "Шаг назад",
+    "redo": "Шаг вперёд",
+    "darkMode": "Тёмная тема",
+    "lightMode": "Светлая тема",
+    "systemMode": "Системный режим",
+    "zenMode": "Режим «Дзен»",
+    "objectsSnapMode": "Привязка к объектам",
+    "cancel": "Отменить",
+    "remove": "Удалить",
+    "confirm": "Подтвердить",
+    "embeddableInteractionButton": "Нажмите для взаимодействия"
+  },
+  "alerts": {
+    "clearReset": "Это очистит весь холст. Вы уверены?",
+    "couldNotLoadInvalidFile": "Не удалось загрузить недопустимый файл",
+    "cannotExportEmptyCanvas": "Не может экспортировать пустой холст.",
+    "couldNotCopyToClipboard": "Не удалось скопировать в буфер обмена.",
+    "cannotRestoreFromImage": "Сцена не может быть восстановлена из этого изображения"
+  },
+  "errors": {
+    "unsupportedFileType": "Неподдерживаемый тип файла.",
+    "imageInsertError": "Не удалось вставить изображение. Попробуйте позже...",
+    "fileTooBig": "Очень большой файл. Максимально разрешённый размер – {{maxSize}}.",
+    "svgImageInsertError": "Не удалось вставить изображение SVG. Разметка SVG выглядит недействительной.",
+    "failedToFetchImage": "Не удалось получить изображение.",
+    "imageToolNotSupported": "Изображения отключены.",
+    "brave_measure_text_error": {
+      "line1": "Похоже, вы используете браузер Brave с включённой настройкой <bold>«Агрессивное блокирование определения отпечатков»</bold>.",
+      "line2": "Это может привести к поломке <bold>текстовых объектов</bold> на рисунке."
+    },
+    "asyncPasteFailedOnRead": "Не удалось вставить (невозможно прочитать из системного буфера обмена).",
+    "asyncPasteFailedOnParse": "Не удалось вставить.",
+    "copyToSystemClipboardFailed": "Не удалось скопировать в буфер обмена."
+  },
+  "toolBar": {
+    "selection": "Выделение области",
+    "lasso": "Выделение лассо",
+    "image": "Вставить изображение",
+    "rectangle": "Прямоугольник",
+    "diamond": "Ромб",
+    "ellipse": "Эллипс",
+    "arrow": "Cтрелка",
+    "line": "Линия",
+    "freedraw": "Чертить",
+    "text": "Текст",
+    "lock": "Сохранять выбранный инструмент активным после рисования",
+    "penMode": "Режим пера – предотвращение касания",
+    "link": "Добавить / Обновить ссылку для выбранной фигуры",
+    "eraser": "Ластик",
+    "frame": "Фреймовый инструмент",
+    "embeddable": "Встроенная страница",
+    "laser": "Лазерная указка",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "Рука (перемещение холста)",
+    "extraTools": "Дополнительные инструменты",
+    "mermaidToExcalidraw": "Mermaid в Excalidraw",
+    "convertElementType": "Переключение типа формы"
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "Прямоугольник",
+    "diamond": "Ромб",
+    "ellipse": "Эллипс",
+    "arrow": "Стрелка",
+    "line": "Линия",
+    "freedraw": "Свободное рисование",
+    "text": "Текст",
+    "image": "Изображение",
+    "group": "Группа",
+    "frame": "Фрейм",
+    "magicframe": "Каркас для кода",
+    "embeddable": "Встроенная страница",
+    "selection": "Выделение",
+    "iframe": "IFrame"
+  },
+  "headings": {
+    "canvasActions": "Операции холста",
+    "selectedShapeActions": "Операции выбранной фигуры",
+    "shapes": "Фигуры"
+  },
+  "hints": {
+    "dismissSearch": "{{shortcut}} — отменить поиск",
+    "linearElement": "Нажмите, чтобы начать несколько точек, перетащите для одной линии",
+    "arrowTool": "Нажмите, чтобы начать рисование нескольких точек, перетащите для одной линии. Нажмите {{shortcut}} снова, чтобы изменить тип стрелки.",
+    "arrowBindModifiers": "Удерживайте {{shortcut_1}} , чтобы отключить привязку, или {{shortcut_2}} для привязки в фиксированной точке",
+    "freeDraw": "Нажмите и перетаскивайте, отпустите по завершении",
+    "text": "Совет: при выбранном инструменте выделения дважды щёлкните в любом месте, чтобы добавить текст",
+    "embeddable": "Перетащите для встраивания веб-сайта",
+    "autoshape": "",
+    "text_selected": "Дважды щёлкните или нажмите {{shortcut}}, чтобы отредактировать текст",
+    "text_editing": "Нажмите {{shortcut_1}} или {{shortcut_2}}, чтобы завершить редактирование",
+    "linearElementMulti": "Нажмите на последнюю точку или нажмите {{shortcut_1}} или {{shortcut_2}}, чтобы завершить",
+    "lockAngle": "Вы можете ограничить угол, удерживая {{shortcut}}",
+    "resize": "Вы можете ограничить пропорции, удерживая {{shortcut_1}} во время изменения размера,\nудерживайте {{shortcut_2}}, чтобы изменить размер от центра",
+    "resizeImage": "Вы можете свободно изменять размер, удерживая {{shortcut_1}},\nудерживайте {{shortcut_2}}, чтобы изменить размер от центра",
+    "rotate": "Вы можете ограничить углы, удерживая {{shortcut}} во время поворота",
+    "toggleArrowhead": "",
+    "lineEditor_info": "Удерживайте {{shortcut_1}} и дважды щёлкните или нажмите {{shortcut_2}}, чтобы отредактировать точки",
+    "lineEditor_line_info": "Дважды щёлкните или нажмите {{shortcut}}, чтобы отредактировать точки",
+    "lineEditor_pointSelected": "Нажмите {{shortcut_1}}, чтобы удалить точки,\n{{shortcut_2}} для дублирования или перетащите",
+    "lineEditor_nothingSelected": "Выберите точку для редактирования (удерживайте {{shortcut_1}}, чтобы выбрать несколько),\nили удерживайте {{shortcut_2}} и щёлкните, чтобы добавить новые точки",
+    "bindTextToElement": "{{shortcut}} — добавить текст",
+    "createFlowchart": "{{shortcut}} — создать блок-схему",
+    "deepBoxSelect": "Удерживайте {{shortcut}} для глубокого выделения и предотвращения перетаскивания",
+    "eraserRevert": "Удерживайте {{shortcut}}, чтобы восстановить элементы, помеченные для удаления",
+    "firefox_clipboard_write": "Эта функция может быть включена при изменении значения флага «dom.events.asyncClipboard.clipboardItem» на «true». Чтобы изменить флаги браузера в Firefox, зайдите на страницу «about:config».",
+    "disableSnapping": "Удерживайте {{shortcut}}, чтобы отключить привязку",
+    "enterCropEditor": "Дважды щёлкните по изображению или нажмите {{shortcut}}, чтобы обрезать изображение",
+    "leaveCropEditor": "Щёлкните за пределами изображения или нажмите {{shortcut_1}} или {{shortcut_2}}, чтобы завершить кадрирование"
+  },
+  "canvasError": {
+    "cannotShowPreview": "Не удалось отобразить предпросмотр",
+    "canvasTooBig": "Сцена слишком большая.",
+    "canvasTooBigTip": "Совет: попробуйте сблизить элементы рисунка."
+  },
+  "errorDialog": {
+    "title": "Ошибка"
+  },
+  "progressDialog": {
+    "defaultMessage": "Подготовка к сохранению..."
+  },
+  "exportDialog": {
+    "disk_title": "Сохранить на диск",
+    "disk_details": "Экспортировать данные сцены в файл, из которого можно импортировать позже.",
+    "disk_button": "Сохранить в файл",
+    "link_title": "Поделитесь ссылкой",
+    "link_details": "Экспорт ссылки только для чтения.",
+    "link_button": "Экспорт в ссылку"
+  },
+  "helpDialog": {
+    "click": "нажать",
+    "deepSelect": "Глубокое выделение",
+    "deepBoxSelect": "Глубокое выделение рамкой, и предотвращение перетаскивания",
+    "createFlowchart": "Создать диаграмму из базового элемента",
+    "navigateFlowchart": "Навигация по диаграмме",
+    "curvedArrow": "Изогнутая стрелка",
+    "curvedLine": "Изогнутая линия",
+    "doubleClick": "двойной щелчок",
+    "drag": "перетащить",
+    "editor": "Редактор",
+    "editLineArrowPoints": "Редактировать концы линий/стрелок",
+    "editText": "Редактировать текст / добавить метку",
+    "or": "или",
+    "preventBinding": "Предотвращать привязку стрелок",
+    "tools": "Инструменты",
+    "shortcuts": "Горячие клавиши",
+    "textFinish": "Закончить редактирование (текстовый редактор)",
+    "textNewLine": "Добавить новую строку (текстовый редактор)",
+    "title": "Справка",
+    "view": "Просмотр",
+    "zoomToFit": "Отмастштабировать, чтобы поместились все элементы",
+    "zoomToSelection": "Увеличить до выделенного",
+    "toggleElementLock": "Заблокировать/разблокировать выделение",
+    "movePageUpDown": "Сдвинуть страницу вверх/вниз",
+    "movePageLeftRight": "Сдвинуть страницу вправо/влево",
+    "cropStart": "Обрезать изображение",
+    "cropFinish": "Закончить обрезку изображения"
+  },
+  "clearCanvasDialog": {
+    "title": "Очистить холст"
+  },
+  "imageExportDialog": {
+    "header": "Экспортировать изображение",
+    "label": {
+      "withBackground": "Фон",
+      "onlySelected": "Только выделенное",
+      "darkMode": "Тёмная тема",
+      "embedScene": "Встроить сцену",
+      "scale": "Масштаб",
+      "padding": "Отступ"
+    },
+    "tooltip": {
+      "embedScene": "Сцена будет сохранена в PNG/SVG файл так, чтобы всю сцену можно будет восстановить из этого файла. Это увеличит размер файла."
+    },
+    "title": {
+      "exportToPng": "Экспорт в PNG",
+      "exportToSvg": "Экспорт в SVG",
+      "copyPngToClipboard": "Скопировать PNG в буфер обмена"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "Скопировать в буфер обмена"
+    }
+  },
+  "stats": {
+    "shapes": "Фигуры",
+    "height": "Высота",
+    "scene": "Сцены",
+    "fullTitle": "Свойства холста и фигуры",
+    "title": "Свойства",
+    "generalStats": "Общее",
+    "elementProperties": "Свойства формы",
+    "width": "Ширина"
+  },
+  "toast": {
+    "copyStyles": "Скопированы стили.",
+    "copyToClipboardAsPng": "{{exportSelection}} скопировано как PNG ({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "{{exportSelection}} скопировано в буфер обмена как SVG\n({{exportColorScheme}})",
+    "fileSaved": "Файл сохранён.",
+    "fileSavedToFilename": "Сохранено в {filename}",
+    "canvas": "холст",
+    "selection": "выделение",
+    "pasteAsSingleElement": "Используйте {{shortcut}}, чтобы вставить один объект,\nили вставьте в существующий текстовый редактор",
+    "unableToEmbed": "Встраивание этого URL в данный момент не разрешено. Сделайте Issue на GitHub для добавления URL в белый список",
+    "unrecognizedLinkFormat": "Ссылка, которую вы ввели не соответствует ожидаемому формату. Пожалуйста, попробуйте вставить строку «встраивание», предоставленную исходным сайтом",
+    "elementLinkCopied": "Ссылка скопирована в буфер обмена"
+  },
+  "colors": {
+    "transparent": "Прозрачный",
+    "black": "Чёрный",
+    "white": "Белый",
+    "red": "Красный",
+    "pink": "Розовый",
+    "grape": "Виноградный",
+    "violet": "Фиолетовый",
+    "gray": "Серый",
+    "blue": "Синий",
+    "cyan": "Голубой",
+    "teal": "Бирюзовый",
+    "green": "Зелёный",
+    "yellow": "Жёлтый",
+    "orange": "Оранжевый",
+    "bronze": "Бронзовый"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "Экспорт, настройки и другое...",
+      "center_heading": "Диаграммы. Просто.",
+      "toolbarHint": "Выберите инструмент и начните рисовать!",
+      "helpHint": "Сочетания клавиш и справка"
+    }
+  },
+  "colorPicker": {
+    "color": "Цвет",
+    "mostUsedCustomColors": "Часто используемые пользовательские цвета",
+    "colors": "Цвета",
+    "shades": "Оттенки",
+    "hexCode": "Шестнадцатеричный код",
+    "noShades": "Нет доступных оттенков для этого цвета",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "Экспортировать как изображение",
+        "button": "Экспортировать как изображение",
+        "description": "Экспортируйте данные сцены как изображение, из которого вы сможете импортировать позже."
+      },
+      "saveToDisk": {
+        "title": "Сохранить на диск",
+        "button": "Сохранить на диск",
+        "description": "Экспортировать данные сцены в файл, из которого можно импортировать позже."
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "Загрузить из файла",
+        "button": "Загрузить из файла",
+        "description": "Загрузка из файла <bold>заменит существующее содержимое</bold>.<br></br>Вы можете сначала создать резервную копию своего рисунка, используя один из приведённых ниже вариантов."
+      }
+    }
+  },
+  "mermaid": {
+    "title": "Из Mermaid в Excalidraw",
+    "button": "Вставить",
+    "description": "В настоящее время поддерживаются только <flowchartLink>блок-схемы</flowchartLink>, <sequenceLink>диаграммы последовательности</sequenceLink>, <classLink>диаграммы классов</classLink> и <erdLink>диаграммы взаимоотношений сущностей</erdLink>. Другие типы будут отображаться в виде изображения в Excalidraw.",
+    "inputPlaceholder": "Напишите здесь определение диаграммы Mermaid...",
+    "autoFixAvailable": "Автоисправление доступно"
+  },
+  "chat": {
+    "retry": "Повторить",
+    "errors": {
+      "mermaidParseError": "Синтаксическая ошибка Mermaid"
+    }
+  },
+  "quickSearch": {
+    "placeholder": "Быстрый поиск"
+  },
+  "fontList": {
+    "badge": {
+      "old": "старый"
+    },
+    "sceneFonts": "В этой сцене",
+    "availableFonts": "Доступные шрифты",
+    "empty": "Шрифты не найдены"
+  },
+  "userList": {
+    "empty": "Пользователи не найдены",
+    "hint": {
+      "text": "Нажмите на пользователя, чтобы подписаться",
+      "followStatus": "Вы подписаны на этого пользователя",
+      "inCall": "Пользователь находится в голосовом звонке",
+      "micMuted": "Микрофон пользователя заглушён",
+      "isSpeaking": "Пользователь говорит"
+    }
+  },
+  "commandPalette": {
+    "title": "Палитра команд",
+    "shortcuts": {
+      "select": "Выбрать",
+      "confirm": "Подтвердить",
+      "close": "Закрыть"
+    },
+    "recents": "Недавно использованные",
+    "search": {
+      "placeholder": "Поиск меню, команд и скрытых сокровищ",
+      "noMatch": "Нет подходящих команд..."
+    },
+    "itemNotAvailable": "Команда недоступна...",
+    "shortcutHint": "Используйте {{shortcut}} для командной палитры"
+  },
+  "keys": {
+    "ctrl": "Ctrl",
+    "option": "Option",
+    "cmd": "Cmd",
+    "alt": "Alt",
+    "escape": "Esc",
+    "enter": "Enter",
+    "shift": "Shift",
+    "spacebar": "Пробел",
+    "delete": "Delete"
+  }
+}

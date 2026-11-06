@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test <App/> > should show error modal when using brave and measureText API is not working 1`] = `
+<div
+  data-testid="brave-measure-text-error"
+>
+  <p>
+    Looks like you are using Brave browser with the 
+    <span
+      style="font-weight: 600;"
+    >
+      Aggressively Block Fingerprinting
+    </span>
+     setting enabled.
+  </p>
+  <p>
+    This could result in breaking the 
+    <span
+      style="font-weight: 600;"
+    >
+      Text Elements
+    </span>
+     in your drawings.
+  </p>
+  <p>
+    We strongly recommend disabling this setting.
+  </p>
+  <p>
+    If disabling this setting doesn't fix the display of text elements, try another browser.
+  </p>
+</div>
+`;

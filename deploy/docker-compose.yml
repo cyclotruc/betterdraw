@@ -1,0 +1,27 @@
+# Default: one container with the built-in SQLite, data in a volume.
+# For Postgres, uncomment the db service and DATABASE_URL.
+name: betterdraw
+services:
+  app:
+    build: { context: .., dockerfile: deploy/Dockerfile }
+    ports: ["127.0.0.1:3000:3000"]
+    environment:
+      BASE_URL: ${BASE_URL:-http://localhost:3000}
+      SMTP_URL: ${SMTP_URL:-}
+      SMTP_FROM: ${SMTP_FROM:-}
+      # A proxy on the host reaches the app from the gateway of Docker's network, in one of these ranges: what it
+      # writes in X-Forwarded-For names the visitor. Leave them out if the port is published beyond 127.0.0.1.
+      TRUSTED_PROXIES: ${TRUSTED_PROXIES:-172.16.0.0/12,192.168.0.0/16}
+      # GOOGLE_CLIENT_ID: ""
+      # GOOGLE_CLIENT_SECRET: ""
+      # DATABASE_URL: postgres://betterdraw:${POSTGRES_PASSWORD:-betterdraw}@db:5432/betterdraw
+    volumes: ["data:/data"]
+    restart: unless-stopped
+  # db:
+  #   image: postgres:16-alpine
+  #   environment: { POSTGRES_USER: betterdraw, POSTGRES_PASSWORD: "${POSTGRES_PASSWORD:-betterdraw}", POSTGRES_DB: betterdraw }
+  #   volumes: ["pg:/var/lib/postgresql/data"]
+  #   restart: unless-stopped
+volumes:
+  data:
+  # pg:

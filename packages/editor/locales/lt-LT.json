@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "Įklijuoti",
+    "pasteAsPlaintext": "Įklijuoti kaip paprastą tekstą",
+    "pasteCharts": "Įklijuoti diagramas",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "Pažymėti viską",
+    "multiSelect": "Pridėkite elementą prie pasirinktų",
+    "moveCanvas": "Judinti drobę",
+    "cut": "Iškirpti",
+    "copy": "Kopijuoti",
+    "copyAsPng": "Kopijuoti į iškarpinę kaip PNG",
+    "copyAsSvg": "Kopijuoti į iškarpinę kaip SVG",
+    "copyText": "Kopijuoti į iškarpinę kaip tekstą",
+    "bringForward": "Kelti priekio link",
+    "sendToBack": "Nustumti į užnugarį",
+    "bringToFront": "Iškelti į priekį",
+    "sendBackward": "Nustumti link užnugario",
+    "delete": "Ištrinti",
+    "copyStyles": "Kopijuoti stilius",
+    "pasteStyles": "Įklijuoti stilius",
+    "stroke": "Linija",
+    "changeStroke": "",
+    "background": "Fonas",
+    "changeBackground": "",
+    "fill": "Užpildymas",
+    "strokeWidth": "Linijos storis",
+    "strokeStyle": "Linijos stilius",
+    "strokeStyle_solid": "Ištisinė",
+    "strokeStyle_dashed": "Brūkšniuota",
+    "strokeStyle_dotted": "Taškuota",
+    "sloppiness": "Netvarkingumas",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "Nepermatomumas",
+    "textAlign": "Teksto lygiavimas",
+    "edges": "Kraštai",
+    "sharp": "Aštrus",
+    "round": "Užapvalintas",
+    "arrowheads": "Rodyklės viršūnės",
+    "arrowhead_none": "Jokios",
+    "arrowhead_arrow": "Rodyklė",
+    "arrowhead_bar": "Brukšnys",
+    "arrowhead_circle": "",
+    "arrowhead_circle_outline": "",
+    "arrowhead_triangle": "Trikampis",
+    "arrowhead_triangle_outline": "",
+    "arrowhead_diamond": "",
+    "arrowhead_diamond_outline": "",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "",
+    "cardinality": "",
+    "arrowtypes": "",
+    "arrowtype_sharp": "",
+    "arrowtype_round": "",
+    "arrowtype_elbowed": "",
+    "fontSize": "Šrifto dydis",
+    "fontFamily": "Šriftas",
+    "handDrawn": "Ranka rašytas",
+    "normal": "Normalus",
+    "code": "Kodas",
+    "small": "Mažas",
+    "medium": "Vidutinis",
+    "large": "Didelis",
+    "veryLarge": "Labai didelis",
+    "solid": "",
+    "hachure": "",
+    "zigzag": "",
+    "crossHatch": "",
+    "thin": "Plonas",
+    "bold": "Pastorintas",
+    "left": "Kairėje",
+    "center": "Centre",
+    "right": "Dešinėje",
+    "architect": "Architektas",
+    "artist": "Menininkas",
+    "cartoonist": "Karikatūristas",
+    "fileTitle": "Failo pavadinimas",
+    "colorPicker": "Spalvos parinkiklis",
+    "canvasBackground": "Drobės fonas",
+    "drawingCanvas": "",
+    "clearCanvas": "",
+    "layers": "Sluoksniai",
+    "actions": "Veiksmai",
+    "liveCollaboration": "Bendradarbiavimas gyvai...",
+    "duplicateSelection": "",
+    "untitled": "",
+    "group": "Grupuoti pasirinkimą",
+    "ungroup": "Išgrupuoti pasirinkimą",
+    "collaborators": "Bendradarbiautojai",
+    "you": "",
+    "toggleGrid": "",
+    "loadingScene": "",
+    "align": "Lygiuoti",
+    "alignTop": "Lygiuoti viršuje",
+    "alignBottom": "Lygiuoti apačioje",
+    "alignLeft": "Lygiuoti kairėje",
+    "alignRight": "Lygiuoti dešinėje",
+    "centerVertically": "Centruoti vertikaliai",
+    "centerHorizontally": "Centruoti horizontaliai",
+    "distributeHorizontally": "",
+    "distributeVertically": "",
+    "flipHorizontal": "Apversti horizontaliai",
+    "flipVertical": "Apversti vertikaliai",
+    "viewMode": "",
+    "share": "Dalintis",
+    "showStroke": "",
+    "showBackground": "",
+    "showFonts": "",
+    "toggleTheme": "",
+    "theme": "",
+    "decreaseFontSize": "",
+    "increaseFontSize": "",
+    "unbindText": "",
+    "bindText": "",
+    "createContainerFromText": "",
+    "link": {
+      "edit": "Redeguoti nuorodą",
+      "editEmbed": "",
+      "create": "",
+      "label": "Nuoroda",
+      "labelEmbed": "",
+      "empty": "",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "",
+      "editArrow": ""
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "Užrakinti",
+      "unlock": "Atrakinti",
+      "unlockAll": ""
+    },
+    "sidebarLock": "",
+    "selectAllElementsInFrame": "",
+    "removeAllElementsFromFrame": "",
+    "eyeDropper": "",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "",
+    "unCroppedDimension": "",
+    "copyElementLink": "",
+    "linkToElement": "",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "",
+    "noMatch": "",
+    "singleResult": "",
+    "multipleResults": "",
+    "placeholder": "",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "",
+    "exportImage": "",
+    "export": "",
+    "save": "",
+    "saveAs": "Išsaugoti kaip",
+    "load": "",
+    "close": "Uždaryti",
+    "scrollBackToContent": "",
+    "zoomIn": "Priartinti",
+    "zoomOut": "Nutolinti",
+    "resetZoom": "",
+    "done": "",
+    "edit": "Redaguoti",
+    "undo": "Anuliuoti",
+    "redo": "",
+    "darkMode": "Tamsus režimas",
+    "lightMode": "Šviesus režimas",
+    "systemMode": "",
+    "zenMode": "„Zen“ režimas",
+    "objectsSnapMode": "",
+    "cancel": "Atšaukti",
+    "remove": "Pašalinti",
+    "confirm": "Patvirtinti",
+    "embeddableInteractionButton": ""
+  },
+  "alerts": {
+    "clearReset": "",
+    "couldNotLoadInvalidFile": "",
+    "cannotExportEmptyCanvas": "",
+    "couldNotCopyToClipboard": "",
+    "cannotRestoreFromImage": "Nepavyko atstatyti scenos iš šio nuotraukos failo"
+  },
+  "errors": {
+    "unsupportedFileType": "Nepalaikomas failo tipas.",
+    "imageInsertError": "Nepyko įkelti paveiksliuko. Pabandyk vėliau...",
+    "fileTooBig": "Per didelis failas. Didžiausias leidžiamas dydis yra {{maxSize}}.",
+    "svgImageInsertError": "Nepavyko įtraukti SVG paveiksliuko. Panašu, jog SVG yra nevalidus.",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "Žymėjimas",
+    "lasso": "",
+    "image": "Įkelti paveiksliuką",
+    "rectangle": "Stačiakampis",
+    "diamond": "Deimantas",
+    "ellipse": "Elipsė",
+    "arrow": "Rodyklė",
+    "line": "Linija",
+    "freedraw": "Piešti",
+    "text": "Tekstas",
+    "lock": "Baigus piešti, išlaikyti pasirinktą įrankį",
+    "penMode": "Rašyklio režimas - neleisti prisilietimų",
+    "link": "",
+    "eraser": "Trintukas",
+    "frame": "",
+    "embeddable": "",
+    "laser": "",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "",
+    "extraTools": "",
+    "mermaidToExcalidraw": "",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "",
+    "diamond": "",
+    "ellipse": "",
+    "arrow": "",
+    "line": "",
+    "freedraw": "",
+    "text": "",
+    "image": "",
+    "group": "",
+    "frame": "",
+    "magicframe": "",
+    "embeddable": "",
+    "selection": "",
+    "iframe": ""
+  },
+  "headings": {
+    "canvasActions": "Veiksmai su drobe",
+    "selectedShapeActions": "Veiksmai su pasirinkta figūra",
+    "shapes": "Figūros"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "Paspaudimai sukurs papildomus taškus, nepertraukiamas tempimas sukurs liniją",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "Spausk ir tempk, paleisk kai norėsi pabaigti",
+    "text": "Užuomina: tekstą taip pat galima pridėti bet kur su dvigubu pelės paspaudimu, kol parinkas žymėjimo įrankis",
+    "embeddable": "",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "",
+    "canvasTooBig": "",
+    "canvasTooBigTip": ""
+  },
+  "errorDialog": {
+    "title": "Klaida"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "Įrašyti į diską",
+    "disk_details": "",
+    "disk_button": "Įrašyti į failą",
+    "link_title": "Nuoroda dalinimuisi",
+    "link_details": "",
+    "link_button": ""
+  },
+  "helpDialog": {
+    "click": "paspaudimas",
+    "deepSelect": "",
+    "deepBoxSelect": "",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "Banguota rodyklė",
+    "curvedLine": "Banguota linija",
+    "doubleClick": "dvigubas paspaudimas",
+    "drag": "vilkti",
+    "editor": "Redaktorius",
+    "editLineArrowPoints": "",
+    "editText": "",
+    "or": "arba",
+    "preventBinding": "",
+    "tools": "Įrankiai",
+    "shortcuts": "Spartieji klavišai",
+    "textFinish": "Baigti redagavimą (teksto redaktoriuje)",
+    "textNewLine": "Pridėti naują eilutę (tekto redaktoriuje)",
+    "title": "Pagalba",
+    "view": "",
+    "zoomToFit": "",
+    "zoomToSelection": "Priartinti iki pažymėtos vietos",
+    "toggleElementLock": "",
+    "movePageUpDown": "Pajudinti puslapį aukštyn/žemyn",
+    "movePageLeftRight": "Pajudinti puslapį kairėn/dešinėn",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "Išvalyti drobę"
+  },
+  "imageExportDialog": {
+    "header": "",
+    "label": {
+      "withBackground": "",
+      "onlySelected": "",
+      "darkMode": "",
+      "embedScene": "",
+      "scale": "",
+      "padding": ""
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    },
+    "button": {
+      "exportToPng": "",
+      "exportToSvg": "",
+      "copyPngToClipboard": ""
+    }
+  },
+  "stats": {
+    "shapes": "",
+    "height": "Aukštis",
+    "scene": "Scena",
+    "fullTitle": "",
+    "title": "",
+    "generalStats": "",
+    "elementProperties": "",
+    "width": "Plotis"
+  },
+  "toast": {
+    "copyStyles": "",
+    "copyToClipboardAsPng": "",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "Failas išsaugotas.",
+    "fileSavedToFilename": "Išsaugota į {filename}",
+    "canvas": "drobė",
+    "selection": "",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": ""
+  },
+  "colors": {
+    "transparent": "Permatoma",
+    "black": "",
+    "white": "",
+    "red": "",
+    "pink": "",
+    "grape": "",
+    "violet": "",
+    "gray": "",
+    "blue": "",
+    "cyan": "",
+    "teal": "",
+    "green": "",
+    "yellow": "",
+    "orange": "",
+    "bronze": ""
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "",
+      "center_heading": "",
+      "toolbarHint": "",
+      "helpHint": ""
+    }
+  },
+  "colorPicker": {
+    "color": "",
+    "mostUsedCustomColors": "",
+    "colors": "",
+    "shades": "",
+    "hexCode": "",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "",
+        "button": "",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "",
+        "button": "",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": ""
+  },
+  "fontList": {
+    "badge": {
+      "old": ""
+    },
+    "sceneFonts": "",
+    "availableFonts": "",
+    "empty": ""
+  },
+  "userList": {
+    "empty": "",
+    "hint": {
+      "text": "",
+      "followStatus": "",
+      "inCall": "",
+      "micMuted": "",
+      "isSpeaking": ""
+    }
+  },
+  "commandPalette": {
+    "title": "",
+    "shortcuts": {
+      "select": "",
+      "confirm": "",
+      "close": ""
+    },
+    "recents": "",
+    "search": {
+      "placeholder": "",
+      "noMatch": ""
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}

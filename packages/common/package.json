@@ -1,0 +1,13 @@
+{
+  "name": "@betterdraw/common",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "tinycolor2": "1.6.0"
+  },
+  "devDependencies": {
+    "@types/tinycolor2": "1.4.6"
+  }
+}

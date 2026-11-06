@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "วาง",
+    "pasteAsPlaintext": "วางโดยไม่มีการจัดรูปแบบ",
+    "pasteCharts": "วางแผนภูมิ",
+    "chartType_bar": "แผนภูมิแท่ง",
+    "chartType_line": "แผนภูมิเส้น",
+    "chartType_radar": "แผนภูมิแท่ง",
+    "chartType_plaintext": "ข้อความธรรมดา",
+    "selectAll": "เลือกทั้งหมด",
+    "multiSelect": "เพิ่มองค์ประกอบในการเลือก",
+    "moveCanvas": "เคลื่อนย้ายผ้าใบ",
+    "cut": "ตัด",
+    "copy": "คัดลอก",
+    "copyAsPng": "คัดลองไปยังคลิปบอร์ดเป็น PNG",
+    "copyAsSvg": "คัดลองไปยังคลิปบอร์ดเป็น SVG",
+    "copyText": "คัดลองไปยังคลิปบอร์ดเป็นข้อความ",
+    "bringForward": "นำขึ้นข้างบน",
+    "sendToBack": "ย้ายไปข้างล่าง",
+    "bringToFront": "นำขึ้นข้างหน้า",
+    "sendBackward": "ย้ายไปข้างหลัง",
+    "delete": "ลบ",
+    "copyStyles": "คัดลอกรูปแบบ",
+    "pasteStyles": "วางรูปแบบ",
+    "stroke": "เส้นขอบ",
+    "changeStroke": "เปลี่ยนสีเส้น",
+    "background": "พื้นหลัง",
+    "changeBackground": "เปลี่ยนสีพื้นหลัง",
+    "fill": "เติมสี",
+    "strokeWidth": "น้ำหนักเส้นขอบ",
+    "strokeStyle": "รูปแบบเส้น",
+    "strokeStyle_solid": "เส้นทึบ",
+    "strokeStyle_dashed": "เส้นประ",
+    "strokeStyle_dotted": "จุด",
+    "sloppiness": "ความเลอะเทอะ",
+    "pressure": "แรงกด",
+    "pressure_constant": "คงที่",
+    "pressure_variable": "",
+    "opacity": "ความทึบแสง",
+    "textAlign": "จัดข้อความ",
+    "edges": "ขอบ",
+    "sharp": "เหลี่ยม",
+    "round": "โค้งมน",
+    "arrowheads": "หัวลูกศร",
+    "arrowhead_none": "ไม่มี",
+    "arrowhead_arrow": "ลูกศร",
+    "arrowhead_bar": "แถบ",
+    "arrowhead_circle": "วงกลม",
+    "arrowhead_circle_outline": "วงกลม (เส้นนขอบ)",
+    "arrowhead_triangle": "สามเหลี่ยม",
+    "arrowhead_triangle_outline": "สามเหลี่ยม (เส้นนขอบ)",
+    "arrowhead_diamond": "ขอบเพชร",
+    "arrowhead_diamond_outline": "ขอบเพชร (เส้นขอบ)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "คาร์ดินัลลิตี (ศูนย์หรือหนึ่ง)",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "ตัวเลือกเพิ่มเติม",
+    "cardinality": "",
+    "arrowtypes": "ชนิดลูกศร",
+    "arrowtype_sharp": "ลูกศรแหลม",
+    "arrowtype_round": "ลูกศรโค้ง",
+    "arrowtype_elbowed": "ลูกศรหักมุม",
+    "fontSize": "ขนาดตัวอักษร",
+    "fontFamily": "แบบตัวอักษร",
+    "handDrawn": "ลายมือ",
+    "normal": "ปกติ",
+    "code": "โค้ด",
+    "small": "เล็ก",
+    "medium": "กลาง",
+    "large": "ใหญ่",
+    "veryLarge": "ใหญ่มาก",
+    "solid": "เส้นทึบ",
+    "hachure": "เส้นลายขวานสับ",
+    "zigzag": "ซิกแซก",
+    "crossHatch": "เครื่องหมายไขว้",
+    "thin": "บาง",
+    "bold": "หนา",
+    "left": "ซ้าย",
+    "center": "กลาง",
+    "right": "ขวา",
+    "architect": "สถาปนิก",
+    "artist": "ศิลปิน",
+    "cartoonist": "นักวาดการ์ตูน",
+    "fileTitle": "ชื่อไฟล์",
+    "colorPicker": "เลือกสีที่กำหนดเอง",
+    "canvasBackground": "พื้นหลังผ้าใบ",
+    "drawingCanvas": "กำลังวาดผืนผ้าใบ",
+    "clearCanvas": "ล้างผืนผ้าใบ",
+    "layers": "เลเยอร์",
+    "actions": "การกระทำ",
+    "liveCollaboration": "ผู้ทำงานร่วมกันขณะนี้",
+    "duplicateSelection": "ทำสำเนา",
+    "untitled": "ไม่มีชื่อ",
+    "group": "จัดกลุ่ม",
+    "ungroup": "ยกเลิกการจัดกลุ่ม",
+    "collaborators": "ผู้ทำงานร่วมกัน",
+    "you": "",
+    "toggleGrid": "แสดงกริด",
+    "loadingScene": "กำลังโหลดฉาก",
+    "align": "จัดตำแหน่ง",
+    "alignTop": "จัดชิดด้านบน",
+    "alignBottom": "จัดชิดด้านล่าง",
+    "alignLeft": "จัดชิดซ้าย",
+    "alignRight": "จัดชิดขวา",
+    "centerVertically": "กึ่งกลางแนวตั้ง",
+    "centerHorizontally": "กึ่งกลางแนวนอน",
+    "distributeHorizontally": "กระจายแนวนอน",
+    "distributeVertically": "กระจายแนวตั้ง",
+    "flipHorizontal": "พลิกแนวนอน",
+    "flipVertical": "พลิกแนวตั้ง",
+    "viewMode": "โหมดมุมมอง",
+    "share": "แชร์",
+    "showStroke": "แสดงตัวเลือกสีเส้นขอบ",
+    "showBackground": "แสดงตัวเลือกสีพื้นหลัง",
+    "showFonts": "แสดงตัวเลือกแบบอักษร",
+    "toggleTheme": "สลับธีมสว่าง/มืด",
+    "theme": "ธีม",
+    "decreaseFontSize": "ลดขนาดตัวอักษร",
+    "increaseFontSize": "เพิ่มขนาดตัวอักษร",
+    "unbindText": "ยกเลิกการผูกติด",
+    "bindText": "ผูกข้อความกับที่บรรจุ",
+    "createContainerFromText": "จัดข้อความในที่บรรจุ",
+    "link": {
+      "edit": "แก้ไขลิงก์",
+      "editEmbed": "",
+      "create": "เพิ่มลิงค์",
+      "label": "ลิงค์",
+      "labelEmbed": "ลิงค์และการฝัง",
+      "empty": "ไม่ได้ใส่ลิงค์",
+      "hint": "",
+      "goToElement": ""
+    },
+    "lineEditor": {
+      "edit": "แก้ไขเส้น",
+      "editArrow": "แก้ไขลูกศร"
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "ล็อก",
+      "unlock": "ปลดล็อก",
+      "unlockAll": "ปลดล็อกทั้งหมด"
+    },
+    "sidebarLock": "ปิดแถบด้านข้างเอาไว้",
+    "selectAllElementsInFrame": "เลือกองค์ประกอบทั้งหมดในกรอบ",
+    "removeAllElementsFromFrame": "ลบองค์ประกอบทั้งหมดในกรอบ",
+    "eyeDropper": "เลือกสีผืนผ้าใบ",
+    "zoomToFitViewport": "",
+    "autoResize": "",
+    "imageCropping": "การครอบตัดรูปภาพ",
+    "unCroppedDimension": "",
+    "copyElementLink": "คัดลอกลิงค์ไปสู่วัตถุ",
+    "linkToElement": "ลิงค์ไปสู่วัตถุ",
+    "wrapSelectionInFrame": "",
+    "shapeSwitch": "",
+    "preferences": "การตั้งค่า",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "ลิงค์ไปสู่วัตถุ",
+    "desc": "",
+    "notFound": ""
+  },
+  "search": {
+    "title": "ใช้บนผืนผ้าใบ",
+    "noMatch": "ไม่พบรายการที่ตรงกัน...",
+    "singleResult": "ผลลัพธ์",
+    "multipleResults": "ผลลัพธ์",
+    "placeholder": "ค้นหาข้อความในผืนผ้าใบ",
+    "frames": "กรอบ",
+    "texts": "ข้อความ"
+  },
+  "buttons": {
+    "clearReset": "รีเซ็ทผืนผ้าใบ",
+    "exportImage": "ส่งออกเป็นรูปภาพ",
+    "export": "บันทึกไปยัง",
+    "save": "บันทึกเป็นไฟล์ปัจจุบัน",
+    "saveAs": "บันทึกเป็น",
+    "load": "เปิด",
+    "close": "ปิด",
+    "scrollBackToContent": "เลื่อนกลับไปด้านบน",
+    "zoomIn": "ซูมเข้า",
+    "zoomOut": "ซูมออก",
+    "resetZoom": "รีเซ็ตการซูม",
+    "done": "เสร็จสิ้น",
+    "edit": "แก้ไข",
+    "undo": "เลิกทำ",
+    "redo": "ทำซ้ำ",
+    "darkMode": "โหมดกลางคืน",
+    "lightMode": "โหมดกลางวัน",
+    "systemMode": "",
+    "zenMode": "โหมด Zen",
+    "objectsSnapMode": "",
+    "cancel": "ยกเลิก",
+    "remove": "ลบ",
+    "confirm": "ยืนยัน",
+    "embeddableInteractionButton": "คลิกเพื่อปฏิสัมพันธ์"
+  },
+  "alerts": {
+    "clearReset": "",
+    "couldNotLoadInvalidFile": "ไม่สามารถโหลดไฟล์ที่ผิดพลาดได้",
+    "cannotExportEmptyCanvas": "ไม่สามารถนำออกจากผืนผ้าใบที่ว่างเปล่าได้",
+    "couldNotCopyToClipboard": "ไม่สามารถคัดลอกไปยังคลิปบอร์ดได้",
+    "cannotRestoreFromImage": ""
+  },
+  "errors": {
+    "unsupportedFileType": "ไม่รองรับชนิดของไฟล์นี้",
+    "imageInsertError": "ไม่สามารถเพิ่มรูปภาพได้ ลองอีกครั้งในภายหลัง",
+    "fileTooBig": "",
+    "svgImageInsertError": "",
+    "failedToFetchImage": "",
+    "imageToolNotSupported": "",
+    "brave_measure_text_error": {
+      "line1": "",
+      "line2": ""
+    },
+    "asyncPasteFailedOnRead": "",
+    "asyncPasteFailedOnParse": "ไม่สามารถวางได้",
+    "copyToSystemClipboardFailed": ""
+  },
+  "toolBar": {
+    "selection": "การเลือก",
+    "lasso": "การเลือก Lasso",
+    "image": "แทรกรูปภาพ",
+    "rectangle": "สี่เหลี่ยมผืนผ้า",
+    "diamond": "รูปเพชร",
+    "ellipse": "วงรี",
+    "arrow": "ลูกศร",
+    "line": "เส้น",
+    "freedraw": "เขียนรูป",
+    "text": "ข้อความ",
+    "lock": "",
+    "penMode": "",
+    "link": "เพิ่ม / อัปเดตลิงก์สำหรับรูปร่างที่เลือก",
+    "eraser": "ยางลบ",
+    "frame": "เครื่องมือกรอบ",
+    "embeddable": "ฝังเว็บ",
+    "laser": "ตัวชี้เลเซอร์",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "มือ (เครื่องมือเลื่อน)",
+    "extraTools": "เครื่องมืออื่นๆ",
+    "mermaidToExcalidraw": "เมอร์เมดเป็นเอกซ์คาลิดรอว์",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "สี่เหลี่ยม",
+    "diamond": "รูปเพชร",
+    "ellipse": "วงรี",
+    "arrow": "ลูกศร",
+    "line": "เส้น",
+    "freedraw": "วาดอิสระ",
+    "text": "ข้อความ",
+    "image": "รูปภาพ",
+    "group": "จัดกลุ่ม",
+    "frame": "กรอบ",
+    "magicframe": "ไวร์เฟรมเป็นโค้ด",
+    "embeddable": "ฝังเว็บ",
+    "selection": "การเลือก",
+    "iframe": "ไอเฟรม"
+  },
+  "headings": {
+    "canvasActions": "การกระทำบนผืนผ้าใบ",
+    "selectedShapeActions": "การกระทำกับรูปร่างที่เลือก",
+    "shapes": "รูปร่าง"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "คลิกเพื่อเริ่มหลายจุด ลากสำหรับเส้นเดียว",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "",
+    "text": "",
+    "embeddable": "คลิกและลากเพื่อสร้างการฝังสำหรับเว็บไซต์",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "",
+    "canvasTooBig": "",
+    "canvasTooBigTip": ""
+  },
+  "errorDialog": {
+    "title": "ข้อผิดพลาด"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "บันทึกไปยังดิสก์",
+    "disk_details": "",
+    "disk_button": "บันทึกเป็นไฟล์",
+    "link_title": "ลิงก์ที่สามารถแชร์ได้",
+    "link_details": "",
+    "link_button": "ส่งออกไปยังไฟล์"
+  },
+  "helpDialog": {
+    "click": "คลิก",
+    "deepSelect": "การเลือเชิงลึก",
+    "deepBoxSelect": "",
+    "createFlowchart": "",
+    "navigateFlowchart": "",
+    "curvedArrow": "ลูกศรโค้ง",
+    "curvedLine": "เส้นโค้ง",
+    "doubleClick": "ดับเบิลคลิก",
+    "drag": "ลาก",
+    "editor": "ตัวแก้ไข",
+    "editLineArrowPoints": "",
+    "editText": "แก้ไขข้อความ / เพิ่มข้อความ",
+    "or": "หรือ",
+    "preventBinding": "",
+    "tools": "เครื่องมือ",
+    "shortcuts": "แป้นพิมพ์ลัด",
+    "textFinish": "",
+    "textNewLine": "",
+    "title": "ช่วยเหลือ",
+    "view": "ดู",
+    "zoomToFit": "",
+    "zoomToSelection": "",
+    "toggleElementLock": "",
+    "movePageUpDown": "",
+    "movePageLeftRight": "ย้ายหน้าไปด้าน ซ้าย/ขวา",
+    "cropStart": "",
+    "cropFinish": ""
+  },
+  "clearCanvasDialog": {
+    "title": "ล้างผืนผ้าใบ"
+  },
+  "imageExportDialog": {
+    "header": "ส่งออกเป็นรูปภาพ",
+    "label": {
+      "withBackground": "พื้นหลัง",
+      "onlySelected": "เฉพาะที่เลือก",
+      "darkMode": "โหมดกลางคืน",
+      "embedScene": "",
+      "scale": "อัตราส่วน",
+      "padding": "การเว้นระยะ"
+    },
+    "tooltip": {
+      "embedScene": ""
+    },
+    "title": {
+      "exportToPng": "ส่งออกไปเป็น SVG",
+      "exportToSvg": "ส่งออกไปเป็น SVG",
+      "copyPngToClipboard": "คัดลอก PNG ไปยังคลิปบอร์ด"
+    },
+    "button": {
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "คัดลอกไปยังคลิปบอร์ด"
+    }
+  },
+  "stats": {
+    "shapes": "รูปร่าง",
+    "height": "ความสูง",
+    "scene": "ฉาก",
+    "fullTitle": "",
+    "title": "คุณสมบัติ",
+    "generalStats": "ทั่วไป",
+    "elementProperties": "",
+    "width": "ความกว้าง"
+  },
+  "toast": {
+    "copyStyles": "คัดลอกรูปแบบสำเร็จแล้ว",
+    "copyToClipboardAsPng": "",
+    "copyToClipboardAsSvg": "",
+    "fileSaved": "ข้อมูลได้รับการบันทึก",
+    "fileSavedToFilename": "บันทึกเป็น {filename}",
+    "canvas": "ผืนผ้าใบ",
+    "selection": "การเลือก",
+    "pasteAsSingleElement": "",
+    "unableToEmbed": "",
+    "unrecognizedLinkFormat": "",
+    "elementLinkCopied": "คัดลอกไปยังคลิปบอร์ดแล้ว"
+  },
+  "colors": {
+    "transparent": "โปร่งใส",
+    "black": "สีดำ",
+    "white": "สีขาว",
+    "red": "สีแดง",
+    "pink": "สีชมพู",
+    "grape": "สีองุ่น",
+    "violet": "สีม่วง",
+    "gray": "สีเทา",
+    "blue": "สีน้ำเงิน",
+    "cyan": "สีฟ้าอมเขียว",
+    "teal": "ฟ้าน้ำทะเล",
+    "green": "เขียว",
+    "yellow": "เหลือง",
+    "orange": "ส้ม",
+    "bronze": "ทองแดง"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "",
+      "center_heading": "",
+      "toolbarHint": "",
+      "helpHint": "ทางลัดและการช่วยเหลือ"
+    }
+  },
+  "colorPicker": {
+    "color": "สี",
+    "mostUsedCustomColors": "",
+    "colors": "สี",
+    "shades": "รูปร่าง",
+    "hexCode": "Hex code",
+    "noShades": "",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "ส่งออกเป็นภาพ",
+        "button": "ส่งออกเป็นภาพ",
+        "description": ""
+      },
+      "saveToDisk": {
+        "title": "บันทึกไปยังดิสก์",
+        "button": "บันทึกไปยังดิสก์",
+        "description": ""
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "โหลดจากไฟล์",
+        "button": "โหลดจากไฟล์",
+        "description": ""
+      }
+    }
+  },
+  "mermaid": {
+    "title": "",
+    "button": "แทรก",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "ลองซ้ำ",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": "ค้นหาด่วน"
+  },
+  "fontList": {
+    "badge": {
+      "old": "เก่า"
+    },
+    "sceneFonts": "ในฉากนี้",
+    "availableFonts": "",
+    "empty": "ไม่พบแบบอักษร"
+  },
+  "userList": {
+    "empty": "ไม่พบผู้ใช้",
+    "hint": {
+      "text": "คลิกที่ผู้ใช้เพื่อติดตาม",
+      "followStatus": "คุณกำลังติดตามผู้ใช้นี้",
+      "inCall": "ผู้ใช้นี้กำลังอยู่ในการโทรด้วยเสียง",
+      "micMuted": "ไมโครโฟนของผู้ใช้ถูกปิดเสียง",
+      "isSpeaking": "ผู้ใช้งานกำลังสนทนาอยู่"
+    }
+  },
+  "commandPalette": {
+    "title": "คำสั่งทางลัด",
+    "shortcuts": {
+      "select": "เลือก",
+      "confirm": "ยืนยัน",
+      "close": "ปิด"
+    },
+    "recents": "ใช้งานล่าสุด",
+    "search": {
+      "placeholder": "",
+      "noMatch": "ไม่เจอคำสั่ง"
+    },
+    "itemNotAvailable": "",
+    "shortcutHint": ""
+  },
+  "keys": {
+    "ctrl": "Ctrl",
+    "option": "Option",
+    "cmd": "Cmd",
+    "alt": "Alt",
+    "escape": "Esc",
+    "enter": "Enter",
+    "shift": "เลื่อน",
+    "spacebar": "อวกาศ",
+    "delete": "ลบ"
+  }
+}

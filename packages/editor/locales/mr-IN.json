@@ -1,0 +1,527 @@
+{
+  "labels": {
+    "paste": "चिटकवा",
+    "pasteAsPlaintext": "साधा मजकूर च्या रुपात पेस्ट करा",
+    "pasteCharts": "चार्ट चिकटवा",
+    "chartType_bar": "",
+    "chartType_line": "",
+    "chartType_radar": "",
+    "chartType_plaintext": "",
+    "selectAll": "समस्त निवडा",
+    "multiSelect": "निवडित तत्व जोडा",
+    "moveCanvas": "पटल हलवा",
+    "cut": "कापा",
+    "copy": "प्रतिलिपी",
+    "copyAsPng": "PNG रूपे फळी वर कॉपी करा",
+    "copyAsSvg": "SVG रूपे फळी वर कॉपी करा",
+    "copyText": "लिखित रूपे फळी वर कॉपी करा",
+    "bringForward": "पुढे पुढे आणा",
+    "sendToBack": "सर्वात मागे करा",
+    "bringToFront": "सर्वात पुढे आणा",
+    "sendBackward": "मागे मागे करा",
+    "delete": "हटवा",
+    "copyStyles": "शैली कॉपी करा",
+    "pasteStyles": "कॉपी केलेली शैली वापरा",
+    "stroke": "रेघे चा रंग",
+    "changeStroke": "रेषेचा रंग बदला",
+    "background": "पार्श्वभूमी",
+    "changeBackground": "पार्श्वभूमीचा रंग बदला",
+    "fill": "भरा",
+    "strokeWidth": "रेघ रुंदी",
+    "strokeStyle": "रेघ शैली",
+    "strokeStyle_solid": "भरीव",
+    "strokeStyle_dashed": "तुटित तुटित",
+    "strokeStyle_dotted": "ठिपके ठिपके",
+    "sloppiness": "गबाळेपणा",
+    "pressure": "",
+    "pressure_constant": "",
+    "pressure_variable": "",
+    "opacity": "अपारदर्शक्ता",
+    "textAlign": "मजकूर संरेखन",
+    "edges": "किनारी",
+    "sharp": "टोचरं",
+    "round": "गोलाकार",
+    "arrowheads": "बाण टोक",
+    "arrowhead_none": "कुठलाहि नाही",
+    "arrowhead_arrow": "बाण",
+    "arrowhead_bar": "दांडुक",
+    "arrowhead_circle": "वृत्त",
+    "arrowhead_circle_outline": "वृत्त (बाह्यरेखा)",
+    "arrowhead_triangle": "त्रिकोण",
+    "arrowhead_triangle_outline": "त्रिभुज (बाह्यरेखा)",
+    "arrowhead_diamond": "चौकट",
+    "arrowhead_diamond_outline": "चौकट (बाह्यरेखा)",
+    "arrowhead_cardinality_one": "",
+    "arrowhead_cardinality_many": "",
+    "arrowhead_cardinality_one_or_many": "",
+    "arrowhead_cardinality_exactly_one": "",
+    "arrowhead_cardinality_zero_or_one": "",
+    "arrowhead_cardinality_zero_or_many": "",
+    "more_options": "आणिक विकल्प",
+    "cardinality": "",
+    "arrowtypes": "बाणाचे प्रकार",
+    "arrowtype_sharp": "तीक्ष्ण तीर",
+    "arrowtype_round": "वक्राकार तीर",
+    "arrowtype_elbowed": "समकोणिय तीर",
+    "fontSize": "अक्षर आकार",
+    "fontFamily": "अक्षर समूह",
+    "handDrawn": "हातानी बनवलेलं",
+    "normal": "सामान्य",
+    "code": "सांकेतिक लिपि",
+    "small": "छोटे",
+    "medium": "मध्यम",
+    "large": "मोठं",
+    "veryLarge": "फार मोठं",
+    "solid": "भरीव",
+    "hachure": "हैशूर रेखांकन",
+    "zigzag": "वाकडी तिकड़ी",
+    "crossHatch": "आडव्या रेघा",
+    "thin": "पातळ",
+    "bold": "जाड",
+    "left": "डावं",
+    "center": "मधे",
+    "right": "उजवं",
+    "architect": "वास्तुविद्याविशारद",
+    "artist": "कलाकार",
+    "cartoonist": "व्यंग्य चित्रकार",
+    "fileTitle": "फाईलचे नाव",
+    "colorPicker": "रंग निवडक",
+    "canvasBackground": "पटल पार्श्वभूमि",
+    "drawingCanvas": "चित्र पटल",
+    "clearCanvas": "पटल स्वच्छ करा",
+    "layers": "स्तर",
+    "actions": "क्रिया",
+    "liveCollaboration": "ज्वलंत सहयोग...",
+    "duplicateSelection": "प्रतिलिपि",
+    "untitled": "अशीर्षकांकित",
+    "group": "समूह निवड",
+    "ungroup": "समूह निवड ला रद्द करा",
+    "collaborators": "Sahayog",
+    "you": "",
+    "toggleGrid": "जाळी ऑन ऑफ़ करा",
+    "loadingScene": "दृश्य लोड होत आहे…",
+    "align": "संरेखित करा",
+    "alignTop": "वर संरेखित करा",
+    "alignBottom": "खाली संरेखित करा",
+    "alignLeft": "डावा बाजूला संरेखित करा",
+    "alignRight": "उजव्या बाजूला संरेखित करा",
+    "centerVertically": "मधल्या मधे उभं संरेखित करा",
+    "centerHorizontally": "मधल्या मधे आडवं संरेखित करा",
+    "distributeHorizontally": "आडवं वितरित करा",
+    "distributeVertically": "उभं वितरित करा",
+    "flipHorizontal": "आडवं फ्लिप करा",
+    "flipVertical": "उभं फ्लिप करा",
+    "viewMode": "पहायची पद्धत",
+    "share": "सामायिक करा",
+    "showStroke": "रेघ रंग निवड यंत्र दाखवा",
+    "showBackground": "पार्श्वभूमि: रंग निवड यंत्र दाखवा",
+    "showFonts": "लिपि निवड़क दाखवा",
+    "toggleTheme": "उजेड़ाची किव्हा अंधाराची प्रणाली बदला",
+    "theme": "संरचना पद्धति",
+    "decreaseFontSize": "अक्षर आकार छोटा करा",
+    "increaseFontSize": "अक्षर आकार मोठा करा",
+    "unbindText": "लेखन संबंध संपवा",
+    "bindText": "शब्द समूह ला पात्रात घ्या",
+    "createContainerFromText": "मजकूर कंटेनर मधे मोडून दाखवा",
+    "link": {
+      "edit": "दुवा संपादन",
+      "editEmbed": "रुतलेल्या दुवा ह्याचे संपादन",
+      "create": "दुवा जोडा",
+      "label": "दुवा",
+      "labelEmbed": "कड़ी आणि रूतवणे",
+      "empty": "कुठलिही कड़ी दिली नाही",
+      "hint": "आपला दुवा येथे टाइप करा अथवा येथे चिटकवा",
+      "goToElement": "निर्धारित घटक या वर जावे"
+    },
+    "lineEditor": {
+      "edit": "रेघ संपादन",
+      "editArrow": "बाण संपादन"
+    },
+    "polygon": {
+      "breakPolygon": "",
+      "convertToPolygon": ""
+    },
+    "elementLock": {
+      "lock": "कुलूपात ठेवा",
+      "unlock": "कुलूपातून बाहेर",
+      "unlockAll": "सर्व कुलूपातून बाहेर"
+    },
+    "sidebarLock": "साइडबार उघडं ठेवा",
+    "selectAllElementsInFrame": "चौकटीतले सर्व तत्वांचे चयन करा",
+    "removeAllElementsFromFrame": "चौकटीतून सर्व काढून टाका",
+    "eyeDropper": "चित्रफलकातून रंग निवडा",
+    "zoomToFitViewport": "पूर्ण दृश्यरूप आकार",
+    "autoResize": "स्वयं आकार पुनः निर्धारण",
+    "imageCropping": "प्रतिमा कापणे",
+    "unCroppedDimension": "कापण्या पूर्विचे परिमाण",
+    "copyElementLink": "वस्तू ह्याचा दुवा कॉपी करावे",
+    "linkToElement": "वस्तू ह्याचा दुवा",
+    "wrapSelectionInFrame": "चौकटित निवडलेले गुंडाळा",
+    "shapeSwitch": "",
+    "preferences": "",
+    "preferences_toolLock": "",
+    "boxSelectionMode": "",
+    "boxSelectionContain": "",
+    "boxSelectionOverlap": "",
+    "arrowBinding": "",
+    "midpointSnapping": ""
+  },
+  "elementLink": {
+    "title": "वस्तू ह्याचा दुवा",
+    "desc": "चित्र-पटल वरचा कोणताही आकारावर क्लिक करावे अथवा दुवा ह्याला चिटकावे.",
+    "notFound": "चित्र-पटल वर दुवा वाली वस्तू सापडली नाही."
+  },
+  "search": {
+    "title": "पटल वर पहा",
+    "noMatch": "मिळते जुळते काहिही सापडले नाही...",
+    "singleResult": "निकाल",
+    "multipleResults": "निकाल",
+    "placeholder": "पटल वर पाठ्य शोधा...",
+    "frames": "",
+    "texts": ""
+  },
+  "buttons": {
+    "clearReset": "पटल पुसा",
+    "exportImage": "प्रतिमा निर्यात करा...",
+    "export": "येथे सुरक्षित करा...",
+    "save": "वर्तमान फ़ाइल मधे जतन करा",
+    "saveAs": "ह्या नावाने जतन करा",
+    "load": "उघडा",
+    "close": "बंद करा",
+    "scrollBackToContent": "पहलेचा मजकुर वर मागे स्क्रॉल करा",
+    "zoomIn": "मोठं करून पहा",
+    "zoomOut": "छोटं करून पहा",
+    "resetZoom": "छोटं मोठं करणं बंद करा",
+    "done": "झालं",
+    "edit": "संपादित करा",
+    "undo": "पूर्ववत करा",
+    "redo": "पुन्हा करा(&R)",
+    "darkMode": "अंधार स्थिथि",
+    "lightMode": "उजेड स्थिति",
+    "systemMode": "तांत्रिक पद्धत",
+    "zenMode": "ध्यानग्र स्थिति",
+    "objectsSnapMode": "वस्तूंपासून पकड़ा",
+    "cancel": "रद्द",
+    "remove": "हटवा",
+    "confirm": "पुष्टि करा",
+    "embeddableInteractionButton": "संवादा साठी क्लिक करा"
+  },
+  "alerts": {
+    "clearReset": "पटल स्वच्छ होणार, तुम्हाला खात्री आहे का?",
+    "couldNotLoadInvalidFile": "अवैध फ़ाइल लोड करता आली नाही",
+    "cannotExportEmptyCanvas": "रिकामा पटल जतन करता येत नाही.",
+    "couldNotCopyToClipboard": "पटल वर कॉपी नाही झाली.",
+    "cannotRestoreFromImage": "प्रतिमा फ़ाइल पासून दृश्य पुनः रचित नाही झाला"
+  },
+  "errors": {
+    "unsupportedFileType": "असमर्थित फाइल प्रकार.",
+    "imageInsertError": "प्रतिमा आत घालता येत नाही. नंतर पुन्हा प्रयत्न करा...",
+    "fileTooBig": "फाइल फार मोठी आहे. आकाराची कमाल परवानगी {{maxSize}} आहे.",
+    "svgImageInsertError": "एस-वी-जी प्रतिमा आत घालवू शकलो नाही. एस-वी-जी-मार्क-अप यंत्र अयोग्य आहे.",
+    "failedToFetchImage": "प्रतिमा आणणे नाही जमले.",
+    "imageToolNotSupported": "प्रतिमां अक्षम केली गेली आहेत.",
+    "brave_measure_text_error": {
+      "line1": "असं वाटते की तुम्हीं Brave ब्राउज़र वापरतात आहात आणि त्या बरोबार <bold>आक्रामक पद्धति चें बोटांचे ठसे </bold> हां सेटिंग्स चा विकल्प चयन केलेला आहे.",
+      "line2": "हे तुमच्या चित्रांच्या <bold>पाठ तत्वांनां </bold> खंडित करू शकतात."
+    },
+    "asyncPasteFailedOnRead": "चिटकवता नाही जमले ( सिस्टम क्लिप्बॉर्ड पासून वाचणे नाही जमले).",
+    "asyncPasteFailedOnParse": "चिटकवता नाही जमले.",
+    "copyToSystemClipboardFailed": "क्लिपबोर्ड वर प्रतिलिपि करणे नाही जमले."
+  },
+  "toolBar": {
+    "selection": "निवड",
+    "lasso": "",
+    "image": "प्रतिमा आत घाला",
+    "rectangle": "आयत",
+    "diamond": "चौकोन आकाराचा",
+    "ellipse": "अंडाकार",
+    "arrow": "बाण",
+    "line": "रेखा",
+    "freedraw": "रेखांकित करा",
+    "text": "टेक्स्ट",
+    "lock": "निवडलेले यंत्र चित्रकरण झाल्या नंतर ही सक्रिय ठेवा",
+    "penMode": "पेन चा मोड - स्पर्श टाळा",
+    "link": "निवडलेल्या आकारासाठी दुवा जोडा/बदल करा",
+    "eraser": "खोड रबर",
+    "frame": "चौकट यंत्र",
+    "embeddable": "वेब रुतवा",
+    "laser": "लेसर टॉर्च",
+    "autoshape": "",
+    "bucketfill": "",
+    "hand": "हात ( सरकवण्या चे उपकरण)",
+    "extraTools": "आणिक यंत्रे",
+    "mermaidToExcalidraw": "मर्मेड पासून एक्सकाली मधे",
+    "convertElementType": ""
+  },
+  "bucketfill": {
+    "noRegion": "",
+    "tooComplex": ""
+  },
+  "element": {
+    "rectangle": "आयत",
+    "diamond": "चौकट",
+    "ellipse": "लंबवर्तुळाकार",
+    "arrow": "बाण",
+    "line": "रेषा",
+    "freedraw": "मुक्त चित्रांकन",
+    "text": "पाठ्य",
+    "image": "प्रतिमा",
+    "group": "गट",
+    "frame": "चौकट",
+    "magicframe": "वायरफ़्रेम पासून सांकेतिक लिपि",
+    "embeddable": "वेब रुतवा",
+    "selection": "निवड",
+    "iframe": "आयफ़्रेम"
+  },
+  "headings": {
+    "canvasActions": "पटल क्रिया",
+    "selectedShapeActions": "निवडित आकार क्रिया",
+    "shapes": "आकार"
+  },
+  "hints": {
+    "dismissSearch": "",
+    "linearElement": "अनेक बिंदु साठी क्लिक करा, रेघे साठी ड्रैग करा",
+    "arrowTool": "",
+    "arrowBindModifiers": "",
+    "freeDraw": "क्लिक आणि ड्रैग करा, झालं तेव्हा सोडा",
+    "text": "टीप: तुम्हीं निवड यंत्रानी कोठेही दुहेरी क्लिक करून टेक्स्ट जोडू शकता",
+    "embeddable": "वेबसाइट रुतोण्या साठी दाबून-खेचा (क्लिक-ड्रैग करा)",
+    "autoshape": "",
+    "text_selected": "",
+    "text_editing": "",
+    "linearElementMulti": "",
+    "lockAngle": "",
+    "resize": "",
+    "resizeImage": "",
+    "rotate": "",
+    "toggleArrowhead": "",
+    "lineEditor_info": "",
+    "lineEditor_line_info": "",
+    "lineEditor_pointSelected": "",
+    "lineEditor_nothingSelected": "",
+    "bindTextToElement": "",
+    "createFlowchart": "",
+    "deepBoxSelect": "",
+    "eraserRevert": "",
+    "firefox_clipboard_write": "हे वैशिष्ट्य \"dom.events.asyncClipboard.clipboardItem\" फ्लॅग \"सत्य\" वर सेट करून शक्यतो सक्षम केले जाऊ शकते. Firefox मध्ये ब्राउझर फ्लॅग बदलण्यासाठी, \"about:config\" पृष्ठावर जा.",
+    "disableSnapping": "",
+    "enterCropEditor": "",
+    "leaveCropEditor": ""
+  },
+  "canvasError": {
+    "cannotShowPreview": "पूर्वावलोकन दाखवू शकत नाही",
+    "canvasTooBig": "पटल खूप जास्त मोठा असू शकतो.",
+    "canvasTooBigTip": "टीप: दूर चा तत्व थोडं जवळ आणण्याचा प्रयत्न करावा."
+  },
+  "errorDialog": {
+    "title": "त्रुटि"
+  },
+  "progressDialog": {
+    "defaultMessage": ""
+  },
+  "exportDialog": {
+    "disk_title": "डिस्क मधे जतन करा",
+    "disk_details": "सीन डेटा बाहेर एक फ़ाइल मधे जतन करा, त्या फ़ाइल मधुम तो डेटा नंतर परत आणु शकता.",
+    "disk_button": "फ़ाइल मधे जतन करा",
+    "link_title": "सामायिके साठी दुवा",
+    "link_details": "नुसतं वाचु देणारा दुवा चा स्वरूपे बाहेर ठेवा.",
+    "link_button": "दुवा स्वरूपे बाहेर ठेवा"
+  },
+  "helpDialog": {
+    "click": "क्लिक करा",
+    "deepSelect": "खोल निवड",
+    "deepBoxSelect": "चौकट मधे खोल निवड करा आणि बाहेर ओढणे वाचवा",
+    "createFlowchart": "एका सामान्य अवयवा पासून प्रवाहचित्र बनवा",
+    "navigateFlowchart": "प्रवाहचित्रा चं अनुकरण करा",
+    "curvedArrow": "वक्र बाण",
+    "curvedLine": "वक्र रेघ",
+    "doubleClick": "दुहेरी क्लिक",
+    "drag": "ओढा",
+    "editor": "संपादक",
+    "editLineArrowPoints": "रेघ/तीर बिंदु सम्पादित करा",
+    "editText": "पाठ्य सम्पादित करा/ लेबल जोडा",
+    "or": "किंवा",
+    "preventBinding": "बाण बंधन होणं टाळा",
+    "tools": "अवजार",
+    "shortcuts": "कीबोर्ड शॉर्टकट",
+    "textFinish": "संपादन संपले (मजकूर संपादन)",
+    "textNewLine": "नवी ओळ जोडा (मजकूर संपादक)",
+    "title": "मदत",
+    "view": "दृश्य",
+    "zoomToFit": "सर्व तत्व दिसतील असे दृश्यरूप आकार करा",
+    "zoomToSelection": "निवडी प्रयंत दृश्यरूप आकार करा",
+    "toggleElementLock": "कुलूपातून आत/बाहेर निवड",
+    "movePageUpDown": "पान वर/खाली करा",
+    "movePageLeftRight": "पान डावी/उजवी कडे करा",
+    "cropStart": "प्रतिमा ह्याची कापणी करा",
+    "cropFinish": "प्रतिमा ह्याची कापणी संपूर्ण करा"
+  },
+  "clearCanvasDialog": {
+    "title": "पटल स्वच्छ करा"
+  },
+  "imageExportDialog": {
+    "header": "प्रतिमा निर्यात करा",
+    "label": {
+      "withBackground": "पार्श्वभूमि",
+      "onlySelected": "फक्त चयन केलेले",
+      "darkMode": "अंधारमय स्थिति",
+      "embedScene": "दृश्य रुतवा",
+      "scale": "क़िती पट",
+      "padding": "ग़ादी"
+    },
+    "tooltip": {
+      "embedScene": "दृश्य डेटा निर्यात केलेल्या पी-एन-जी किव्हा एस-वी-जी फ़ाईल मधे सुरक्षीत केला जाईल, त्याने दृश्य पुनः परत आणता येईल. निर्यात केलेली फ़ाईल चा आकार त्याने वाढेल."
+    },
+    "title": {
+      "exportToPng": "पी-एन-जी स्वरूपात बाहेर ठेवा",
+      "exportToSvg": "एस-वी-जी स्वरूपात बाहेर ठेवा",
+      "copyPngToClipboard": "पी-एन-जी रूपे फळी वर कॉपी करा"
+    },
+    "button": {
+      "exportToPng": "पीएनजी",
+      "exportToSvg": "एसविज़ी",
+      "copyPngToClipboard": "फळी वर कॉपी करा"
+    }
+  },
+  "stats": {
+    "shapes": "आकार",
+    "height": "उंची",
+    "scene": "दृश्य",
+    "fullTitle": "पटल आणि आकार गुण",
+    "title": "गुण",
+    "generalStats": "सर्वसामान्य",
+    "elementProperties": "अकाराचे गुण",
+    "width": "रुंदी"
+  },
+  "toast": {
+    "copyStyles": "कॉपी केलेली शैली.",
+    "copyToClipboardAsPng": "{{exportSelection}} फळी वर पी-एन-जी स्वरूपात कॉपी झाली\n({{exportColorScheme}})",
+    "copyToClipboardAsSvg": "{{exportSelection}} फळी वर एस-वी-जी स्वरूपात कॉपी झाली\n({{exportColorScheme}})",
+    "fileSaved": "फ़ाइल जतन झाली.",
+    "fileSavedToFilename": "{filename} मधे जतन झाली",
+    "canvas": "पटल",
+    "selection": "निवड",
+    "pasteAsSingleElement": "एक घटक म्हणून चिपकावण्या साठी {{shortcut}} वापरा,\nकिंवा विद्यमान मजकूर संपादकात चिपकवा",
+    "unableToEmbed": "युआरेल रूतवणे प्रतिबंधित आहेत. आपली युआरेल श्वेतसूचित आणण्या साठी कृपया एक मुद्दा ग़िटहब वर उठवा",
+    "unrecognizedLinkFormat": "जी युआरेल तुम्हीं रतवली आहे, ती आपेक्षित प्रकारे नाही आहे. कृपया स्त्रोत साइट नी 'रूतवण्या साठी दिलेलि लिपि' चिपकावण्याचा प्रयास करा",
+    "elementLinkCopied": "दुवा क्लिप बोर्ड वर कॉपी झाली"
+  },
+  "colors": {
+    "transparent": "पारदर्शक",
+    "black": "काळा",
+    "white": "पांढरा",
+    "red": "लाल",
+    "pink": "गुलाबी",
+    "grape": "अंगूरी",
+    "violet": "जांभळा",
+    "gray": "राखाडी",
+    "blue": "निळा",
+    "cyan": "आकाशी",
+    "teal": "हिरवट निळा",
+    "green": "हिरवा",
+    "yellow": "पिवळा",
+    "orange": "केशरी",
+    "bronze": "कांस्य"
+  },
+  "welcomeScreen": {
+    "defaults": {
+      "menuHint": "निर्यात, आवड़ी निवडी आणि आणकिही...",
+      "center_heading": "आकृत्या. काढणे. सोपे.",
+      "toolbarHint": "एक साधन निवडा आणि चित्रीकरण सुरु करा!",
+      "helpHint": "शॉर्टकट आणि सहाय्य"
+    }
+  },
+  "colorPicker": {
+    "color": "रंग",
+    "mostUsedCustomColors": "सर्वात जास्त वापरणीस रंग",
+    "colors": "रंग",
+    "shades": "रंगछटा",
+    "hexCode": "हेक्स कोड",
+    "noShades": "ह्या रंगाच्या छटा उपलब्ध नाहित",
+    "invalidColor": "",
+    "invalidHexLength": "",
+    "topPicksTip": "",
+    "resetTopPicks": ""
+  },
+  "overwriteConfirm": {
+    "action": {
+      "exportToImage": {
+        "title": "छवि स्वरूपे निर्यात करा",
+        "button": "छवि स्वरूपे निर्यात करा",
+        "description": "सीन डेटा बाहेर एक फ़ाइल मधे जतन करा, त्या फ़ाइल मधुन तो डेटा नंतर परत आणु शकता."
+      },
+      "saveToDisk": {
+        "title": "डिस्क मधे जतन करा",
+        "button": "डिस्क मधे जतन करा",
+        "description": "सीन डेटा बाहेर एक फ़ाइल मधे जतन करा, त्या फ़ाइल मधुन तो डेटा नंतर परत आणु शकता."
+      }
+    },
+    "modal": {
+      "loadFromFile": {
+        "title": "फ़ाइल मधुन लोड करा",
+        "button": "फ़ाइल मधुन लोड करा",
+        "description": "फ़ाइल मधुन लोड केल्या वर ते <bold>तुमचा सध्याचा कामा ठिकाणि एईल </bold><br></br> तुम्हीं तुमचं चित्र एकाधं खाली दिलेलं विकल्प निवडुन पहले सुरक्षीत करु शकता."
+      }
+    }
+  },
+  "mermaid": {
+    "title": "मर्मेड पासून एक्सकाली मधे",
+    "button": "शिरवा",
+    "description": "",
+    "inputPlaceholder": "",
+    "autoFixAvailable": ""
+  },
+  "chat": {
+    "retry": "",
+    "errors": {
+      "mermaidParseError": ""
+    }
+  },
+  "quickSearch": {
+    "placeholder": "जलद शोध"
+  },
+  "fontList": {
+    "badge": {
+      "old": "ज़ुनं"
+    },
+    "sceneFonts": "ह्या दृश्या मधे",
+    "availableFonts": "उपलब्ध लीपीं",
+    "empty": "लिपि सपडली नाहीं"
+  },
+  "userList": {
+    "empty": "वापरकर्ते सापडले नाहीत",
+    "hint": {
+      "text": "प्रयोक्ताचं अनुकरण करण्या साठी त्या वर क्लिक करा",
+      "followStatus": "तुम्हीं सध्या ह्या उपयोक्ता चं अनुकरण करत आहेत",
+      "inCall": "व्यक्ति सध्या संभाषण मधे व्यस्त आहे",
+      "micMuted": "व्यक्ति चा माइक्रोफ़ोन सध्या मूक केलेला आहे",
+      "isSpeaking": "व्यक्ति सध्या बोलत आहे"
+    }
+  },
+  "commandPalette": {
+    "title": "आदेशांचं चयन पलट",
+    "shortcuts": {
+      "select": "निवडा",
+      "confirm": "निश्चित करा",
+      "close": "बंद करा"
+    },
+    "recents": "अलिकडेच वापरलेले",
+    "search": {
+      "placeholder": "निवड़क, आदेश शोधा आणि लपलेले नग प्राप्त करा",
+      "noMatch": "कोणतेही जुळणारे आदेश नाहीत..."
+    },
+    "itemNotAvailable": "आदेश उपलब्ध नाही...",
+    "shortcutHint": "आदेश फलक साठी, {{shortcut}} वापरा"
+  },
+  "keys": {
+    "ctrl": "",
+    "option": "",
+    "cmd": "",
+    "alt": "",
+    "escape": "",
+    "enter": "",
+    "shift": "",
+    "spacebar": "",
+    "delete": ""
+  }
+}
